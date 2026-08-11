@@ -1,0 +1,16 @@
+# data — raw/processed may include licensed or large files, never assume safe to commit
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# environment / cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# large results (revisit once you know actual sizes)
+*.vcf
+*.vcf.gz
