@@ -12,13 +12,13 @@ Decisions should be documented before downstream analyses depend on them.
 | IndiGenomes access mode / fallback population dataset | Resolved in principle; pending confirmation if needed | Week 2 | ⚠ Supervisor Discussion Required if fallback is activated |
 | Star-allele / haplotype handling scope | Resolved in principle; pending formal sign-off | Week 3 | ⚠ Supervisor Discussion Required |
 | STRING threshold and edge-type filtering | Resolved in principle; pending formal sign-off | Week 7 | ⚠ Supervisor Discussion Required |
-| Open Targets disease-module definition / EFO terms | Open until network analysis stage | Week 8 | ⚠ Supervisor Discussion Required |
+pending supervisor confirmation; checked Day 2.| Open Targets disease-module definition / EFO terms | Open until network analysis stage | Week 8 | ⚠ Supervisor Discussion Required |
 | Composite-score weighting | Resolved in principle: equal-weight starting model | Week 9 | ⚠ Supervisor Discussion Required |
 | Interpretation and publication-claims framing | Open until validation is complete | Week 12 | ⚠ Supervisor Discussion Required |
 
 ## Decision 1 — Final Drug Panel
 
-**Status:** OPEN — blocking
+**Status:** OPEN — pending supervisor confirmation; checked Day 2.
 
 **Target week:** Week 1
 
