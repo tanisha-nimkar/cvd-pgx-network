@@ -8,8 +8,8 @@ No external data has been downloaded for analysis as of Day 1.
 
 | Database / Resource | Purpose | Access Status | Action Required |
 |---|---|---|---|
-| PharmGKB | Pharmacogenomic evidence and variants | Not yet checked | Check in Week 2 |
-| CPIC | Clinical pharmacogenomic guidelines | Not yet checked | Check in Week 2 |
+| PharmGKB / ClinPGx | Pharmacogenomic evidence and variants | Confirmed — ClinPGx REST API tested successfully | Record current API endpoint and verification result |
+| CPIC | Clinical pharmacogenomic guidelines | Not yet checked | Check today — Day 2 |
 | ClinVar | Variant clinical significance | Not yet checked | Check in Week 3 |
 | IndiGenomes | India-specific population genomic data | Needs investigation | Check access mode in Week 1–2 |
 | 1000 Genomes Project | South Asian population frequencies | Not yet checked | Check in Week 2–5 |
@@ -18,6 +18,19 @@ No external data has been downloaded for analysis as of Day 1.
 | Open Targets | Disease-gene associations / disease module | Not yet checked | Week 8 |
 | Reactome | Pathway analysis | Not yet checked | Week 11 |
 | BioGRID | Independent PPI validation | Not yet checked | Week 11 |
+
+## Day 2 Access Verification
+
+### PharmGKB / ClinPGx
+
+- **Status:** Confirmed
+- **Current API:** ClinPGx REST API
+- **Endpoint:** `https://api.clinpgx.org/v1`
+- **Account required:** No
+- **Test performed:** `GET /data/gene?symbol=CYP2C19`
+- **Result:** HTTP 200; valid JSON response returned.
+- **Verification:** Response contained CYP2C19-specific information, including ClinPGx ID (`PA124`), HGNC symbol, gene name, CPIC status, PharmVar status, and variant information.
+- **Note:** PharmGKB's API has transitioned to ClinPGx; the current API hostname is `api.clinpgx.org`.
 
 ## IndiGenomes
 

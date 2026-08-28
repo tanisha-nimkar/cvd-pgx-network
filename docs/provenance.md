@@ -1,35 +1,10 @@
-# Data Provenance
+# Provenance Log
 
-This document records the provenance of every external dataset used in the project.
-
-No datasets have been downloaded for analysis as of Day 1.
-
-## Dataset Log
-
-| Dataset | Version | Access Date | URL | License / Usage Note |
+| dataset | version | access_date | URL | license_note |
 |---|---|---|---|---|
-| — | — | — | — | — |
-
-## Provenance Rules
-
-For every dataset used in the analysis, record:
-
-- Dataset name
-- Version or release
-- Access date
-- Source URL
-- Relevant database/API version where applicable
-- License or usage restrictions
-- Whether the data may be redistributed
-- Any preprocessing performed
-- Genome build, where applicable
-
-Raw licensed or restricted data must not be committed to the GitHub repository.
-
-Derived outputs may only be committed after checking whether redistribution is permitted.
-
-## Current Status
-
-No external datasets have yet been downloaded or processed.
-
-The provenance table will be populated beginning in Week 2.
+| ClinPGx / PharmGKB | REST API v1 | 2026-08-28 | https://api.clinpgx.org/v1 | CC BY-SA 4.0 |
+| CPIC | Mirrored v1 | 2026-08-28 | https://api.clinpgx.org/v1/cpic | Open |
+| DGIdb | 5.0 GraphQL | 2026-08-28 | https://dgidb.org/api/graphql | Open |
+| Open Targets | GraphQL / REST v4 | 2026-08-28 | https://api.platform.opentargets.org/api/v4/graphql | CC0 / CC BY |
+| STRING | REST API v12 | 2026-08-28 | https://string-db.org/api/json | CC BY 4.0 |
+| IndiGenomes | Portal Web Access | 2026-08-28 | CSIR-IGIB Portal | Fallback to gnomAD SAS + 1kGP GIH if API unavailable |

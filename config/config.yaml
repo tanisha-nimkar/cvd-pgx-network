@@ -1,0 +1,15 @@
+string_confidence_threshold: 700
+fdr_alpha: 0.05
+permutation_iterations: 1000
+score_weights:
+  population_enrichment: 0.25
+  functional_consequence: 0.25
+  network_centrality: 0.25
+  disease_proximity: 0.25
+gene_panel:
+  - CYP2C19
+  - CYP2C9
+  - VKORC1
+  - CYP4F2
+  - SLCO1B1
+  - ABCG2
