@@ -1,0 +1,22 @@
+{
+  "date": "20260916",
+  "null_value_check": {
+    "cpic": {
+      "total_rows": 66,
+      "unhandled_na_cells": 82
+    },
+    "clinpgx": {
+      "total_rows": 6,
+      "unhandled_na_cells": 3
+    },
+    "pharmvar": {
+      "total_rows": 3,
+      "unhandled_na_cells": 15
+    },
+    "clinvar": {
+      "total_rows": 420,
+      "unhandled_na_cells": 36
+    }
+  },
+  "format_checks": {
+    "cpic_lowercase_drugs": 
