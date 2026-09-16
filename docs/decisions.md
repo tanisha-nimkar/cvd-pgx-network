@@ -41,3 +41,12 @@
 - **Schema Normalization**: Designed a 3NF-compliant schema centered around the `genes` master entity table.
 - **Null-Handling Strategy**: Removed strict `NOT NULL` constraints on variable bio-entity fields like `star_allele` to account for incomplete records across upstream PharmVar and ClinVar TSV exports.
 - **Performance Optimization**: Created explicit Single-Column B-Tree Indexes on query target fields (`gene_symbol`, `drug_name`, `rsid`) across tables.
+
+## Phase 4: Network Construction & API Integration
+* **Date:** 2026-09-16
+* **Status:** Complete
+* **Actions Taken:**
+  * Created `scripts/build_network.py` to construct a 486-node NetworkX graph connecting Genes, Drugs, and Variants.
+  * Exported normalized network artifacts (`cvd_pgx_network_20260916.graphml` and `cvd_pgx_network_20260916.json`).
+  * Verified graph topology in `scripts/verify_network.py`: Identified `CYP2C19` as the primary hub (degree centrality = 0.2330).
+  * Implemented `scripts/api_fetch_pharmgkb.py` for dynamic web service integration with the PharmGKB REST API.
