@@ -50,3 +50,10 @@
   * Exported normalized network artifacts (`cvd_pgx_network_20260916.graphml` and `cvd_pgx_network_20260916.json`).
   * Verified graph topology in `scripts/verify_network.py`: Identified `CYP2C19` as the primary hub (degree centrality = 0.2330).
   * Implemented `scripts/api_fetch_pharmgkb.py` for dynamic web service integration with the PharmGKB REST API.
+
+## Phase 5: Analytical Query Engine & Streamlit Visualization Dashboard
+* **Date:** 2026-09-16
+* **Status:** Complete
+* **Actions Taken:**
+  * Created `scripts/query_engine.py` for structured relational queries on `cvd_pgx.db`.
+  * Implemented interactive `app.py` Streamlit dashboard supporting gene selection, multi-table CPIC/PharmVar data views, and NetworkX topological metrics.
