@@ -19,4 +19,15 @@
     }
   },
   "format_checks": {
-    "cpic_lowercase_drugs": 
+    "cpic_lowercase_drugs": true,
+    "gene_symbols_uppercase": true,
+    "clinvar_chrom_valid": true
+  },
+  "benchmark_validation_CYP2C19": {
+    "cpic_cyp2c19_records": 27,
+    "clinpgx_cyp2c19_records": 1,
+    "pharmvar_cyp2c19_records": 1,
+    "clinvar_cyp2c19_variants": 86,
+    "clopidogrel_guideline_present": true
+  }
+}

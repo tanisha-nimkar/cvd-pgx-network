@@ -25,16 +25,16 @@ def run_qc_audit():
     for name, df in [("cpic", cpic), ("clinpgx", clinpgx), ("pharmvar", pharmvar), ("clinvar", clinvar)]:
         na_count = (df == "NA").sum().sum() + df.isna().sum().sum()
         audit_results["null_value_check"][name] = {
-            "total_rows": len(df),
+            "total_rows": int(len(df)),
             "unhandled_na_cells": int(na_count)
         }
 
-    # 2. Format Checks
-    audit_results["format_checks"]["cpic_lowercase_drugs"] = cpic["drug_name"].str.islower().all()
-    audit_results["format_checks"]["gene_symbols_uppercase"] = all(
+    # 2. Format Checks (cast explicitly to standard python bool)
+    audit_results["format_checks"]["cpic_lowercase_drugs"] = bool(cpic["drug_name"].str.islower().all())
+    audit_results["format_checks"]["gene_symbols_uppercase"] = bool(all(
         df["gene_symbol"].str.isupper().all() for df in [cpic, clinpgx, pharmvar, clinvar]
-    )
-    audit_results["format_checks"]["clinvar_chrom_valid"] = clinvar["chrom"].astype(str).str.contains(r"^(chr)?[0-9XY]+$").all()
+    ))
+    audit_results["format_checks"]["clinvar_chrom_valid"] = bool(clinvar["chrom"].astype(str).str.contains(r"^(chr)?[0-9XY]+$").all())
 
     # 3. Benchmark Validation (CYP2C19)
     audit_results["benchmark_validation_CYP2C19"] = {
@@ -42,7 +42,7 @@ def run_qc_audit():
         "clinpgx_cyp2c19_records": int((clinpgx["gene_symbol"] == "CYP2C19").sum()),
         "pharmvar_cyp2c19_records": int((pharmvar["gene_symbol"] == "CYP2C19").sum()),
         "clinvar_cyp2c19_variants": int((clinvar["gene_symbol"] == "CYP2C19").sum()),
-        "clopidogrel_guideline_present": "clopidogrel" in cpic["drug_name"].values
+        "clopidogrel_guideline_present": bool("clopidogrel" in cpic["drug_name"].values)
     }
 
     # Save detailed audit report
