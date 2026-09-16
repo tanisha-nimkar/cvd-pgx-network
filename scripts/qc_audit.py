@@ -29,12 +29,14 @@ def run_qc_audit():
             "unhandled_na_cells": int(na_count)
         }
 
-    # 2. Format Checks (cast explicitly to standard python bool)
+    # 2. Format Checks
     audit_results["format_checks"]["cpic_lowercase_drugs"] = bool(cpic["drug_name"].str.islower().all())
     audit_results["format_checks"]["gene_symbols_uppercase"] = bool(all(
         df["gene_symbol"].str.isupper().all() for df in [cpic, clinpgx, pharmvar, clinvar]
     ))
-    audit_results["format_checks"]["clinvar_chrom_valid"] = bool(clinvar["chrom"].astype(str).str.contains(r"^(chr)?[0-9XY]+$").all())
+    audit_results["format_checks"]["clinvar_chrom_valid"] = bool(
+        clinvar["chrom"].astype(str).str.contains(r"^(?:chr)?[0-9XY]+$", regex=True).all()
+    )
 
     # 3. Benchmark Validation (CYP2C19)
     audit_results["benchmark_validation_CYP2C19"] = {
@@ -50,6 +52,7 @@ def run_qc_audit():
     with open(audit_path, "w") as fp:
         json.dump(audit_results, fp, indent=2)
 
+    print("=== QC Audit Report Generated ===")
     print(json.dumps(audit_results, indent=2))
 
 if __name__ == "__main__":
