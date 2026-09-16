@@ -14,3 +14,6 @@ __pycache__/
 # large results (revisit once you know actual sizes)
 *.vcf
 *.vcf.gz
+
+# SQLite Database Builds
+data/database/*.db
