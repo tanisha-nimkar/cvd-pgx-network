@@ -2,7 +2,7 @@
 """
 scripts/merge_annotate_variants.py
 Standardized merge and annotation script adhering strictly to Master SOP Week 3.
-Processes CPIC, ClinPGx, ClinVar, and PharmVar outputs into unified tables.
+Processes CPIC, ClinVar, and PharmVar outputs into unified tables.
 """
 
 import os
@@ -48,10 +48,14 @@ def parse_clinvar_vcf(vcf_path):
                 else:
                     info_dict[item] = True
 
+            clean_rsid = rsid if rsid != "." else info_dict.get("RS", ".")
+            if clean_rsid != "." and not str(clean_rsid).startswith("rs"):
+                clean_rsid = f"rs{clean_rsid}"
+
             records.append({
                 "chrom": chrom,
                 "pos_b38": pos,
-                "rsid": rsid if rsid != "." else info_dict.get("RS", "."),
+                "rsid": clean_rsid,
                 "ref": ref,
                 "alt": alt,
                 "clinical_significance": info_dict.get("CLNSIG", "not_specified"),
@@ -76,6 +80,12 @@ def parse_pharmvar_tsv(tsv_path):
 
     from io import StringIO
     df = pd.read_csv(StringIO("".join(lines)), sep="\t")
+    # Clean rsID
+    if "rsID" in df.columns:
+        df["rsid_clean"] = df["rsID"].dropna().apply(lambda x: str(x).split(".")[0])
+        df["rsid_clean"] = df["rsid_clean"].apply(lambda x: f"rs{x}" if not str(x).startswith("rs") and str(x) != "" else str(x))
+    else:
+        df["rsid_clean"] = None
     return df
 
 def parse_cpic_json(json_path):
@@ -102,6 +112,7 @@ def main():
 
     cpic_frames = []
     clinvar_frames = []
+    pharmvar_frames = []
 
     for gene in genes:
         # 1. Parse CPIC
@@ -122,7 +133,15 @@ def main():
                     df_cv["gene_symbol"] = df_cv["gene_symbol"].replace("", gene)
                 clinvar_frames.append(df_cv)
 
-    # Compile tables
+        # 3. Parse PharmVar
+        pv_files = list(raw_dir.glob(f"pharmvar_{gene}_*.tsv"))
+        if pv_files:
+            latest_pv = sorted(pv_files)[-1]
+            df_pv = parse_pharmvar_tsv(latest_pv)
+            if not df_pv.empty:
+                pharmvar_frames.append(df_pv)
+
+    # Save CPIC filtered pairs
     if cpic_frames:
         master_cpic = pd.concat(cpic_frames, ignore_index=True)
         if "cpiclevel" in master_cpic.columns:
@@ -131,13 +150,36 @@ def main():
         master_cpic.to_csv(cpic_out, sep="\t", index=False)
         print(f"[✓] Generated CPIC annotated table: {cpic_out} ({len(master_cpic)} pairs)")
 
-    if clinvar_frames:
-        master_clinvar = pd.concat(clinvar_frames, ignore_index=True)
+    # Save ClinVar variants
+    master_clinvar = pd.concat(clinvar_frames, ignore_index=True) if clinvar_frames else pd.DataFrame()
+    if not master_clinvar.empty:
         clinvar_out = out_dir / "annotated_clinvar_variants.tsv"
         master_clinvar.to_csv(clinvar_out, sep="\t", index=False)
         print(f"[✓] Generated ClinVar variants table: {clinvar_out} ({len(master_clinvar)} variants)")
 
-    print("[✓] Week 3 base annotation tables compiled.")
+    # Integrate PharmVar star alleles into ClinVar variants -> master_variant_annotations.tsv
+    if not master_clinvar.empty:
+        master_df = master_clinvar.copy()
+        
+        if pharmvar_frames:
+            master_pv = pd.concat(pharmvar_frames, ignore_index=True)
+            pv_valid = master_pv[master_pv["rsid_clean"].notna() & (master_pv["rsid_clean"] != ".") & (master_pv["rsid_clean"] != "nan")].copy()
+            
+            # Map star alleles aggregated per rsid
+            star_map = pv_valid.groupby("rsid_clean")["Haplotype Name"].apply(lambda s: ";".join(sorted(set(s)))).to_dict()
+            type_map = pv_valid.groupby("rsid_clean")["Type"].apply(lambda s: ";".join(sorted(set(str(x) for x in s if str(x) != "nan")))).to_dict()
+
+            master_df["star_allele"] = master_df["rsid"].map(star_map).fillna("none")
+            master_df["variant_type"] = master_df["rsid"].map(type_map).fillna("not_specified")
+        else:
+            master_df["star_allele"] = "none"
+            master_df["variant_type"] = "not_specified"
+
+        master_out = out_dir / "master_variant_annotations.tsv"
+        master_df.to_csv(master_out, sep="\t", index=False)
+        print(f"[✓] Generated Master Variant Annotations: {master_out} ({len(master_df)} rows)")
+
+    print("[✓] Week 3 merge & annotation complete.")
 
 if __name__ == "__main__":
     main()

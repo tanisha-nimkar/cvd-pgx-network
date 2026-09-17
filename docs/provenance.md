@@ -53,3 +53,6 @@
 ## 3. Data Processing Logs
 * Operational logs stored in `data/raw/fetch_log.txt`
 * Summary metric JSON stored in `data/raw/fetch_counts_20260830.json`
+
+| annotated_cpic_pairs.tsv | v1.0 | 2026-09-17 | results/tables/ | Filtered CPIC levels A/B gene-drug pairs |
+| annotated_clinvar_variants.tsv | v1.0 | 2026-09-17 | results/tables/ | Extracted pathogenic/classified variants from ClinVar VCFs |
