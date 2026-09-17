@@ -56,3 +56,5 @@
 
 | annotated_cpic_pairs.tsv | v1.0 | 2026-09-17 | results/tables/ | Filtered CPIC levels A/B gene-drug pairs |
 | annotated_clinvar_variants.tsv | v1.0 | 2026-09-17 | results/tables/ | Extracted pathogenic/classified variants from ClinVar VCFs |
+
+| master_variant_annotations.tsv | v1.0 | 2026-09-17 | results/tables/ | Unified table linking PharmVar star-alleles, ClinVar clinical annotations, and panel loci |

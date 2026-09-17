@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
 scripts/merge_annotate_variants.py
-Standardized merge and annotation script adhering strictly to Master SOP Week 3.
-Processes CPIC, ClinVar, and PharmVar outputs into unified tables.
+Master SOP Week 3 compliant variant merge & annotation pipeline.
+Builds master_variant_annotations.tsv uniting PharmVar star-alleles,
+ClinVar clinical significance, and CPIC drug-gene recommendations.
 """
 
 import os
-import glob
-import json
-import csv
+import re
 from pathlib import Path
+from io import StringIO
 import pandas as pd
 import yaml
 
@@ -25,8 +25,21 @@ def load_config():
                 return yaml.safe_load(f), repo_root
     raise FileNotFoundError("config.yaml not found in ./config/ or root directory.")
 
+def clean_rsid(val):
+    if pd.isna(val) or val is None:
+        return ""
+    s = str(val).strip().lower()
+    if s in [".", "none", "nan", ""]:
+        return ""
+    m = re.search(r"rs(\d+)", s)
+    if m:
+        return f"rs{m.group(1)}"
+    if s.isdigit():
+        return f"rs{s}"
+    return s
+
 def parse_clinvar_vcf(vcf_path):
-    """Extract pathogenic / likely pathogenic or review-classified variants from raw ClinVar VCF."""
+    """Extract variants and clinical significance from ClinVar VCF."""
     records = []
     if not os.path.exists(vcf_path):
         return pd.DataFrame()
@@ -48,14 +61,12 @@ def parse_clinvar_vcf(vcf_path):
                 else:
                     info_dict[item] = True
 
-            clean_rsid = rsid if rsid != "." else info_dict.get("RS", ".")
-            if clean_rsid != "." and not str(clean_rsid).startswith("rs"):
-                clean_rsid = f"rs{clean_rsid}"
-
+            final_rs = rsid if rsid != "." else info_dict.get("RS", ".")
+            
             records.append({
-                "chrom": chrom,
-                "pos_b38": pos,
-                "rsid": clean_rsid,
+                "chrom": str(chrom).replace("chr", ""),
+                "pos_b38": str(pos),
+                "rsid": clean_rsid(final_rs),
                 "ref": ref,
                 "alt": alt,
                 "clinical_significance": info_dict.get("CLNSIG", "not_specified"),
@@ -64,8 +75,8 @@ def parse_clinvar_vcf(vcf_path):
             })
     return pd.DataFrame(records)
 
-def parse_pharmvar_tsv(tsv_path):
-    """Extract star alleles and core variant coordinates from PharmVar TSV."""
+def parse_pharmvar_tsv(tsv_path, gene_name):
+    """Extract star alleles and coordinates from PharmVar TSV."""
     if not os.path.exists(tsv_path):
         return pd.DataFrame()
 
@@ -74,24 +85,26 @@ def parse_pharmvar_tsv(tsv_path):
         for line in f:
             if not line.startswith("#"):
                 lines.append(line)
-    
     if not lines:
         return pd.DataFrame()
 
-    from io import StringIO
     df = pd.read_csv(StringIO("".join(lines)), sep="\t")
-    # Clean rsID
-    if "rsID" in df.columns:
-        df["rsid_clean"] = df["rsID"].dropna().apply(lambda x: str(x).split(".")[0])
-        df["rsid_clean"] = df["rsid_clean"].apply(lambda x: f"rs{x}" if not str(x).startswith("rs") and str(x) != "" else str(x))
-    else:
-        df["rsid_clean"] = None
-    return df
+    df["gene_symbol"] = gene_name
+    df["rsid"] = df["rsID"].apply(clean_rsid) if "rsID" in df.columns else ""
+    df["star_allele"] = df["Haplotype Name"] if "Haplotype Name" in df.columns else "none"
+    df["variant_type"] = df["Type"] if "Type" in df.columns else "not_specified"
+    df["ref"] = df["Reference Allele"] if "Reference Allele" in df.columns else ""
+    df["alt"] = df["Variant Allele"] if "Variant Allele" in df.columns else ""
+    df["pos_b37"] = df["Variant Start"].dropna().astype(str).str.split(".").str[0] if "Variant Start" in df.columns else ""
+    
+    # Return only defined variant rows
+    return df[df["rsid"] != ""][["gene_symbol", "rsid", "star_allele", "variant_type", "ref", "alt", "pos_b37"]]
 
 def parse_cpic_json(json_path):
     """Load CPIC gene-drug pair records."""
     if not os.path.exists(json_path):
         return pd.DataFrame()
+    import json
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     if isinstance(data, list):
@@ -115,70 +128,105 @@ def main():
     pharmvar_frames = []
 
     for gene in genes:
-        # 1. Parse CPIC
+        # CPIC
         cpic_files = list(raw_dir.glob(f"cpic_{gene}_*.json"))
         if cpic_files:
-            latest_cpic = sorted(cpic_files)[-1]
-            df_cpic = parse_cpic_json(latest_cpic)
-            if not df_cpic.empty:
-                cpic_frames.append(df_cpic)
+            df_c = parse_cpic_json(sorted(cpic_files)[-1])
+            if not df_c.empty:
+                cpic_frames.append(df_c)
 
-        # 2. Parse ClinVar
+        # ClinVar
         cv_files = list(raw_dir.glob(f"clinvar_{gene}_*.vcf"))
         if cv_files:
-            latest_cv = sorted(cv_files)[-1]
-            df_cv = parse_clinvar_vcf(latest_cv)
-            if not df_cv.empty:
-                if "gene_symbol" in df_cv.columns:
-                    df_cv["gene_symbol"] = df_cv["gene_symbol"].replace("", gene)
-                clinvar_frames.append(df_cv)
+            df_v = parse_clinvar_vcf(sorted(cv_files)[-1])
+            if not df_v.empty:
+                if "gene_symbol" in df_v.columns:
+                    df_v["gene_symbol"] = df_v["gene_symbol"].replace("", gene)
+                clinvar_frames.append(df_v)
 
-        # 3. Parse PharmVar
+        # PharmVar
         pv_files = list(raw_dir.glob(f"pharmvar_{gene}_*.tsv"))
         if pv_files:
-            latest_pv = sorted(pv_files)[-1]
-            df_pv = parse_pharmvar_tsv(latest_pv)
-            if not df_pv.empty:
-                pharmvar_frames.append(df_pv)
+            df_p = parse_pharmvar_tsv(sorted(pv_files)[-1], gene)
+            if not df_p.empty:
+                pharmvar_frames.append(df_p)
 
-    # Save CPIC filtered pairs
+    # 1. Output CPIC Pairs Table
     if cpic_frames:
         master_cpic = pd.concat(cpic_frames, ignore_index=True)
         if "cpiclevel" in master_cpic.columns:
             master_cpic = master_cpic[master_cpic["cpiclevel"].astype(str).str.upper().isin(["A", "B", "A/B"])]
         cpic_out = out_dir / "annotated_cpic_pairs.tsv"
         master_cpic.to_csv(cpic_out, sep="\t", index=False)
-        print(f"[✓] Generated CPIC annotated table: {cpic_out} ({len(master_cpic)} pairs)")
+        print(f"[✓] Generated CPIC table: {cpic_out} ({len(master_cpic)} pairs)")
 
-    # Save ClinVar variants
-    master_clinvar = pd.concat(clinvar_frames, ignore_index=True) if clinvar_frames else pd.DataFrame()
-    if not master_clinvar.empty:
-        clinvar_out = out_dir / "annotated_clinvar_variants.tsv"
-        master_clinvar.to_csv(clinvar_out, sep="\t", index=False)
-        print(f"[✓] Generated ClinVar variants table: {clinvar_out} ({len(master_clinvar)} variants)")
+    # 2. Output ClinVar Variants Table
+    df_clinvar = pd.concat(clinvar_frames, ignore_index=True) if clinvar_frames else pd.DataFrame()
+    if not df_clinvar.empty:
+        cv_out = out_dir / "annotated_clinvar_variants.tsv"
+        df_clinvar.to_csv(cv_out, sep="\t", index=False)
+        print(f"[✓] Generated ClinVar table: {cv_out} ({len(df_clinvar)} variants)")
 
-    # Integrate PharmVar star alleles into ClinVar variants -> master_variant_annotations.tsv
-    if not master_clinvar.empty:
-        master_df = master_clinvar.copy()
-        
-        if pharmvar_frames:
-            master_pv = pd.concat(pharmvar_frames, ignore_index=True)
-            pv_valid = master_pv[master_pv["rsid_clean"].notna() & (master_pv["rsid_clean"] != ".") & (master_pv["rsid_clean"] != "nan")].copy()
-            
-            # Map star alleles aggregated per rsid
-            star_map = pv_valid.groupby("rsid_clean")["Haplotype Name"].apply(lambda s: ";".join(sorted(set(s)))).to_dict()
-            type_map = pv_valid.groupby("rsid_clean")["Type"].apply(lambda s: ";".join(sorted(set(str(x) for x in s if str(x) != "nan")))).to_dict()
+    # 3. Build Unified Master Variant Annotations Table
+    # Collapse PharmVar records by rsid and gene
+    if pharmvar_frames:
+        df_pv_all = pd.concat(pharmvar_frames, ignore_index=True)
+        pv_agg = df_pv_all.groupby(["gene_symbol", "rsid"]).agg({
+            "star_allele": lambda s: ";".join(sorted(set(str(x) for x in s if x != "none"))),
+            "variant_type": lambda s: ";".join(sorted(set(str(x) for x in s if str(x) != "nan"))),
+            "ref": "first",
+            "alt": "first",
+            "pos_b37": "first"
+        }).reset_index()
+    else:
+        pv_agg = pd.DataFrame(columns=["gene_symbol", "rsid", "star_allele", "variant_type", "ref", "alt", "pos_b37"])
 
-            master_df["star_allele"] = master_df["rsid"].map(star_map).fillna("none")
-            master_df["variant_type"] = master_df["rsid"].map(type_map).fillna("not_specified")
-        else:
-            master_df["star_allele"] = "none"
-            master_df["variant_type"] = "not_specified"
+    # Create mapping lookups from ClinVar
+    cv_sig_map = {}
+    cv_rev_map = {}
+    cv_pos_map = {}
+    if not df_clinvar.empty:
+        for _, row in df_clinvar[df_clinvar["rsid"] != ""].iterrows():
+            key = (row["gene_symbol"], row["rsid"])
+            cv_sig_map[key] = row["clinical_significance"]
+            cv_rev_map[key] = row["review_status"]
+            cv_pos_map[key] = row["pos_b38"]
 
-        master_out = out_dir / "master_variant_annotations.tsv"
-        master_df.to_csv(master_out, sep="\t", index=False)
-        print(f"[✓] Generated Master Variant Annotations: {master_out} ({len(master_df)} rows)")
+    # Annotate PharmVar core alleles with ClinVar data
+    pv_records = []
+    for _, row in pv_agg.iterrows():
+        key = (row["gene_symbol"], row["rsid"])
+        pv_records.append({
+            "gene_symbol": row["gene_symbol"],
+            "rsid": row["rsid"],
+            "star_allele": row["star_allele"] if row["star_allele"] else "none",
+            "variant_type": row["variant_type"],
+            "ref": row["ref"],
+            "alt": row["alt"],
+            "pos_b37": row["pos_b37"],
+            "pos_b38": cv_pos_map.get(key, "unmapped"),
+            "clinical_significance": cv_sig_map.get(key, "unclassified_in_clinvar"),
+            "review_status": cv_rev_map.get(key, "none")
+        })
 
+    master_df = pd.DataFrame(pv_records)
+
+    # Append non-PharmVar ClinVar variants for panel genes without PharmVar (e.g., VKORC1, CYP4F2, ABCG2)
+    non_pv_genes = [g for g in genes if g not in ["CYP2C19", "CYP2C9", "SLCO1B1"]]
+    if not df_clinvar.empty:
+        extra_clinvar = df_clinvar[df_clinvar["gene_symbol"].isin(non_pv_genes)].copy()
+        if not extra_clinvar.empty:
+            extra_clinvar["star_allele"] = "none"
+            extra_clinvar["pos_b37"] = "unmapped"
+            rename_dict = {"chrom": "chrom", "pos_b38": "pos_b38"}
+            extra_records = extra_clinvar[[
+                "gene_symbol", "rsid", "star_allele", "ref", "alt", "pos_b37", "pos_b38", "clinical_significance", "review_status"
+            ]].to_dict("records")
+            master_df = pd.concat([master_df, pd.DataFrame(extra_records)], ignore_index=True)
+
+    master_out = out_dir / "master_variant_annotations.tsv"
+    master_df.to_csv(master_out, sep="\t", index=False)
+    print(f"[✓] Generated Master Variant Annotations: {master_out} ({len(master_df)} unified variants)")
     print("[✓] Week 3 merge & annotation complete.")
 
 if __name__ == "__main__":

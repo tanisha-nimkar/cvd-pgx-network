@@ -1,421 +1,466 @@
-chrom	pos_b38	rsid	ref	alt	clinical_significance	review_status	gene_symbol	star_allele	variant_type
-10	94762693	rs634882	G	A	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C19	none	not_specified
-10	94762706	rs16900	A	G	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94762712	rs634864	C	T	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C19	none	not_specified
-10	94762715	rs634875	T	C	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C19	none	not_specified
-10	94762742	rs3270572	T	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94762755	rs634040	T	C	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94762760	rs633881	A	C	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94762774	rs3499186	C	G	Likely_benign	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94762788	rs634036	A	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94762804	rs769226	C	T	Benign	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94762842	rs4658071	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94762851	rs3499184	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94762853	rs4658072	G	A	Likely_benign	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94762856	rs633933	A	G	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775059	rs4658068	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775071	rs3837855	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775102	rs4366301	G	A	not_specified	not_specified	CYP2C19	none	not_specified
-10	94775106	rs633848	C	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775121	rs633852	C	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775133	rs2531522	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775149	rs3079518	T	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775160	rs634042	G	C	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775185	rs633841	A	G	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775349	rs4366302	G	C	not_specified	not_specified	CYP2C19	none	not_specified
-10	94775367	rs633850	A	G	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775393	rs3837857	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775416	rs39351	T	C	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775450	rs2472781	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775453	rs39350	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775457	rs4837833	T	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775462	rs3499183	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775488	rs2476783	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775489	rs39352	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775494	rs4658067	C	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775496	rs4658073	A	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94775507	rs633845	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94775539	rs4366303	G	C	not_specified	not_specified	CYP2C19	none	not_specified
-10	94780508	rs3837856	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94780574	rs633843	G	C	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94780579	rs633840	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94780612	rs2315618	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94780631	rs2591511	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94780653	rs16899	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94781822	rs2286220	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94781842	rs3079519	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94781858	rs39353	C	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94781859	rs16897	G	A	Likely_benign|other	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C19	none	not_specified
-10	94781859	rs1703261	G	T	drug_response	no_assertion_criteria_provided	CYP2C19	none	not_specified
-10	94781906	rs4658069	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94781944	rs633854	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94781999	rs39348	T	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94820382	rs4366304	C	G	not_specified	not_specified	CYP2C19	none	not_specified
-10	94820545	rs4658070	C	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94820586	rs3079520	A	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94820631	rs3270571	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94820635	rs3499185	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842641	rs4366305	T	A	not_specified	not_specified	CYP2C19	none	not_specified
-10	94842858	rs4236866	A	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842861	rs633842	G	A	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94842866	rs39354	A	G	Benign	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842879	rs634859	G	A	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C19	none	not_specified
-10	94842934	rs2640706	C	T	Benign	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842942	rs3079515	A	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842957	rs4236864	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842960	rs2291107	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842969	rs2465938	G	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94842995	rs634877	G	A	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C19	none	not_specified
-10	94849936	rs4236867	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94849940	rs747762	C	A	Likely_benign	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94849955	rs2283328	T	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94849964	rs634865	A	G	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C19	none	not_specified
-10	94849989	rs4008833	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94849995	rs633846	C	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94850007	rs3079516	G	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94850014	rs4236863	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94850018	rs1276601	A	C	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C19	none	not_specified
-10	94850019	rs3079517	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94850046	rs4008832	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94852738	rs16898	C	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94852765	rs633849	C	T	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94852785	rs633935	C	G	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94852827	rs3837852	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94852834	rs3837853	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94852847	rs3837854	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94852850	rs2618711	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C19	none	not_specified
-10	94852914	rs633853	A	C	drug_response	practice_guideline	CYP2C19	none	not_specified
-10	94938698	rs3499193	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94938707	rs3837862	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94938711	rs3270585	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94938725	rs2287431	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94938785	rs2604717	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94938807	rs4835404	T	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94938819	rs4008841	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94941928	rs2289670	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94941939	rs2289671	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94941953	rs755270	T	C	Likely_benign	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94941955	rs2488190	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94941958	rs3253602	T	C	drug_response	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94942012	rs3837864	G	A	Likely_benign	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94942182	rs4366306	T	A	not_specified	not_specified	CYP2C9	none	not_specified
-10	94942216	rs3376535	A	G	drug_response	no_assertion_criteria_provided	CYP2C9	none	not_specified
-10	94942234	rs1167372	G	A	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94942255	rs4366307	G	A	not_specified	not_specified	CYP2C9	none	not_specified
-10	94942290	rs242622	C	.	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C9	none	not_specified
-10	94942290	rs8409	C	T	Likely_benign|drug_response|other	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94942309	rs226024	G	A	Benign/Likely_benign|drug_response	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94942330	rs3376534	G	A	drug_response	no_assertion_criteria_provided	CYP2C9	none	not_specified
-10	94947759	rs4366308	A	G	not_specified	not_specified	CYP2C9	none	not_specified
-10	94947782	rs3253605	C	A	drug_response	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94947805	rs4236871	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94947826	rs4236872	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94947843	rs2283545	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94947919	rs8410	T	G	Pathogenic	no_assertion_criteria_provided	CYP2C9	none	not_specified
-10	94947928	rs3079531	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94949217	rs773002	A	G	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94949241	rs3079532	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94949252	rs4008842	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94949281	rs285601	GA	G	Benign/Likely_benign|drug_response|other	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94972104	rs3837863	G	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972107	rs4236873	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972174	rs2529625	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972183	rs3270586	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972191	rs2240869	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972201	rs4236874	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972210	rs3270582	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94972974	rs1693614	T	G	association	no_assertion_criteria_provided	CYP2C9	none	not_specified
-10	94981188	rs4366309	G	T	not_specified	not_specified	CYP2C9	none	not_specified
-10	94981193	rs4008843	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94981213	rs4236877	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94981224	rs370010	C	T	Benign/Likely_benign|drug_response	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94981252	rs2532308	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94981256	rs4236878	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94981264	rs4236876	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94981296	rs242623	A	.	no_classification_for_the_single_variant	no_classification_for_the_single_variant	CYP2C9	none	not_specified
-10	94981296	rs8408	A	C	drug_response|other	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94981301	rs225984	C	G	Benign/Likely_benign|drug_response|other	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94981315	rs3079530	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94984186	rs1693598	G	A	association	no_assertion_criteria_provided	CYP2C9	none	not_specified
-10	94986040	rs2263897	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94988863	rs735596	G	T	Likely_benign	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94988878	rs776530	C	T	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP2C9	none	not_specified
-10	94988882	rs3270583	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94988934	rs4658079	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94988957	rs2248533	G	C	Uncertain_significance	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-10	94988987	rs1050409	T	A	Uncertain_significance	no_assertion_criteria_provided	CYP2C9	none	not_specified
-10	94989020	rs3253607	C	T	drug_response	criteria_provided,_single_submitter	CYP2C9	none	not_specified
-16	31093557	rs37344	G	A	drug_response	reviewed_by_expert_panel	VKORC1	none	not_specified
-16	31094032	rs225960	G	A	Benign	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094233	rs225983	A	C	drug_response	reviewed_by_expert_panel	VKORC1	none	not_specified
-16	31094546	rs887602	C	A	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094558	rs2209	T	C	Pathogenic	no_assertion_criteria_provided	VKORC1	none	not_specified
-16	31094583	rs3815040	G	C	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094596	rs2208	A	G	Pathogenic	no_assertion_criteria_provided	VKORC1	none	not_specified
-16	31094601	rs791061	G	A	Benign/Likely_benign	criteria_provided,_multiple_submitters,_no_conflicts	VKORC1	none	not_specified
-16	31094613	rs884452	G	A	Uncertain_significance	criteria_provided,_multiple_submitters,_no_conflicts	VKORC1	none	not_specified
-16	31094618	rs3188665	C	G	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094624	rs2212	C	A	drug_response	reviewed_by_expert_panel	VKORC1	none	not_specified
-16	31094627	rs4883285	G	C	Uncertain_significance	no_assertion_criteria_provided	VKORC1	none	not_specified
-16	31094645	rs2207	C	A	Pathogenic	no_assertion_criteria_provided	VKORC1	none	not_specified
-16	31094666	rs2646468	G	A	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094676	rs884453	C	A	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094690	rs2619219	C	T	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094694	rs2629952	C	A	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094694	rs318977	C	T	Benign	criteria_provided,_multiple_submitters,_no_conflicts	VKORC1	none	not_specified
-16	31094716	rs3188666	C	G	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094727	rs283736	C	T	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094731	rs884454	A	G	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31094774	rs884455	C	T	Uncertain_significance	criteria_provided,_single_submitter	VKORC1	none	not_specified
-16	31096316	rs60671	A	AC	drug_response	no_assertion_criteria_provided	VKORC1	none	not_specified
-16	31096368	rs166563	C	.	drug_response	no_assertion_criteria_provided	VKORC1	none	not_specified
-16	31096368	rs2211	C	T	drug_response	reviewed_by_expert_panel	VKORC1	none	not_specified
-19	15878940	rs3038214	G	C	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15879301	rs4435406	T	C	not_specified	not_specified	CYP4F2	none	not_specified
-19	15879353	rs4237070	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879357	rs4435408	C	T	not_specified	not_specified	CYP4F2	none	not_specified
-19	15879401	rs2356937	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879621	rs225969	C	T	drug_response	reviewed_by_expert_panel	CYP4F2	none	not_specified
-19	15879623	rs4009012	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879650	rs4237065	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879668	rs634565	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879771	rs3049482	G	A	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15879808	rs4009011	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879811	rs4009007	T	C	Likely_benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879879	rs4658190	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879882	rs3499343	A	C	Likely_benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879888	rs735081	C	T	Benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879893	rs4009006	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15879897	rs3079710	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15880051	rs4435409	A	C	not_specified	not_specified	CYP4F2	none	not_specified
-19	15885914	rs771214	C	T	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP4F2	none	not_specified
-19	15885946	rs2207488	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15885947	rs3052749	G	A	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15885967	rs4237069	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15885985	rs2206252	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886010	rs3056285	G	A	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15886018	rs771928	G	C	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP4F2	none	not_specified
-19	15886024	rs2324372	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886038	rs4435413	G	A	not_specified	not_specified	CYP4F2	none	not_specified
-19	15886040	rs4658193	C	T	Likely_benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886041	rs2385383	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886048	rs4009009	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886253	rs4237073	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886256	rs3837980	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886271	rs3079717	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886281	rs2479909	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886300	rs3270679	G	A	Likely_benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15886317	rs3033266	A	C	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15889425	rs4009013	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889445	rs4237074	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889473	rs3270676	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889496	rs3499342	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889502	rs3837977	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889510	rs714779	A	G	Likely_benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889512	rs3499339	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889516	rs3352691	G	A	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15889547	rs3079716	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889548	rs4237068	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889549	rs3048385	G	A	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15889560	rs4658191	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889578	rs2480060	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889611	rs4658194	C	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889616	rs3837979	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889628	rs3079715	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889650	rs3837978	G	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889671	rs3499336	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889677	rs3837976	T	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15889700	rs634566	G	T	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	CYP4F2	none	not_specified
-19	15890308	rs4435414	T	C	not_specified	not_specified	CYP4F2	none	not_specified
-19	15890323	rs4658195	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15890405	rs3055377	C	A	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15890415	rs3837973	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892314	rs2483954	T	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892316	rs4237066	A	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892329	rs4237072	C	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892343	rs3499345	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892373	rs2515871	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892377	rs2271347	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892389	rs3079714	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892398	rs3837974	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892415	rs3499338	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892534	rs2540443	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892541	rs2357571	C	T	Likely_benign	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892563	rs3499344	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892566	rs2515727	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892573	rs2337286	G	A	Uncertain_significance	criteria_provided,_multiple_submitters,_no_conflicts	CYP4F2	none	not_specified
-19	15892578	rs714780	G	C	Benign	criteria_provided,_multiple_submitters,_no_conflicts	CYP4F2	none	not_specified
-19	15892580	rs4869579	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15892600	rs4435416	A	T	not_specified	not_specified	CYP4F2	none	not_specified
-19	15895500	rs3040636	T	C	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15895513	rs3055271	G	A	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15895536	rs2371357	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15895570	rs3055346	T	G	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15895575	rs3270677	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15895584	rs2344259	T	C	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15895603	rs3060160	G	A	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15895609	rs3044148	C	A	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15897442	rs2606567	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897447	rs3060298	T	C	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15897448	rs4009010	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897466	rs4435417	C	T	not_specified	not_specified	CYP4F2	none	not_specified
-19	15897476	rs3079711	G	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897478	rs4009005	C	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897494	rs4658189	C	A	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897513	rs3044144	A	G	Likely_benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-19	15897513	rs4237064	A	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897542	rs2541473	G	T	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897556	rs3499341	C	G	Uncertain_significance	criteria_provided,_single_submitter	CYP4F2	none	not_specified
-19	15897566	rs3052405	C	G	Benign	no_assertion_criteria_provided	CYP4F2	none	not_specified
-12	21292231	rs3320341	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21292266	rs3320342	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21292275	rs3957872	C	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21292326	rs2462519	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21293946	rs2355008	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21293949	rs4586468	T	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21293988	rs3165777	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295613	rs2328490	T	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295618	rs4586467	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295640	rs2476036	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295670	rs4586460	G	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295685	rs4586466	A	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295702	rs3957876	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295706	rs3165776	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295769	rs3445329	A	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295775	rs2539941	G	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21295788	rs4169438	A	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21297407	rs3320344	T	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21297482	rs3445326	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21297508	rs3957874	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21297514	rs3445334	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21297539	rs3957866	A	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21300434	rs2533374	A	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21300490	rs788577	G	A	Benign	criteria_provided,_multiple_submitters,_no_conflicts	SLCO1A2	none	not_specified
-12	21300513	rs3445327	A	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21300518	rs3957867	A	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21300539	rs2514836	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21300549	rs3957870	T	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21301176	rs3165783	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21301194	rs4586455	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21301204	rs4169440	T	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21301231	rs2476037	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21301242	rs3445330	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21301252	rs3445331	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304433	rs3445332	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304456	rs2559843	G	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304457	rs3165782	C	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304481	rs3957865	C	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304520	rs4586461	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304534	rs2459950	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304535	rs3798459	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21304567	rs4169442	G	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21306643	rs4383031	G	C	not_specified	not_specified	SLCO1A2	none	not_specified
-12	21306893	rs3957864	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21306896	rs4586458	G	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21306918	rs3165781	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21306942	rs786223	T	A	Benign	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21306953	rs3320343	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21306989	rs4383032	C	A	not_specified	not_specified	SLCO1A2	none	not_specified
-12	21314551	rs3798457	G	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314555	rs3957868	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314564	rs3957869	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314565	rs4586465	G	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314570	rs3957873	A	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314607	rs3957875	A	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314609	rs4169437	C	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21314615	rs4586457	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318821	rs4169434	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318838	rs3165778	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318844	rs2339969	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318850	rs4586462	G	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318856	rs3798458	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318857	rs3320345	T	C	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318898	rs2468545	G	A	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318902	rs3798456	A	G	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21318921	rs4169435	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21334628	rs4169441	C	T	Uncertain_significance	criteria_provided,_single_submitter	SLCO1A2	none	not_specified
-12	21334720	rs4383033	A	T	not_specified	not_specified	SLCO1A2	none	not_specified
-12	21373388	rs2319180	C	T	Uncertain_significance	criteria_provided,_single_submitter	IAPP	none	not_specified
-12	21373419	rs3285137	C	T	Uncertain_significance	criteria_provided,_single_submitter	IAPP	none	not_specified
-12	21378254	rs4037000	G	A	Uncertain_significance	criteria_provided,_single_submitter	IAPP	none	not_specified
-12	21378296	rs4036999	A	G	Uncertain_significance	criteria_provided,_single_submitter	IAPP	none	not_specified
-12	21379613	rs4383034	G	C	not_specified	not_specified	IAPP	none	not_specified
-4	88091063	rs4308948	C	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88092241	rs3129639	T	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88092254	rs3129633	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88092268	rs4636266	T	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88092311	rs2224669	C	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88094620	rs2310874	G	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88094629	rs4308949	T	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88094660	rs4308950	C	T	not_specified	not_specified	ABCG2	none	not_specified
-4	88095521	rs4144633	G	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88095533	rs4144541	C	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097455	rs3412804	T	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097473	rs4636267	T	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097518	rs3041649	C	T	Likely_benign	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88097533	rs3129624	T	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097559	rs2337768	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097563	rs3412715	G	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097565	rs3129615	G	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097581	rs3992260	A	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88097586	rs3992281	G	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88099363	rs3129609	G	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88099374	rs3412894	A	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88099449	rs4308951	C	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88101251	rs3308591	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88101264	rs4144806	C	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88101287	rs2531314	T	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88104957	rs1239257	C	T	Benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88105276	rs1267736	A	C	Benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88107206	rs2319477	C	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88107217	rs4144727	C	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88107239	rs4636269	C	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88107266	rs3129600	T	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88107268	rs4308954	T	C	not_specified	not_specified	ABCG2	none	not_specified
-4	88108100	rs1265403	A	C	Benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88113319	rs2467211	T	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88113362	rs2267114	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88113382	rs3308701	G	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88113384	rs30384	GGT	G	Affects	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88113437	rs3044880	C	T	Likely_benign	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88113525	rs3129659	C	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88114965	rs3992271	T	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88114996	rs2475371	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88115031	rs2316403	G	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88115033	rs3129652	G	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88115077	rs4288810	CA	C	not_specified	not_specified	ABCG2	none	not_specified
-4	88118104	rs4308955	C	T	not_specified	not_specified	ABCG2	none	not_specified
-4	88118106	rs3057392	T	C	Likely_benign	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88118148	rs981814	C	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88118157	rs30388	TAA	T	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	ABCG2	none	not_specified
-4	88118159	rs2395034	A	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88118172	rs4308956	C	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88118185	rs3129645	G	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88118190	rs4308957	C	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88118199	rs4308958	T	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88118214	rs30383	G	A	Affects	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88118231	rs3413062	A	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88118244	rs30387	G	A	association	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88118432	rs4308959	T	C	not_specified	not_specified	ABCG2	none	not_specified
-4	88121672	rs4862374	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88121711	rs3992289	A	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88121770	rs4636268	C	G	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88130964	rs4308961	T	C	not_specified	not_specified	ABCG2	none	not_specified
-4	88131143	rs3129641	G	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88131171	rs30389	G	T	drug_response	reviewed_by_expert_panel	ABCG2	none	not_specified
-4	88131172	rs522888	TA	T	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88131187	rs1737464	C	T	Likely_benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88131805	rs30385	G	A	association	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88131812	rs787808	G	A	Benign	criteria_provided,_multiple_submitters,_no_conflicts	ABCG2	none	not_specified
-4	88131886	rs4144902	G	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88131918	rs4308962	C	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88132566	rs3059818	T	C	Benign	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88132600	rs4308963	C	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88132628	rs4533545	T	C	Likely_benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88132631	rs3412991	T	A	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88132638	rs782442	G	A	Benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88139881	rs2284990	A	C	Uncertain_significance	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88139962	rs30386	C	T	Likely_benign|Affects|association	no_assertion_criteria_provided	ABCG2	none	not_specified
-4	88139997	rs4308965	T	A	not_specified	not_specified	ABCG2	none	not_specified
-4	88152045	rs1236609	A	C	Benign	criteria_provided,_single_submitter	ABCG2	none	not_specified
-4	88158580	rs4308966	G	C	not_specified	not_specified	ABCG2	none	not_specified
+gene_symbol	rsid	star_allele	variant_type	ref	alt	pos_b37	pos_b38	clinical_significance	review_status
+CYP2C19	-	CYP2C19*1.021;CYP2C19*2.009	substitution	G	T	96540284	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs113934938	CYP2C19*28;CYP2C19*28.001	substitution	G	A	96602752	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs11568729	CYP2C19*15.002;CYP2C19*9.002	substitution	C	T	96521680	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs11568730	CYP2C19*1.007	substitution	T	G	96521072	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs11568732	CYP2C19*1.004;CYP2C19*1.005;CYP2C19*1.007;CYP2C19*1.012;CYP2C19*2.019;CYP2C19*3.002;CYP2C19*3.004;CYP2C19*38.002;CYP2C19*38.003;CYP2C19*38.004;CYP2C19*38.005;CYP2C19*43.001;CYP2C19*49.001	substitution	T	G	96521574	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs11568734	CYP2C19*1.015	substitution	C	T	96521722	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs117673124	CYP2C19*13.002;CYP2C19*8.002	substitution	C	T	96520478	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs118203756	CYP2C19*23;CYP2C19*23.001	substitution	G	C	96534917	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs118203757	CYP2C19*24;CYP2C19*24.001	substitution	G	A	96602636	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs118203759	CYP2C19*25;CYP2C19*25.001	substitution	C	G	96612542	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1211267635	CYP2C19*17.002	deletion	ATTGT	-	96521081	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs12248560	CYP2C19*17;CYP2C19*17.001;CYP2C19*17.002;CYP2C19*17.003;CYP2C19*4.002;CYP2C19*44;CYP2C19*44.001;CYP2C19*45;CYP2C19*45.001	substitution	C	T	96521657	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs12769205	CYP2C19*2.001;CYP2C19*2.002;CYP2C19*2.003;CYP2C19*2.004;CYP2C19*2.005;CYP2C19*2.006;CYP2C19*2.007;CYP2C19*2.008;CYP2C19*2.009;CYP2C19*2.010;CYP2C19*2.011;CYP2C19*2.013;CYP2C19*2.014;CYP2C19*2.015;CYP2C19*2.016;CYP2C19*2.017;CYP2C19*2.020;CYP2C19*2.021;CYP2C19*35;CYP2C19*35.001;CYP2C19*35.002	substitution	A	G	96535124	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1288601658	CYP2C19*32;CYP2C19*32.001	substitution	A	G	96534942	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1312830418	CYP2C19*2.021	substitution	A	G	96612591	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs138142612	CYP2C19*18;CYP2C19*18.001	substitution	G	A	96602618	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs140164087	CYP2C19*15.002	substitution	G	C	96521355	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs140278421	CYP2C19*22;CYP2C19*22.001	substitution	G	C	96540331	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs141540628	CYP2C19*1.010	substitution	G	A	96520535	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1432790839	CYP2C19*38.005	substitution	G	A	96521530	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs144036596	CYP2C19*3.002	substitution	G	A	96602710	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs145119820	CYP2C19*2.013	substitution	G	A	96535152	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs145328984	CYP2C19*30;CYP2C19*30.001	substitution	C	T	96534863	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs147052245	CYP2C19*38.004	substitution	C	T	96612579	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs149590953	CYP2C19*49;CYP2C19*49.001;CYP2C19*50;CYP2C19*50.001	substitution	C	T	96535209	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs150732393	CYP2C19*15.002	substitution	G	T	96520560	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1564656981	CYP2C19*29;CYP2C19*29.001	substitution	A	T	96522545	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1564657013	CYP2C19*19;CYP2C19*19.001	substitution	A	G	96522613	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1564660997	CYP2C19*31;CYP2C19*31.001	substitution	C	T	96534878	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1564686367	CYP2C19*2.008	substitution	C	G	96609710	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1589379577	CYP2C19*46;CYP2C19*46.001	substitution	A	T	96609716	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17878459	CYP2C19*2.002;CYP2C19*2.010;CYP2C19*2.021	substitution	G	C	96534922	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17878739	CYP2C19*15.001;CYP2C19*15.002;CYP2C19*28.001;CYP2C19*39.001	substitution	T	C	96521024	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17879239	CYP2C19*39.001	substitution	A	G	96580336	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17879685	CYP2C19*13;CYP2C19*13.001;CYP2C19*13.002	substitution	C	T	96609752	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17880036	CYP2C19*15.002;CYP2C19*39.001	deletion	T	-	96521630	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17882291	CYP2C19*39.001	substitution	G	T	96535205	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17882687	CYP2C19*15;CYP2C19*15.001;CYP2C19*15.002;CYP2C19*28;CYP2C19*28.001;CYP2C19*35.002;CYP2C19*39;CYP2C19*39.001	substitution	A	C	96522517	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17882744	CYP2C19*1.004;CYP2C19*2.017;CYP2C19*39.001	substitution	C	T	96602691	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17882796	CYP2C19*39.001	substitution	T	C	96612753	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17884712	CYP2C19*9;CYP2C19*9.001;CYP2C19*9.002;CYP2C19*9.003	substitution	G	A	96535246	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17885098	CYP2C19*1.003;CYP2C19*1.004;CYP2C19*1.005;CYP2C19*1.012;CYP2C19*13.001;CYP2C19*15.001;CYP2C19*16.001;CYP2C19*17.003;CYP2C19*2.019;CYP2C19*22.001;CYP2C19*28.001;CYP2C19*3.001;CYP2C19*3.002;CYP2C19*3.003;CYP2C19*30.001;CYP2C19*34.001;CYP2C19*38.001;CYP2C19*38.004;CYP2C19*38.005;CYP2C19*43.001;CYP2C19*49.001;CYP2C19*5.001;CYP2C19*7.001;CYP2C19*8.001	substitution	T	C	96522561	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17885179	CYP2C19*39;CYP2C19*39.001	substitution	A	C	96535180	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17886301	CYP2C19*38.002	substitution	T	C	96522393	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs17886522	CYP2C19*1.004;CYP2C19*1.007;CYP2C19*3.001;CYP2C19*3.002;CYP2C19*3.003;CYP2C19*3.004	substitution	A	C	96609775	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs181297724	CYP2C19*2.003	substitution	G	C	96535296	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs183701923	CYP2C19*51;CYP2C19*51.001	substitution	C	T	96540330	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs1848148727	CYP2C19*1.018	substitution	A	G	96520498	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs185375194	CYP2C19*1.008	substitution	T	A	96521688	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs186694202	CYP2C19*8.002	substitution	A	G	96521557	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs190944530	CYP2C19*1.011	substitution	G	T	96522180	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs192154563	CYP2C19*16;CYP2C19*16.001	substitution	C	T	96612522	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs200150287	CYP2C19*47;CYP2C19*47.001	substitution	C	T	96535188	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs201306972	CYP2C19*2.015	substitution	G	A	96534864	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs202170044	CYP2C19*48;CYP2C19*48.001	substitution	C	T	96535185	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs28399504	CYP2C19*4;CYP2C19*4.001;CYP2C19*4.002	substitution	A	G	96522463	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs367543001	CYP2C19*34.001;CYP2C19*40.001	substitution	G	A	96522450	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs367543002	CYP2C19*34;CYP2C19*34.001;CYP2C19*40;CYP2C19*40.001	substitution	C	T	96522469	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs367543003	CYP2C19*34;CYP2C19*34.001;CYP2C19*40;CYP2C19*40.001	substitution	T	C	96522472	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs370803989	CYP2C19*33;CYP2C19*33.001	substitution	G	A	96540336	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs375781227	CYP2C19*26;CYP2C19*26.001	substitution	G	A	96541701	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs3758580	CYP2C19*2.001;CYP2C19*2.002;CYP2C19*2.003;CYP2C19*2.004;CYP2C19*2.005;CYP2C19*2.006;CYP2C19*2.007;CYP2C19*2.008;CYP2C19*2.009;CYP2C19*2.010;CYP2C19*2.011;CYP2C19*2.013;CYP2C19*2.014;CYP2C19*2.015;CYP2C19*2.016;CYP2C19*2.017;CYP2C19*2.020;CYP2C19*2.021	substitution	C	T	96602622	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs3758581	CYP2C19*16;CYP2C19*16.001;CYP2C19*2.019;CYP2C19*30;CYP2C19*30.001;CYP2C19*34;CYP2C19*34.001;CYP2C19*38;CYP2C19*38.001;CYP2C19*38.002;CYP2C19*38.003;CYP2C19*38.004;CYP2C19*38.005;CYP2C19*43.001;CYP2C19*49.001;CYP2C19*5.001;CYP2C19*7.001;CYP2C19*8.001	substitution	G	A	96602623	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs377184510	CYP2C19*24.001	substitution	A	G	96609721	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs3814637	CYP2C19*1.004;CYP2C19*1.005;CYP2C19*1.007;CYP2C19*1.012;CYP2C19*13.002;CYP2C19*15.001;CYP2C19*15.002;CYP2C19*2.019;CYP2C19*3.004;CYP2C19*38.002;CYP2C19*38.003;CYP2C19*38.004;CYP2C19*38.005;CYP2C19*39.001;CYP2C19*43.001;CYP2C19*49.001;CYP2C19*8.002	substitution	C	T	96521045	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs41291556	CYP2C19*8;CYP2C19*8.001;CYP2C19*8.002	substitution	T	C	96535173	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs4244285	CYP2C19*2;CYP2C19*2.001;CYP2C19*2.002;CYP2C19*2.003;CYP2C19*2.004;CYP2C19*2.005;CYP2C19*2.006;CYP2C19*2.007;CYP2C19*2.008;CYP2C19*2.009;CYP2C19*2.010;CYP2C19*2.011;CYP2C19*2.013;CYP2C19*2.014;CYP2C19*2.015;CYP2C19*2.016;CYP2C19*2.017;CYP2C19*2.018;CYP2C19*2.019;CYP2C19*2.020;CYP2C19*2.021	substitution	G	A	96541616	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs4986893	CYP2C19*3;CYP2C19*3.001;CYP2C19*3.002;CYP2C19*3.003;CYP2C19*3.004	substitution	G	A	96540410	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs4986894	CYP2C19*2.002;CYP2C19*2.003;CYP2C19*2.004;CYP2C19*2.010;CYP2C19*2.011;CYP2C19*2.014;CYP2C19*2.015;CYP2C19*2.016;CYP2C19*2.017;CYP2C19*2.020;CYP2C19*2.021	substitution	T	C	96522365	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs527864492	CYP2C19*1.012	substitution	T	C	96521902	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs535917823	CYP2C19*1.016	substitution	T	C	96520861	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs537050749	CYP2C19*2.014	substitution	A	G	96541708	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs541184515	CYP2C19*1.013	substitution	C	A	96522100	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs544997836	CYP2C19*1.015	substitution	G	T	96612846	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs547822797	CYP2C19*1.020	substitution	G	A	96580270	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs550527959	CYP2C19*2.007	substitution	A	T	96602711	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs55640102	CYP2C19*12;CYP2C19*12.001;CYP2C19*12.002	substitution	A	C	96612671	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs55752064	CYP2C19*14;CYP2C19*14.001	substitution	T	C	96522512	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs561071055	CYP2C19*9.003	substitution	G	T	96521292	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs563052490	CYP2C19*2.020	substitution	C	A	96602634	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs56337013	CYP2C19*5;CYP2C19*5.001;CYP2C19*5.002	substitution	C	T	96612495	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs57700608	CYP2C19*41;CYP2C19*41.001	substitution	A	G	96540301	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs58973490	CYP2C19*11;CYP2C19*11.001;CYP2C19*2.010	substitution	G	A	96535264	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs59734894	CYP2C19*43;CYP2C19*43.001;CYP2C19*44;CYP2C19*44.001	substitution	C	T	96602617	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs6413438	CYP2C19*10;CYP2C19*10.001	substitution	C	T	96541615	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs7088784	CYP2C19*3.002	substitution	A	G	96541373	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs72552267	CYP2C19*6;CYP2C19*6.001	substitution	G	A	96535210	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs72558186	CYP2C19*7;CYP2C19*7.001	substitution	T	A	96541756	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs762568352	CYP2C19*2.016	substitution	A	G	96612920	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs763625282	CYP2C19*3.003	substitution	T	A	96535222	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs763834734	CYP2C19*1.019	substitution	T	C	96602679	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs76822098	CYP2C19*35.001	substitution	G	A	96521550	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs770829708	CYP2C19*2.006;CYP2C19*45;CYP2C19*45.001	substitution	G	A	96602653	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs771120274	CYP2C19*52;CYP2C19*52.001	substitution	C	A	96602769	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs771491246	CYP2C19*1.009	deletion	T	-	96521291	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs775176305	CYP2C19*1.014	substitution	G	T	96522095	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs775981161	CYP2C19*12.002	substitution	C	T	96612764	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs778258371	CYP2C19*2.005	substitution	G	A	96541748	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs780225316	CYP2C19*2.004	substitution	G	A	96609737	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs7902257	CYP2C19*1.002;CYP2C19*1.003;CYP2C19*1.004;CYP2C19*1.005;CYP2C19*1.011;CYP2C19*1.012;CYP2C19*1.013;CYP2C19*1.014;CYP2C19*1.015;CYP2C19*1.016;CYP2C19*1.017;CYP2C19*1.018;CYP2C19*1.019;CYP2C19*1.020;CYP2C19*1.021;CYP2C19*10.001;CYP2C19*11.001;CYP2C19*12.001;CYP2C19*12.002;CYP2C19*13.001;CYP2C19*14.001;CYP2C19*15.001;CYP2C19*16.001;CYP2C19*17.001;CYP2C19*17.002;CYP2C19*17.003;CYP2C19*18.001;CYP2C19*19.001;CYP2C19*2.001;CYP2C19*2.002;CYP2C19*2.003;CYP2C19*2.004;CYP2C19*2.005;CYP2C19*2.006;CYP2C19*2.007;CYP2C19*2.008;CYP2C19*2.009;CYP2C19*2.010;CYP2C19*2.013;CYP2C19*2.014;CYP2C19*2.015;CYP2C19*2.016;CYP2C19*2.017;CYP2C19*2.018;CYP2C19*2.019;CYP2C19*2.020;CYP2C19*2.021;CYP2C19*22.001;CYP2C19*23.001;CYP2C19*24.001;CYP2C19*25.001;CYP2C19*26.001;CYP2C19*28.001;CYP2C19*29.001;CYP2C19*3.001;CYP2C19*3.002;CYP2C19*3.003;CYP2C19*30.001;CYP2C19*31.001;CYP2C19*32.001;CYP2C19*33.001;CYP2C19*34.001;CYP2C19*35.001;CYP2C19*38.001;CYP2C19*38.004;CYP2C19*38.005;CYP2C19*4.001;CYP2C19*4.002;CYP2C19*40.001;CYP2C19*41.001;CYP2C19*43.001;CYP2C19*44.001;CYP2C19*45.001;CYP2C19*46.001;CYP2C19*47.001;CYP2C19*48.001;CYP2C19*49.001;CYP2C19*5.001;CYP2C19*5.002;CYP2C19*50.001;CYP2C19*51.001;CYP2C19*52.001;CYP2C19*6.001;CYP2C19*7.001;CYP2C19*8.001;CYP2C19*9.001;CYP2C19*9.003	substitution	A	G	96521422	unmapped	unclassified_in_clinvar	none
+CYP2C19	rs980254652	CYP2C19*1.017	substitution	C	A	96520741	unmapped	unclassified_in_clinvar	none
+CYP2C9	-	CYP2C9*1.013;CYP2C9*40;CYP2C9*40.001;CYP2C9*49;CYP2C9*49.001;CYP2C9*57;CYP2C9*57.001;CYP2C9*64;CYP2C9*64.001;CYP2C9*65;CYP2C9*65.001;CYP2C9*80;CYP2C9*80.001;CYP2C9*81;CYP2C9*81.001;CYP2C9*83;CYP2C9*83.001;CYP2C9*85;CYP2C9*85.001;CYP2C9*92;CYP2C9*92.001	deletion;substitution	T	C	96698007	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1057910	CYP2C9*18;CYP2C9*18.001;CYP2C9*3;CYP2C9*3.001;CYP2C9*3.002;CYP2C9*3.003;CYP2C9*68;CYP2C9*68.001	substitution	A	C	96741053	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1057911	CYP2C9*1.005;CYP2C9*1.011;CYP2C9*18.001;CYP2C9*3.001;CYP2C9*3.002;CYP2C9*3.003;CYP2C9*68.001	substitution	A	T	96748737	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs112053016	CYP2C9*1.007;CYP2C9*1.017	substitution	C	T	96697661	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs112218573	CYP2C9*1.007	substitution	C	T	96697759	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs112354725	CYP2C9*1.007	substitution	C	T	96748701	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs114071557	CYP2C9*36;CYP2C9*36.001;CYP2C9*36.002	substitution	A	G	96698440	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1216169538	CYP2C9*23;CYP2C9*23.001	substitution	G	A	96701672	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1237225311	CYP2C9*53;CYP2C9*53.001	substitution	C	T	96731990	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs12414460	CYP2C9*42;CYP2C9*42.001	substitution	G	A	96701988	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1250577724	CYP2C9*55;CYP2C9*55.001	substitution	C	A	96741059	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1254213342	CYP2C9*75;CYP2C9*75.001	substitution	A	C	96745893	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1274535931	CYP2C9*58;CYP2C9*58.001	substitution	C	A	96740987	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1289704600	CYP2C9*72;CYP2C9*72.001	substitution	C	T	96702063	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1295294399	CYP2C9*89;CYP2C9*89.001	substitution	A	C	96708946	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1297714792	CYP2C9*79;CYP2C9*79.001	substitution	C	T	96741015	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1304490498	CYP2C9*25;CYP2C9*25.001	deletion	AGAAATGGAA	-	96701970	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1326630788	CYP2C9*48;CYP2C9*48.001	substitution	T	C	96707674	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1364419386	CYP2C9*76;CYP2C9*76.001	substitution	G	A	96698557	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1375956433	CYP2C9*78;CYP2C9*78.001	substitution	T	G	96702000	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs141489852	CYP2C9*63;CYP2C9*63.001	substitution	G	A	96702048	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs142079687	CYP2C9*1.018	substitution	C	T	96702046	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs142240658	CYP2C9*21;CYP2C9*21.001	substitution	C	T	96698528	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1441296358	CYP2C9*84;CYP2C9*84.001	substitution	G	C	96745931	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs149158426	CYP2C9*1.015	substitution	C	T	96709023	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs17847037	CYP2C9*73;CYP2C9*73.001	substitution	C	T	96702065	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs1799853	CYP2C9*2;CYP2C9*2.001;CYP2C9*2.003;CYP2C9*2.004;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*35;CYP2C9*35.001;CYP2C9*61;CYP2C9*61.001;CYP2C9*61.002;CYP2C9*92;CYP2C9*92.001	substitution	C	T	96702047	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs182132442	CYP2C9*29;CYP2C9*29.001	substitution	C	A	96731876	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs185008625	CYP2C9*8.004	substitution	G	T	96697797	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs188901044	CYP2C9*2.006	substitution	T	C	96698014	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs199523631	CYP2C9*45;CYP2C9*45.001	substitution	C	T	96702011	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs199539783	CYP2C9*91;CYP2C9*91.001	substitution	C	G	96707574	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs200183364	CYP2C9*33;CYP2C9*33.001	substitution	G	A	96702012	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs200965026	CYP2C9*26;CYP2C9*26.001;CYP2C9*44;CYP2C9*44.001	substitution	C	G	96702006	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2017319	CYP2C9*1.009;CYP2C9*88.001	substitution	C	T	96748635	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs202201137	CYP2C9*61;CYP2C9*61.001;CYP2C9*61.002	substitution	A	G	96748682	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2031308986	CYP2C9*22;CYP2C9*22.001	substitution	A	G	96698560	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2031531005	CYP2C9*28;CYP2C9*28.001	substitution	A	T	96707695	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2256871	CYP2C9*9;CYP2C9*9.001	substitution	A	G	96708974	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2492587526	CYP2C9*69;CYP2C9*69.001	substitution	A	G	96707626	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2492591692	CYP2C9*50;CYP2C9*50.001	substitution	C	T	96708901	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2492634549	CYP2C9*51;CYP2C9*51.001	substitution	A	G	96731891	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2492650213	CYP2C9*17;CYP2C9*17.001	substitution	C	T	96741122	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2492662738	CYP2C9*59;CYP2C9*59.001	substitution	A	T	96748612	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2492662839	CYP2C9*70;CYP2C9*70.001	substitution	G	T	96748637	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs2493006942	CYP2C9*77;CYP2C9*77.001	substitution	G	A	96701732	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs28371685	CYP2C9*11;CYP2C9*11.001;CYP2C9*11.002	substitution	C	T	96740981	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs28371686	CYP2C9*36.002;CYP2C9*5;CYP2C9*5.001	substitution	C	G	96741058	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs367826293	CYP2C9*34;CYP2C9*34.001	substitution	G	A	96740982	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs369385517	CYP2C9*1.012	substitution	G	T	96698411	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs369745682	CYP2C9*86;CYP2C9*86.001	substitution	T	C	96708941	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs370100007	CYP2C9*74;CYP2C9*74.001	substitution	G	T	96707696	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs371055887	CYP2C9*20;CYP2C9*20.001	substitution	G	C	96701654	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs375805362	CYP2C9*62;CYP2C9*62.001	substitution	C	T	96701990	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs4917636	CYP2C9*2.001;CYP2C9*2.003;CYP2C9*2.004;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*61.001;CYP2C9*61.002;CYP2C9*92.001	substitution	A	G	96697344	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs4918758	CYP2C9*1.002;CYP2C9*1.006;CYP2C9*1.007;CYP2C9*1.010;CYP2C9*1.011;CYP2C9*1.012;CYP2C9*1.015;CYP2C9*1.016;CYP2C9*1.017;CYP2C9*11.002;CYP2C9*16.001;CYP2C9*18.001;CYP2C9*19.001;CYP2C9*2.001;CYP2C9*2.004;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*20.001;CYP2C9*26.001;CYP2C9*27.001;CYP2C9*3.002;CYP2C9*3.003;CYP2C9*36.002;CYP2C9*5.001;CYP2C9*6.001;CYP2C9*61.001;CYP2C9*61.002;CYP2C9*62.001;CYP2C9*67.001;CYP2C9*68.001;CYP2C9*69.001;CYP2C9*70.001;CYP2C9*71.001;CYP2C9*77.001;CYP2C9*8.001;CYP2C9*8.002;CYP2C9*8.003;CYP2C9*8.004;CYP2C9*8.005;CYP2C9*81.001;CYP2C9*92.001	substitution	T	C	96697252	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs5031019	CYP2C9*1.007	substitution	G	T	96702007	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs528228364	CYP2C9*1.011	substitution	G	A	96697361	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs530507053	CYP2C9*88;CYP2C9*88.001	substitution	C	T	96701997	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs532912394	CYP2C9*3.003	substitution	A	G	96697969	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs541636827	CYP2C9*1.007	substitution	G	A	96697930	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs542577750	CYP2C9*68;CYP2C9*68.001	substitution	G	A	96741128	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs546318684	CYP2C9*87;CYP2C9*87.001	substitution	A	C	96731951	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs56165452	CYP2C9*4;CYP2C9*4.001	substitution	T	C	96741054	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs564813580	CYP2C9*37;CYP2C9*37.001	substitution	A	G	96698585	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs57505750	CYP2C9*31;CYP2C9*31.001	substitution	T	C	96740958	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs578144976	CYP2C9*66;CYP2C9*66.001	substitution	C	G	96741062	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs61604699	CYP2C9*1.005;CYP2C9*1.007;CYP2C9*1.011;CYP2C9*18.001;CYP2C9*3.001;CYP2C9*3.002;CYP2C9*3.003;CYP2C9*68.001	substitution	G	A	96696903	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs67807361	CYP2C9*7;CYP2C9*7.001	substitution	C	A	96698494	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs72558187	CYP2C9*13;CYP2C9*13.001	substitution	T	C	96701715	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs72558189	CYP2C9*14;CYP2C9*14.001;CYP2C9*35;CYP2C9*35.001	substitution	G	A	96701991	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs72558190	CYP2C9*15;CYP2C9*15.001	substitution	C	A	96707539	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs72558192	CYP2C9*16;CYP2C9*16.001	substitution	A	G	96731936	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs72558193	CYP2C9*18;CYP2C9*18.001	substitution	A	C	96745830	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs749060448	CYP2C9*24;CYP2C9*24.001	substitution	G	A	96741038	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs750820937	CYP2C9*54;CYP2C9*54.001;CYP2C9*93;CYP2C9*93.001	substitution	C	A	96741007	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs754487195	CYP2C9*46;CYP2C9*46.001	substitution	G	A	96702062	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs761033063	CYP2C9*38;CYP2C9*38.001	substitution	G	C	96701733	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs762239445	CYP2C9*39;CYP2C9*39.001	substitution	G	T	96701739	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs764211126	CYP2C9*56;CYP2C9*56.001	substitution	A	G	96745799	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs767284820	CYP2C9*60;CYP2C9*60.001	substitution	T	C	96748712	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs767576260	CYP2C9*43;CYP2C9*43.001	substitution	C	T	96701987	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs769942899	CYP2C9*19;CYP2C9*19.001	substitution	G	C	96748674	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs771237265	CYP2C9*90;CYP2C9*90.001	substitution	A	C	96701960	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs772782449	CYP2C9*82;CYP2C9*82.001	substitution	C	T	96708902	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs774550549	CYP2C9*47;CYP2C9*47.001	substitution	C	T	96707542	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs774607211	CYP2C9*41;CYP2C9*41.001	substitution	A	G	96701973	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs776908257	CYP2C9*67;CYP2C9*67.001	substitution	C	T	96748609	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs781583846	CYP2C9*30;CYP2C9*30.001	substitution	G	A	96748741	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs7900194	CYP2C9*27;CYP2C9*27.001;CYP2C9*8;CYP2C9*8.001;CYP2C9*8.002;CYP2C9*8.003;CYP2C9*8.004;CYP2C9*8.005	substitution	G	A	96702066	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs868182778	CYP2C9*32;CYP2C9*32.001	substitution	G	T	96748780	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332094	CYP2C9*8.001;CYP2C9*8.002;CYP2C9*8.003;CYP2C9*8.004	substitution	T	C	96696674	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332095	CYP2C9*1.016	substitution	T	C	96696843	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332096	CYP2C9*1.006;CYP2C9*1.010;CYP2C9*1.016;CYP2C9*26.001;CYP2C9*62.001	substitution	C	T	96696875	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332098	CYP2C9*1.005;CYP2C9*1.011;CYP2C9*18.001;CYP2C9*3.001;CYP2C9*3.002;CYP2C9*3.003;CYP2C9*68.001	substitution	G	A	96697459	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332099	CYP2C9*1.008	deletion	T	-	96697807	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332100	CYP2C9*2.001;CYP2C9*2.003;CYP2C9*2.004;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*61.001;CYP2C9*61.002;CYP2C9*92.001	substitution	G	T	96697820	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332101	CYP2C9*2.001;CYP2C9*2.003;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*61.002;CYP2C9*92.001	substitution	T	A	96697955	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332102	CYP2C9*2.001;CYP2C9*2.003;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*61.002;CYP2C9*92.001	substitution	C	A	96697956	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332103	CYP2C9*1.010	substitution	T	C	96698065	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332130	CYP2C9*10;CYP2C9*10.001;CYP2C9*71;CYP2C9*71.001	substitution	A	G	96709037	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332131	CYP2C9*6;CYP2C9*6.001	deletion	A	-	96709040	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332239	CYP2C9*12;CYP2C9*12.001;CYP2C9*71;CYP2C9*71.001	substitution	C	T	96748777	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332240	CYP2C9*8.001;CYP2C9*8.002	substitution	C	T	96748852	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332241	CYP2C9*8.003;CYP2C9*8.004	substitution	C	T	96748873	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332242	CYP2C9*2.004;CYP2C9*2.005;CYP2C9*2.006;CYP2C9*92.001	substitution	C	G	96748893	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332243	CYP2C9*8.002	substitution	C	T	96748940	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs9332244	CYP2C9*1.014	substitution	A	G	96749005	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs988617574	CYP2C9*52;CYP2C9*52.001	substitution	C	G	96731937	unmapped	unclassified_in_clinvar	none
+CYP2C9	rs996190254	CYP2C9*94;CYP2C9*94.001	substitution	G	A	96709035	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11045818	SLCO1B1*14.002	substitution	G	A	21329761	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11045819	SLCO1B1*14;SLCO1B1*14.001;SLCO1B1*14.002;SLCO1B1*14.003;SLCO1B1*14.004;SLCO1B1*25;SLCO1B1*25.001;SLCO1B1*32;SLCO1B1*32.001;SLCO1B1*4;SLCO1B1*4.001;SLCO1B1*43;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*53;SLCO1B1*53.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*55;SLCO1B1*55.001	substitution	C	A	21329813	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11045852	SLCO1B1*24;SLCO1B1*24.001;SLCO1B1*25;SLCO1B1*25.001;SLCO1B1*28;SLCO1B1*28.001;SLCO1B1*32;SLCO1B1*32.001;SLCO1B1*33;SLCO1B1*33.001;SLCO1B1*43;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44;SLCO1B1*44.001;SLCO1B1*54;SLCO1B1*54.001	substitution	A	G	21349885	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11045853	SLCO1B1*25;SLCO1B1*25.001;SLCO1B1*28;SLCO1B1*28.001;SLCO1B1*33;SLCO1B1*33.001	substitution	G	A	21349910	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11045854	SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44.001;SLCO1B1*54.001	substitution	G	A	21350034	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11045859	SLCO1B1*27.001;SLCO1B1*27.002;SLCO1B1*37.009;SLCO1B1*37.010;SLCO1B1*42.001;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*54.001;SLCO1B1*55.001	substitution	G	A	21355537	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs113870212	SLCO1B1*37.010	substitution	T	G	21392142	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs11835045	SLCO1B1*1.005;SLCO1B1*20.002;SLCO1B1*30.001;SLCO1B1*31.003;SLCO1B1*37.004;SLCO1B1*37.005;SLCO1B1*37.006;SLCO1B1*37.009;SLCO1B1*37.010;SLCO1B1*41.002;SLCO1B1*42.001	substitution	T	C	21283819	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs1228465562	SLCO1B1*36;SLCO1B1*36.001	substitution	T	G	21355487	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs139257324	SLCO1B1*33;SLCO1B1*33.001	substitution	C	T	21325668	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs140730264	SLCO1B1*41.003	substitution	G	A	21329824	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs140790673	SLCO1B1*29;SLCO1B1*29.001	substitution	C	T	21392092	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs141467543	SLCO1B1*42;SLCO1B1*42.001	substitution	A	G	21331546	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs142965323	SLCO1B1*26;SLCO1B1*26.001	substitution	G	A	21355598	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs145144129	SLCO1B1*55;SLCO1B1*55.001	substitution	G	C	21329805	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs183501729	SLCO1B1*39;SLCO1B1*39.001	substitution	C	T	21349909	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs184715914	SLCO1B1*53.003	substitution	A	G	21284114	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs185905373	SLCO1B1*56;SLCO1B1*56.001	substitution	A	T	21294509	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs200331427	SLCO1B1*50;SLCO1B1*50.001	substitution	C	G	21331587	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs200994482	SLCO1B1*51;SLCO1B1*51.001	substitution	G	A	21377774	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs200995543	SLCO1B1*34;SLCO1B1*34.001	substitution	C	T	21392079	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs201556175	SLCO1B1*54.001	substitution	G	A	21377702	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs201722521	SLCO1B1*54;SLCO1B1*54.001	substitution	A	G	21331860	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs2121217938	SLCO1B1*31.001	substitution	G	C	21392324	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs2291075	SLCO1B1*1.004;SLCO1B1*14.002;SLCO1B1*14.003;SLCO1B1*14.004;SLCO1B1*15.001;SLCO1B1*15.002;SLCO1B1*16.001;SLCO1B1*20.001;SLCO1B1*20.002;SLCO1B1*27.002;SLCO1B1*29.001;SLCO1B1*30.001;SLCO1B1*30.002;SLCO1B1*31.001;SLCO1B1*31.002;SLCO1B1*31.003;SLCO1B1*37.002;SLCO1B1*37.003;SLCO1B1*37.004;SLCO1B1*37.006;SLCO1B1*37.009;SLCO1B1*37.010;SLCO1B1*37.011;SLCO1B1*39.001;SLCO1B1*40.001;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44.001;SLCO1B1*45.002;SLCO1B1*47.001;SLCO1B1*5.001;SLCO1B1*52.001;SLCO1B1*53.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*55.001;SLCO1B1*56.001;SLCO1B1*57.001;SLCO1B1*9.001	substitution	C	T	21331625	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs2306282	SLCO1B1*16;SLCO1B1*16.001;SLCO1B1*16.002	substitution	A	G	21329802	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs2306283	SLCO1B1*14;SLCO1B1*14.001;SLCO1B1*14.002;SLCO1B1*14.003;SLCO1B1*14.004;SLCO1B1*15;SLCO1B1*15.001;SLCO1B1*15.002;SLCO1B1*20;SLCO1B1*20.001;SLCO1B1*20.002;SLCO1B1*24;SLCO1B1*24.001;SLCO1B1*25;SLCO1B1*25.001;SLCO1B1*27;SLCO1B1*27.001;SLCO1B1*27.002;SLCO1B1*28;SLCO1B1*28.001;SLCO1B1*29;SLCO1B1*29.001;SLCO1B1*30;SLCO1B1*30.001;SLCO1B1*30.002;SLCO1B1*31;SLCO1B1*31.001;SLCO1B1*31.002;SLCO1B1*31.003;SLCO1B1*32;SLCO1B1*32.001;SLCO1B1*33;SLCO1B1*33.001;SLCO1B1*37;SLCO1B1*37.001;SLCO1B1*37.002;SLCO1B1*37.003;SLCO1B1*37.004;SLCO1B1*37.005;SLCO1B1*37.006;SLCO1B1*37.007;SLCO1B1*37.008;SLCO1B1*37.009;SLCO1B1*37.010;SLCO1B1*37.011;SLCO1B1*39;SLCO1B1*39.001;SLCO1B1*42;SLCO1B1*42.001;SLCO1B1*43;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44;SLCO1B1*44.001;SLCO1B1*45.002;SLCO1B1*47;SLCO1B1*47.001;SLCO1B1*52;SLCO1B1*52.001;SLCO1B1*53;SLCO1B1*53.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*54;SLCO1B1*54.001;SLCO1B1*55;SLCO1B1*55.001;SLCO1B1*56;SLCO1B1*56.001;SLCO1B1*57;SLCO1B1*57.001	substitution	A	G	21329738	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs34671512	SLCO1B1*19;SLCO1B1*19.001;SLCO1B1*19.002;SLCO1B1*20;SLCO1B1*20.001;SLCO1B1*20.002;SLCO1B1*40;SLCO1B1*40.001;SLCO1B1*54;SLCO1B1*54.001	substitution	A	C	21391976	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs373327528	SLCO1B1*23;SLCO1B1*23.001	substitution	G	A	21325710	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs4149056	SLCO1B1*15;SLCO1B1*15.001;SLCO1B1*15.002;SLCO1B1*40;SLCO1B1*40.001;SLCO1B1*45.002;SLCO1B1*47;SLCO1B1*47.001;SLCO1B1*5;SLCO1B1*5.001	substitution	T	C	21331549	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs4149057	SLCO1B1*1.002;SLCO1B1*1.003;SLCO1B1*1.006;SLCO1B1*14.002;SLCO1B1*14.004;SLCO1B1*16.002;SLCO1B1*19.001;SLCO1B1*27.001;SLCO1B1*37.008;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44.001;SLCO1B1*45.001;SLCO1B1*50.001;SLCO1B1*51.001;SLCO1B1*53.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*55.001;SLCO1B1*58.001	substitution	T	C	21331599	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs4149085	SLCO1B1*1.004;SLCO1B1*29.001;SLCO1B1*37.003;SLCO1B1*39.001;SLCO1B1*52.001;SLCO1B1*56.001	substitution	T	C	21392290	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs556524705	SLCO1B1*57;SLCO1B1*57.001	substitution	G	C	21325609	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs55737008	SLCO1B1*11;SLCO1B1*11.001	substitution	A	G	21392047	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs55901008	SLCO1B1*6;SLCO1B1*6.001	substitution	T	C	21353529	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs56101265	SLCO1B1*2;SLCO1B1*2.001	substitution	T	C	21325716	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs56199088	SLCO1B1*10;SLCO1B1*10.001	substitution	A	G	21392011	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs57040246	SLCO1B1*27.001;SLCO1B1*27.002;SLCO1B1*37.010;SLCO1B1*42.001;SLCO1B1*53.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*55.001	substitution	C	T	21353557	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs59113707	SLCO1B1*27;SLCO1B1*27.001;SLCO1B1*27.002;SLCO1B1*53;SLCO1B1*53.001;SLCO1B1*53.002;SLCO1B1*53.003;SLCO1B1*55;SLCO1B1*55.001	substitution	C	G	21355489	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs59502379	SLCO1B1*31;SLCO1B1*31.001;SLCO1B1*31.002;SLCO1B1*31.003;SLCO1B1*9;SLCO1B1*9.001	substitution	G	C	21358933	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs59710386	SLCO1B1*1.006;SLCO1B1*15.002	substitution	A	C	21284010	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs61760182	SLCO1B1*58;SLCO1B1*58.001	substitution	G	A	21325669	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs71581941	SLCO1B1*45;SLCO1B1*45.001;SLCO1B1*45.002	substitution	C	T	21375289	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs71581985	SLCO1B1*1.003	substitution	T	G	21392169	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs72559747	SLCO1B1*47;SLCO1B1*47.001	substitution	C	G	21353478	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs72559748	SLCO1B1*8;SLCO1B1*8.001	substitution	A	G	21358855	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs72655363	SLCO1B1*37.006;SLCO1B1*37.007;SLCO1B1*37.011	substitution	C	T	21392205	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs74064211	SLCO1B1*37.009;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44.001;SLCO1B1*54.001	substitution	C	T	21358922	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs74064213	SLCO1B1*43;SLCO1B1*43.001;SLCO1B1*43.002;SLCO1B1*44;SLCO1B1*44.001	substitution	A	G	21358965	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs74064260	SLCO1B1*43.002;SLCO1B1*44.001	substitution	G	C	21392244	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs756393362	SLCO1B1*52;SLCO1B1*52.001	substitution	G	A	21353607	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs77271279	SLCO1B1*41;SLCO1B1*41.001;SLCO1B1*41.002;SLCO1B1*41.003	substitution	G	T	21329832	unmapped	unclassified_in_clinvar	none
+SLCO1B1	rs79135870	SLCO1B1*30;SLCO1B1*30.001;SLCO1B1*30.002	substitution	A	G	21331891	unmapped	unclassified_in_clinvar	none
+VKORC1	rs37344	none		G	A	unmapped	31093557	drug_response	reviewed_by_expert_panel
+VKORC1	rs225960	none		G	A	unmapped	31094032	Benign	criteria_provided,_single_submitter
+VKORC1	rs225983	none		A	C	unmapped	31094233	drug_response	reviewed_by_expert_panel
+VKORC1	rs887602	none		C	A	unmapped	31094546	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs2209	none		T	C	unmapped	31094558	Pathogenic	no_assertion_criteria_provided
+VKORC1	rs3815040	none		G	C	unmapped	31094583	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs2208	none		A	G	unmapped	31094596	Pathogenic	no_assertion_criteria_provided
+VKORC1	rs791061	none		G	A	unmapped	31094601	Benign/Likely_benign	criteria_provided,_multiple_submitters,_no_conflicts
+VKORC1	rs884452	none		G	A	unmapped	31094613	Uncertain_significance	criteria_provided,_multiple_submitters,_no_conflicts
+VKORC1	rs3188665	none		C	G	unmapped	31094618	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs2212	none		C	A	unmapped	31094624	drug_response	reviewed_by_expert_panel
+VKORC1	rs4883285	none		G	C	unmapped	31094627	Uncertain_significance	no_assertion_criteria_provided
+VKORC1	rs2207	none		C	A	unmapped	31094645	Pathogenic	no_assertion_criteria_provided
+VKORC1	rs2646468	none		G	A	unmapped	31094666	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs884453	none		C	A	unmapped	31094676	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs2619219	none		C	T	unmapped	31094690	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs2629952	none		C	A	unmapped	31094694	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs318977	none		C	T	unmapped	31094694	Benign	criteria_provided,_multiple_submitters,_no_conflicts
+VKORC1	rs3188666	none		C	G	unmapped	31094716	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs283736	none		C	T	unmapped	31094727	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs884454	none		A	G	unmapped	31094731	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs884455	none		C	T	unmapped	31094774	Uncertain_significance	criteria_provided,_single_submitter
+VKORC1	rs60671	none		A	AC	unmapped	31096316	drug_response	no_assertion_criteria_provided
+VKORC1	rs166563	none		C	.	unmapped	31096368	drug_response	no_assertion_criteria_provided
+VKORC1	rs2211	none		C	T	unmapped	31096368	drug_response	reviewed_by_expert_panel
+CYP4F2	rs3038214	none		G	C	unmapped	15878940	Benign	no_assertion_criteria_provided
+CYP4F2	rs4435406	none		T	C	unmapped	15879301	not_specified	not_specified
+CYP4F2	rs4237070	none		C	T	unmapped	15879353	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4435408	none		C	T	unmapped	15879357	not_specified	not_specified
+CYP4F2	rs2356937	none		C	T	unmapped	15879401	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs225969	none		C	T	unmapped	15879621	drug_response	reviewed_by_expert_panel
+CYP4F2	rs4009012	none		G	A	unmapped	15879623	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4237065	none		C	T	unmapped	15879650	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs634565	none		C	A	unmapped	15879668	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3049482	none		G	A	unmapped	15879771	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs4009011	none		A	T	unmapped	15879808	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4009007	none		T	C	unmapped	15879811	Likely_benign	criteria_provided,_single_submitter
+CYP4F2	rs4658190	none		C	A	unmapped	15879879	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3499343	none		A	C	unmapped	15879882	Likely_benign	criteria_provided,_single_submitter
+CYP4F2	rs735081	none		C	T	unmapped	15879888	Benign	criteria_provided,_single_submitter
+CYP4F2	rs4009006	none		C	T	unmapped	15879893	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3079710	none		C	A	unmapped	15879897	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4435409	none		A	C	unmapped	15880051	not_specified	not_specified
+CYP4F2	rs771214	none		C	T	unmapped	15885914	Benign	criteria_provided,_multiple_submitters,_no_conflicts
+CYP4F2	rs2207488	none		G	A	unmapped	15885946	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3052749	none		G	A	unmapped	15885947	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs4237069	none		C	T	unmapped	15885967	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2206252	none		C	T	unmapped	15885985	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3056285	none		G	A	unmapped	15886010	Benign	no_assertion_criteria_provided
+CYP4F2	rs771928	none		G	C	unmapped	15886018	Benign	criteria_provided,_multiple_submitters,_no_conflicts
+CYP4F2	rs2324372	none		A	G	unmapped	15886024	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4435413	none		G	A	unmapped	15886038	not_specified	not_specified
+CYP4F2	rs4658193	none		C	T	unmapped	15886040	Likely_benign	criteria_provided,_single_submitter
+CYP4F2	rs2385383	none		G	A	unmapped	15886041	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4009009	none		C	T	unmapped	15886048	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4237073	none		A	T	unmapped	15886253	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3837980	none		G	A	unmapped	15886256	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3079717	none		C	A	unmapped	15886271	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2479909	none		C	T	unmapped	15886281	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3270679	none		G	A	unmapped	15886300	Likely_benign	criteria_provided,_single_submitter
+CYP4F2	rs3033266	none		A	C	unmapped	15886317	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs4009013	none		T	G	unmapped	15889425	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4237074	none		A	G	unmapped	15889445	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3270676	none		T	G	unmapped	15889473	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3499342	none		C	A	unmapped	15889496	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3837977	none		C	T	unmapped	15889502	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs714779	none		A	G	unmapped	15889510	Likely_benign	criteria_provided,_single_submitter
+CYP4F2	rs3499339	none		T	C	unmapped	15889512	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3352691	none		G	A	unmapped	15889516	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs3079716	none		T	C	unmapped	15889547	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4237068	none		C	T	unmapped	15889548	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3048385	none		G	A	unmapped	15889549	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs4658191	none		G	A	unmapped	15889560	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2480060	none		G	A	unmapped	15889578	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4658194	none		C	G	unmapped	15889611	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3837979	none		T	C	unmapped	15889616	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3079715	none		T	C	unmapped	15889628	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3837978	none		G	C	unmapped	15889650	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3499336	none		C	A	unmapped	15889671	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3837976	none		T	A	unmapped	15889677	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs634566	none		G	T	unmapped	15889700	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications
+CYP4F2	rs4435414	none		T	C	unmapped	15890308	not_specified	not_specified
+CYP4F2	rs4658195	none		G	T	unmapped	15890323	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3055377	none		C	A	unmapped	15890405	Benign	no_assertion_criteria_provided
+CYP4F2	rs3837973	none		C	T	unmapped	15890415	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2483954	none		T	G	unmapped	15892314	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4237066	none		A	G	unmapped	15892316	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4237072	none		C	G	unmapped	15892329	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3499345	none		A	T	unmapped	15892343	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2515871	none		G	A	unmapped	15892373	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2271347	none		G	T	unmapped	15892377	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3079714	none		G	A	unmapped	15892389	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3837974	none		G	A	unmapped	15892398	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3499338	none		G	A	unmapped	15892415	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2540443	none		C	A	unmapped	15892534	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2357571	none		C	T	unmapped	15892541	Likely_benign	criteria_provided,_single_submitter
+CYP4F2	rs3499344	none		G	T	unmapped	15892563	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2515727	none		C	A	unmapped	15892566	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2337286	none		G	A	unmapped	15892573	Uncertain_significance	criteria_provided,_multiple_submitters,_no_conflicts
+CYP4F2	rs714780	none		G	C	unmapped	15892578	Benign	criteria_provided,_multiple_submitters,_no_conflicts
+CYP4F2	rs4869579	none		C	T	unmapped	15892580	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4435416	none		A	T	unmapped	15892600	not_specified	not_specified
+CYP4F2	rs3040636	none		T	C	unmapped	15895500	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs3055271	none		G	A	unmapped	15895513	Benign	no_assertion_criteria_provided
+CYP4F2	rs2371357	none		C	A	unmapped	15895536	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3055346	none		T	G	unmapped	15895570	Benign	no_assertion_criteria_provided
+CYP4F2	rs3270677	none		T	C	unmapped	15895575	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2344259	none		T	C	unmapped	15895584	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3060160	none		G	A	unmapped	15895603	Benign	no_assertion_criteria_provided
+CYP4F2	rs3044148	none		C	A	unmapped	15895609	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs2606567	none		C	T	unmapped	15897442	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3060298	none		T	C	unmapped	15897447	Benign	no_assertion_criteria_provided
+CYP4F2	rs4009010	none		G	A	unmapped	15897448	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4435417	none		C	T	unmapped	15897466	not_specified	not_specified
+CYP4F2	rs3079711	none		G	A	unmapped	15897476	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4009005	none		C	T	unmapped	15897478	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs4658189	none		C	A	unmapped	15897494	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3044144	none		A	G	unmapped	15897513	Likely_benign	no_assertion_criteria_provided
+CYP4F2	rs4237064	none		A	T	unmapped	15897513	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs2541473	none		G	T	unmapped	15897542	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3499341	none		C	G	unmapped	15897556	Uncertain_significance	criteria_provided,_single_submitter
+CYP4F2	rs3052405	none		C	G	unmapped	15897566	Benign	no_assertion_criteria_provided
+ABCG2	rs4308948	none		C	A	unmapped	88091063	not_specified	not_specified
+ABCG2	rs3129639	none		T	C	unmapped	88092241	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3129633	none		A	G	unmapped	88092254	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4636266	none		T	C	unmapped	88092268	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2224669	none		C	T	unmapped	88092311	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2310874	none		G	A	unmapped	88094620	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308949	none		T	A	unmapped	88094629	not_specified	not_specified
+ABCG2	rs4308950	none		C	T	unmapped	88094660	not_specified	not_specified
+ABCG2	rs4144633	none		G	A	unmapped	88095521	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4144541	none		C	T	unmapped	88095533	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3412804	none		T	A	unmapped	88097455	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4636267	none		T	C	unmapped	88097473	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3041649	none		C	T	unmapped	88097518	Likely_benign	no_assertion_criteria_provided
+ABCG2	rs3129624	none		T	A	unmapped	88097533	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2337768	none		A	G	unmapped	88097559	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3412715	none		G	C	unmapped	88097563	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3129615	none		G	C	unmapped	88097565	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3992260	none		A	C	unmapped	88097581	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3992281	none		G	C	unmapped	88097586	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3129609	none		G	T	unmapped	88099363	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3412894	none		A	T	unmapped	88099374	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308951	none		C	A	unmapped	88099449	not_specified	not_specified
+ABCG2	rs3308591	none		A	G	unmapped	88101251	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4144806	none		C	A	unmapped	88101264	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2531314	none		T	C	unmapped	88101287	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs1239257	none		C	T	unmapped	88104957	Benign	criteria_provided,_single_submitter
+ABCG2	rs1267736	none		A	C	unmapped	88105276	Benign	criteria_provided,_single_submitter
+ABCG2	rs2319477	none		C	A	unmapped	88107206	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4144727	none		C	T	unmapped	88107217	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4636269	none		C	G	unmapped	88107239	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3129600	none		T	A	unmapped	88107266	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308954	none		T	C	unmapped	88107268	not_specified	not_specified
+ABCG2	rs1265403	none		A	C	unmapped	88108100	Benign	criteria_provided,_single_submitter
+ABCG2	rs2467211	none		T	C	unmapped	88113319	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2267114	none		A	G	unmapped	88113362	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3308701	none		G	T	unmapped	88113382	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs30384	none		GGT	G	unmapped	88113384	Affects	no_assertion_criteria_provided
+ABCG2	rs3044880	none		C	T	unmapped	88113437	Likely_benign	no_assertion_criteria_provided
+ABCG2	rs3129659	none		C	A	unmapped	88113525	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3992271	none		T	C	unmapped	88114965	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2475371	none		A	G	unmapped	88114996	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs2316403	none		G	C	unmapped	88115031	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3129652	none		G	T	unmapped	88115033	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4288810	none		CA	C	unmapped	88115077	not_specified	not_specified
+ABCG2	rs4308955	none		C	T	unmapped	88118104	not_specified	not_specified
+ABCG2	rs3057392	none		T	C	unmapped	88118106	Likely_benign	no_assertion_criteria_provided
+ABCG2	rs981814	none		C	T	unmapped	88118148	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs30388	none		TAA	T	unmapped	88118157	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications
+ABCG2	rs2395034	none		A	C	unmapped	88118159	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308956	none		C	A	unmapped	88118172	not_specified	not_specified
+ABCG2	rs3129645	none		G	T	unmapped	88118185	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308957	none		C	A	unmapped	88118190	not_specified	not_specified
+ABCG2	rs4308958	none		T	A	unmapped	88118199	not_specified	not_specified
+ABCG2	rs30383	none		G	A	unmapped	88118214	Affects	no_assertion_criteria_provided
+ABCG2	rs3413062	none		A	T	unmapped	88118231	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs30387	none		G	A	unmapped	88118244	association	no_assertion_criteria_provided
+ABCG2	rs4308959	none		T	C	unmapped	88118432	not_specified	not_specified
+ABCG2	rs4862374	none		A	G	unmapped	88121672	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs3992289	none		A	G	unmapped	88121711	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4636268	none		C	G	unmapped	88121770	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308961	none		T	C	unmapped	88130964	not_specified	not_specified
+ABCG2	rs3129641	none		G	C	unmapped	88131143	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs30389	none		G	T	unmapped	88131171	drug_response	reviewed_by_expert_panel
+ABCG2	rs522888	none		TA	T	unmapped	88131172	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs1737464	none		C	T	unmapped	88131187	Likely_benign	criteria_provided,_single_submitter
+ABCG2	rs30385	none		G	A	unmapped	88131805	association	no_assertion_criteria_provided
+ABCG2	rs787808	none		G	A	unmapped	88131812	Benign	criteria_provided,_multiple_submitters,_no_conflicts
+ABCG2	rs4144902	none		G	C	unmapped	88131886	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs4308962	none		C	A	unmapped	88131918	not_specified	not_specified
+ABCG2	rs3059818	none		T	C	unmapped	88132566	Benign	no_assertion_criteria_provided
+ABCG2	rs4308963	none		C	A	unmapped	88132600	not_specified	not_specified
+ABCG2	rs4533545	none		T	C	unmapped	88132628	Likely_benign	criteria_provided,_single_submitter
+ABCG2	rs3412991	none		T	A	unmapped	88132631	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs782442	none		G	A	unmapped	88132638	Benign	criteria_provided,_single_submitter
+ABCG2	rs2284990	none		A	C	unmapped	88139881	Uncertain_significance	criteria_provided,_single_submitter
+ABCG2	rs30386	none		C	T	unmapped	88139962	Likely_benign|Affects|association	no_assertion_criteria_provided
+ABCG2	rs4308965	none		T	A	unmapped	88139997	not_specified	not_specified
+ABCG2	rs1236609	none		A	C	unmapped	88152045	Benign	criteria_provided,_single_submitter
+ABCG2	rs4308966	none		G	C	unmapped	88158580	not_specified	not_specified

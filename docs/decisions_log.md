@@ -127,3 +127,5 @@ The primary framing will remain hypothesis-generating.
 3. Record supervisor approval where required.
 4. Do not change downstream analyses without checking whether an earlier decision has been affected.
 5. If a decision becomes scientifically invalid, stop and discuss it rather than silently modifying the workflow.
+
+| Week 3 Variant Harmonization | resolved | Week 3 | Dual-key mapping (PharmVar rsID + genomic positions) implemented to integrate star-allele definitions across GRCh37/GRCh38 builds |
