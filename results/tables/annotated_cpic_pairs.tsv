@@ -1,0 +1,41 @@
+pairid	drugid	drugname	genesymbol	guidelinename	guidelineurl	cpiclevel	clinpgxlevel	pgxtesting	pmids	usedforrecommendation	provisional
+110080	RxNorm:704	amitriptyline	CYP2C19	CYP2D6, CYP2C19 and Tricyclic Antidepressants	https://www.clinpgx.org/guideline/PA166251445	A	1A		['23486447', '27997040']	Yes	False
+110186	RxNorm:3638	doxepin	CYP2C19	CYP2D6, CYP2C19 and Tricyclic Antidepressants	https://www.clinpgx.org/guideline/PA166251445	B	1A	Informative PGx	['23486447', '27997040']	Yes	False
+110180	RxNorm:2597	clomipramine	CYP2C19	CYP2D6, CYP2C19 and Tricyclic Antidepressants	https://www.clinpgx.org/guideline/PA166251445	B	1A		['23486447', '27997040']	Yes	False
+110223	RxNorm:10834	trimipramine	CYP2C19	CYP2D6, CYP2C19 and Tricyclic Antidepressants	https://www.clinpgx.org/guideline/PA166251445	B	1A		['23486447', '27997040']	Yes	False
+110194	RxNorm:5691	imipramine	CYP2C19	CYP2D6, CYP2C19 and Tricyclic Antidepressants	https://www.clinpgx.org/guideline/PA166251445	B	1A		['23486447', '27997040']	Yes	False
+110098	RxNorm:321988	escitalopram	CYP2C19	CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants	https://www.clinpgx.org/guideline/PA166251452	A	1A	Informative PGx	['25974703', '37032427']	Yes	False
+110173	RxNorm:1739745	brivaracetam	CYP2C19			B	3	Actionable PGx		n/a	True
+110216	RxNorm:36437	sertraline	CYP2C19	CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants	https://www.clinpgx.org/guideline/PA166251452	A	1A		['25974703', '37032427']	Yes	False
+110121	RxNorm:40790	pantoprazole	CYP2C19	CYP2C19 and Proton Pump Inhibitors	https://www.clinpgx.org/guideline/PA166251441	A	1A	Actionable PGx	['32770672']	Yes	False
+110184	RxNorm:816346	dexlansoprazole	CYP2C19	CYP2C19 and Proton Pump Inhibitors	https://www.clinpgx.org/guideline/PA166251441	B	1A	Informative PGx	['32770672']	Yes	False
+110147	RxNorm:121243	voriconazole	CYP2C19	CYP2C19 and Voriconazole	https://www.clinpgx.org/guideline/PA166251456	A	1A	Informative PGx	['27981572']	Yes	False
+110091	RxNorm:32968	clopidogrel	CYP2C19	CYP2C19 and Clopidogrel	https://www.clinpgx.org/guideline/PA166251443	A	1A	Actionable PGx	['21716271', '23698643', '35034351']	Yes	False
+110110	RxNorm:17128	lansoprazole	CYP2C19	CYP2C19 and Proton Pump Inhibitors	https://www.clinpgx.org/guideline/PA166251441	A	1A	Informative PGx	['32770672']	Yes	False
+110118	RxNorm:7646	omeprazole	CYP2C19	CYP2C19 and Proton Pump Inhibitors	https://www.clinpgx.org/guideline/PA166251441	A	1A	Informative PGx	['32770672']	Yes	False
+110090	RxNorm:2556	citalopram	CYP2C19	CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants	https://www.clinpgx.org/guideline/PA166251452	A	1A	Actionable PGx	['25974703', '37032427']	Yes	False
+110067	RxNorm:41493	meloxicam	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A	Informative PGx	['32189324']	Yes	False
+110101	RxNorm:72236	fosphenytoin	CYP2C9	CYP2C9, HLA-B and Phenytoin	https://www.clinpgx.org/guideline/PA166251461	A		Actionable PGx	['25099164', '32779747']	Yes	False
+110148	RxNorm:11289	warfarin	CYP2C9	CYP2C9, VKORC1, CYP4F2 and Warfarin	https://www.clinpgx.org/guideline/PA166251465	A	1A	Actionable PGx	['21900891', '28198005']	Yes	False
+110065	RxNorm:20890	lornoxicam	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A		['32189324']	Yes	False
+1556302	RxNorm:41127	fluvastatin	CYP2C9	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
+110127	RxNorm:8183	phenytoin	CYP2C9	CYP2C9, HLA-B and Phenytoin	https://www.clinpgx.org/guideline/PA166251461	A	1A	Actionable PGx	['25099164', '32779747']	Yes	False
+110071	RxNorm:8356	piroxicam	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A	Actionable PGx	['32189324']	Yes	False
+110089	RxNorm:140587	celecoxib	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A	Actionable PGx	['32189324']	Yes	False
+110136	RxNorm:2121085	siponimod	CYP2C9			A	1A	Testing Required		n/a	True
+110063	RxNorm:5640	ibuprofen	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A		['32189324']	Yes	False
+110100	RxNorm:4502	flurbiprofen	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A	Actionable PGx	['32189324']	Yes	False
+110169	RxNorm:154	acenocoumarol	CYP2C9			B	1B			n/a	True
+110072	RxNorm:37790	tenoxicam	CYP2C9	CYP2C9 and NSAIDs	https://www.clinpgx.org/guideline/PA166251464	A	1A		['32189324']	Yes	False
+110150	RxNorm:11289	warfarin	VKORC1	CYP2C9, VKORC1, CYP4F2 and Warfarin	https://www.clinpgx.org/guideline/PA166251465	A	1A	Actionable PGx	['21900891', '28198005']	Yes	False
+110149	RxNorm:11289	warfarin	CYP4F2	CYP2C9, VKORC1, CYP4F2 and Warfarin	https://www.clinpgx.org/guideline/PA166251465	A	1A		['21900891', '28198005']	Yes	False
+110209	RxNorm:8150	phenprocoumon	CYP4F2			B	3			n/a	True
+110170	RxNorm:154	acenocoumarol	CYP4F2			B	2A			n/a	True
+1556301	RxNorm:41127	fluvastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
+1556298	RxNorm:861634	pitavastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
+1556300	RxNorm:6472	lovastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
+110391	RxNorm:301542	rosuvastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A	Informative PGx	['35152405']	Yes	False
+110135	RxNorm:36567	simvastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['22617227', '24918167', '35152405']	Yes	False
+110381	RxNorm:42463	pravastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
+1556299	RxNorm:83367	atorvastatin	SLCO1B1	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
+110215	RxNorm:301542	rosuvastatin	ABCG2	SLCO1B1, ABCG2, CYP2C9, and Statins	https://www.clinpgx.org/guideline/PA166264281	A	1A		['35152405']	Yes	False
