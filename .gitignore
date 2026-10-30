@@ -17,3 +17,4 @@ __pycache__/
 
 # SQLite Database Builds
 data/database/*.db
+*:Zone.Identifier
