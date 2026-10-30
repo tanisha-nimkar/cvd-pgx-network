@@ -1,0 +1,7 @@
+gene_symbol,total_variants,vep_annotated,high_impact,moderate_impact,vus_count,pathogenic_count
+ABCG2,79,79,11,52,44,0
+CYP2C19,101,101,5,47,0,0
+CYP2C9,110,110,5,73,0,0
+CYP4F2,97,97,0,71,62,0
+SLCO1B1,53,53,6,29,0,0
+VKORC1,25,24,1,10,13,3
