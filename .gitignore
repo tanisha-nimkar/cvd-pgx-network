@@ -18,3 +18,4 @@ __pycache__/
 # SQLite Database Builds
 data/database/*.db
 *:Zone.Identifier
+data/processed/ensembl_pop_cache*.json
