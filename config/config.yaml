@@ -7,9 +7,11 @@ score_weights:
   network_centrality: 0.25
   disease_proximity: 0.25
 gene_panel:
-  - CYP2C19
-  - CYP2C9
-  - VKORC1
-  - CYP4F2
-  - SLCO1B1
-  - ABCG2
+- CYP2C19
+- CYP2C9
+- VKORC1
+- CYP4F2
+- SLCO1B1
+- ABCG2
+string_species: 9606
+string_network_type: functional

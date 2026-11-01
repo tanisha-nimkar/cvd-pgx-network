@@ -2,6 +2,7 @@ name: cvd-pgx
 channels:
   - conda-forge
 dependencies:
+  - networkx=3.6.1
   - scipy=1.17.1
   - matplotlib=3.11.2
   - python=3.11
