@@ -97,3 +97,7 @@ Confirm that the manuscript remains hypothesis-generating and does not make clin
 ## General Rule
 
 If a result requires a scientific interpretation that could materially change the project's methodology or claims, pause and discuss it with the supervisor rather than making an unrecorded decision.
+
+## Week 6 Statistical Methodology Review
+1. **Z-test vs. Fisher's Exact Priority**: The technical implementation applied two-proportion z-test when min expected count >= 5 and Fisher's exact when min expected count < 5. Confirm whether Fisher's exact is preferred as the primary test for all comparisons.
+2. **IndiGenomes vs. gnomAD Fallback**: Confirm formal acceptance of gnomAD South Asian data alongside 1000 Genomes strata as the population frequency baseline in lieu of direct IndiGenomes API access.

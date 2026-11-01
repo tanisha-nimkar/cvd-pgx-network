@@ -58,3 +58,20 @@
 | annotated_clinvar_variants.tsv | v1.0 | 2026-09-17 | results/tables/ | Extracted pathogenic/classified variants from ClinVar VCFs |
 
 | master_variant_annotations.tsv | v1.0 | 2026-09-17 | results/tables/ | Unified table linking PharmVar star-alleles, ClinVar clinical annotations, and panel loci |
+
+## Week 6 — Frequency Statistics
+| Field | Value |
+|---|---|
+| Input | `data/processed/population_frequencies_raw.csv`, sha256 `102e2ebab6431779a55820cc6b80fa0a410d9a419dbd39d40ead3a14ca5b3892`, build GRCh38 |
+| Population sources/releases | 1000Genomes Phase 3 (GIH, PJL, BEB, STU, ITU), gnomAD v2/v3 (gnomAD_SAS, NFE) |
+| Target populations | GIH, PJL, BEB, STU, ITU, gnomAD_SAS |
+| Valid comparisons (m) / untested | 688 / 2,102 (1,976 missing target counts, 126 missing reference counts) |
+| Test selection | Two-proportion z-test primary if min expected count >= 5 (N=262), else Fisher's exact primary (N=426); Fisher secondary where z-test run |
+| Low-power definition | Individuals < 20 (sample_n basis or AN/2); sparse_counts_flag = not z_eligible |
+| Odds Ratio | Conditional MLE, target-vs-NFE, exact conditional 95% CI; no pseudocount; sample OR recorded descriptively |
+| Multiple testing | Benjamini-Hochberg (BH) + Bonferroni over single family (m=688); alpha = 0.05 |
+| Software | scipy 1.17.1, matplotlib 3.11.2, numpy, pandas |
+| Output table | `results/tables/population_frequencies.csv` |
+| Draft figure | `figures/fig2_freq_comparison.png` (DRAFT) — 6-panel allele frequency comparison across panel genes comparing South Asian cohorts against NFE reference |
+| QC results | 688 tested comparisons; 248 BH-significant; 168 Bonferroni-significant; Direction consistency: 100% |
+| Known limitations | Allele-count tests assume independent alleles; small 1kGP subpopulation sizes; frequencies integrated across differing sequencing/calling platforms |
