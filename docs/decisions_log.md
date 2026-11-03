@@ -133,3 +133,16 @@ The primary framing will remain hypothesis-generating.
 Week 3 Execution — Variant Harmonization & Star-Allele MappingStatus: Resolved & Executed (2026-09-17)Scope Definition: Applied Part IV variant annotation logic. Clarified that Week 3 performs variant star-allele definition annotation using PharmVar tables rather than individual diplotype calling, as individual genotype callsets are excluded by design.   Coordinate Mapping Strategy: Implemented dual-key mapping using authoritative genomic positions (GRCh38:chrom:pos:ref:alt) and normalized rsID anchors to reconcile PharmVar RefSeq/GRCh37 definitions with ClinVar GRCh38 coordinates.   Key Artifact: results/tables/master_variant_annotations.tsv (N = 465 unified variants), anchoring core star alleles (CYP2C19*2, CYP2C9*2, SLCO1B1*5) with CPIC recommendation levels and ClinVar clinical significance.Week 4 Execution — Functional Consequence Annotation (In Progress)Status: Active (2026-10-06)VEP Protocol: Configured Ensembl VEP (Web, GRCh38.p14) with strict exclusion of population frequencies to avoid contaminating Week 5's dedicated population stratification pipeline.   Identifier Preservation: Populated VCF Column 3 with unique variant_key strings to guarantee lossless back-mapping of transcript consequences.   Baseline Preservation: Candidate baseline locked at N_week3 = 465.
 ## Decision — Week 6 Execution
 Week 6 executed the locked statistical methodology. No new scientific decision. Implementation rules (min_expected >= 5 z-eligibility, N interpreted as individuals, conditional OR) are technical and flagged for supervisor review.
+
+## Decision — Week 7 STRING Network Parameters & Sign-off Record
+date_of_discussion: pending
+supervisor: pending
+confidence_threshold: 700 (0.700)
+text_mining_exclusion_rule: tscore > 0 and max(non-text channels) == 0 excluded
+network_version_or_checksum: 33bcd28abc5583d264ebda841b09cdba2364ceeccd5d4d63b5a6501b068c8b23
+number_of_nodes: 135
+number_of_edges: 225
+isolated_panel_genes: None (CYP2C9: 89, CYP2C19: 53, SLCO1B1: 29, CYP4F2: 28, ABCG2: 20, VKORC1: 14)
+decision: pending
+conditions_or_comments: Network constructed and held provisional until formal supervisor sign-off meeting.
+formal_approval_status: pending

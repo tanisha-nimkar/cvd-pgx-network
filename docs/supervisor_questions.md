@@ -101,3 +101,9 @@ If a result requires a scientific interpretation that could materially change th
 ## Week 6 Statistical Methodology Review
 1. **Z-test vs. Fisher's Exact Priority**: The technical implementation applied two-proportion z-test when min expected count >= 5 and Fisher's exact when min expected count < 5. Confirm whether Fisher's exact is preferred as the primary test for all comparisons.
 2. **IndiGenomes vs. gnomAD Fallback**: Confirm formal acceptance of gnomAD South Asian data alongside 1000 Genomes strata as the population frequency baseline in lieu of direct IndiGenomes API access.
+
+## Week 7 STRING Network Sign-Off Checkpoints
+1. **Confidence Threshold & Text-Mining Filter**: Formal sign-off on combined score >= 0.700 with exclusion of text-mining-only edges (22 edges excluded).
+2. **Network Type**: Confirm functional (default) vs. physical interactome mode.
+3. **Edge Scope**: Confirm whether to evaluate seed-to-partner edges only (current 225 edges) or query edges among interactors within the 135-node set.
+4. **Disease Proximity Network**: For Week 9 shortest path analysis, evaluate whether to map disease modules onto this 135-node ego-network or an expanded background network.

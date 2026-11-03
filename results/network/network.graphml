@@ -1,0 +1,4124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d21" for="edge" attr.name="string_version" attr.type="string"/>
+<key id="d20" for="edge" attr.name="source" attr.type="string"/>
+<key id="d19" for="edge" attr.name="max_non_text_score" attr.type="double"/>
+<key id="d18" for="edge" attr.name="text_mining_contribution" attr.type="boolean"/>
+<key id="d17" for="edge" attr.name="tscore" attr.type="double"/>
+<key id="d16" for="edge" attr.name="dscore" attr.type="double"/>
+<key id="d15" for="edge" attr.name="escore" attr.type="double"/>
+<key id="d14" for="edge" attr.name="ascore" attr.type="double"/>
+<key id="d13" for="edge" attr.name="pscore" attr.type="double"/>
+<key id="d12" for="edge" attr.name="fscore" attr.type="double"/>
+<key id="d11" for="edge" attr.name="nscore" attr.type="double"/>
+<key id="d10" for="edge" attr.name="combined_score" attr.type="double"/>
+<key id="d9" for="node" attr.name="isolated" attr.type="boolean"/>
+<key id="d8" for="node" attr.name="seed_genes" attr.type="string"/>
+<key id="d7" for="node" attr.name="node_role" attr.type="string"/>
+<key id="d6" for="node" attr.name="string_id" attr.type="string"/>
+<key id="d5" for="node" attr.name="gene_symbol" attr.type="string"/>
+<key id="d4" for="graph" attr.name="network_type" attr.type="string"/>
+<key id="d3" for="graph" attr.name="species" attr.type="string"/>
+<key id="d2" for="graph" attr.name="threshold" attr.type="double"/>
+<key id="d1" for="graph" attr.name="access_date" attr.type="string"/>
+<key id="d0" for="graph" attr.name="string_version" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">12.5</data>
+<data key="d1">2026-11-04</data>
+<data key="d2">0.7</data>
+<data key="d3">9606</data>
+<data key="d4">functional</data>
+<node id="9606.ENSP00000360372">
+  <data key="d5">CYP2C19</data>
+  <data key="d6">9606.ENSP00000360372</data>
+  <data key="d7">panel_gene</data>
+  <data key="d8">CYP2C19</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000260682">
+  <data key="d5">CYP2C9</data>
+  <data key="d6">9606.ENSP00000260682</data>
+  <data key="d7">panel_gene</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000378426">
+  <data key="d5">VKORC1</data>
+  <data key="d6">9606.ENSP00000378426</data>
+  <data key="d7">panel_gene</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000221700">
+  <data key="d5">CYP4F2</data>
+  <data key="d6">9606.ENSP00000221700</data>
+  <data key="d7">panel_gene</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000256958">
+  <data key="d5">SLCO1B1</data>
+  <data key="d6">9606.ENSP00000256958</data>
+  <data key="d7">panel_gene</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000498246">
+  <data key="d5">ABCG2</data>
+  <data key="d6">9606.ENSP00000498246</data>
+  <data key="d7">panel_gene</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000285979">
+  <data key="d5">CYP2C18</data>
+  <data key="d6">9606.ENSP00000285979</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000498939">
+  <data key="d5">CYP3A4</data>
+  <data key="d6">9606.ENSP00000498939</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2;CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000360317">
+  <data key="d5">CYP2C8</data>
+  <data key="d6">9606.ENSP00000360317</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2;SLCO1B1;VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000260970">
+  <data key="d5">PPIG</data>
+  <data key="d6">9606.ENSP00000260970</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000222982">
+  <data key="d5">CYP3A5</data>
+  <data key="d6">9606.ENSP00000222982</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000342007">
+  <data key="d5">CYP1A2</data>
+  <data key="d6">9606.ENSP00000342007</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000480004">
+  <data key="d5">EPHX1</data>
+  <data key="d6">9606.ENSP00000480004</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000496150">
+  <data key="d5">CYP2D6</data>
+  <data key="d6">9606.ENSP00000496150</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1;VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000221307">
+  <data key="d5">CYP4F3</data>
+  <data key="d6">9606.ENSP00000221307</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000340684">
+  <data key="d5">MAOA</data>
+  <data key="d6">9606.ENSP00000340684</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000367309">
+  <data key="d5">MAOB</data>
+  <data key="d6">9606.ENSP00000367309</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000440689">
+  <data key="d5">CYP2E1</data>
+  <data key="d6">9606.ENSP00000440689</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000262623">
+  <data key="d5">ATP4A</data>
+  <data key="d6">9606.ENSP00000262623</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000354612">
+  <data key="d5">PTGS1</data>
+  <data key="d6">9606.ENSP00000354612</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000218548">
+  <data key="d5">ATP12A</data>
+  <data key="d6">9606.ENSP00000218548</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000360247">
+  <data key="d5">CYP2J2</data>
+  <data key="d6">9606.ENSP00000360247</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000324648">
+  <data key="d5">CYP2B6</data>
+  <data key="d6">9606.ENSP00000324648</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000356438">
+  <data key="d5">PTGS2</data>
+  <data key="d6">9606.ENSP00000356438</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000333212">
+  <data key="d5">CYP2U1</data>
+  <data key="d6">9606.ENSP00000333212</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000363512">
+  <data key="d5">ALOX5</data>
+  <data key="d6">9606.ENSP00000363512</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000293761">
+  <data key="d5">ALOX15</data>
+  <data key="d6">9606.ENSP00000293761</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000251535">
+  <data key="d5">ALOX12</data>
+  <data key="d6">9606.ENSP00000251535</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000369530">
+  <data key="d5">ALOX15B</data>
+  <data key="d6">9606.ENSP00000369530</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000497784">
+  <data key="d5">ALOX12B</data>
+  <data key="d6">9606.ENSP00000497784</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000419970">
+  <data key="d5">POR</data>
+  <data key="d6">9606.ENSP00000419970</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000230053">
+  <data key="d5">B3GAT2</data>
+  <data key="d6">9606.ENSP00000230053</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000478255">
+  <data key="d5">ABCB1</data>
+  <data key="d6">9606.ENSP00000478255</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000362508">
+  <data key="d5">UGT1A4</data>
+  <data key="d6">9606.ENSP00000362508</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000303174">
+  <data key="d5">UGT1A6</data>
+  <data key="d6">9606.ENSP00000303174</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000304811">
+  <data key="d5">UGT2B7</data>
+  <data key="d6">9606.ENSP00000304811</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000311469">
+  <data key="d5">GSTM1</data>
+  <data key="d6">9606.ENSP00000311469</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000362549">
+  <data key="d5">UGT1A8</data>
+  <data key="d6">9606.ENSP00000362549</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000362525">
+  <data key="d5">UGT1A7</data>
+  <data key="d6">9606.ENSP00000362525</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000381607">
+  <data key="d5">GSTP1</data>
+  <data key="d6">9606.ENSP00000381607</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000343838">
+  <data key="d5">UGT1A10</data>
+  <data key="d6">9606.ENSP00000343838</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000295256">
+  <data key="d5">HPGDS</data>
+  <data key="d6">9606.ENSP00000295256</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000335620">
+  <data key="d5">GSTA1</data>
+  <data key="d6">9606.ENSP00000335620</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000304845">
+  <data key="d5">UGT1A1</data>
+  <data key="d6">9606.ENSP00000304845</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000346768">
+  <data key="d5">UGT1A9</data>
+  <data key="d6">9606.ENSP00000346768</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000312304">
+  <data key="d5">TPMT</data>
+  <data key="d6">9606.ENSP00000312304</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9;SLCO1B1;VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000341045">
+  <data key="d5">UGT2B15</data>
+  <data key="d6">9606.ENSP00000341045</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000265403">
+  <data key="d5">UGT2B10</data>
+  <data key="d6">9606.ENSP00000265403</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000418532">
+  <data key="d5">UGT1A3</data>
+  <data key="d6">9606.ENSP00000418532</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000305221">
+  <data key="d5">UGT2B4</data>
+  <data key="d6">9606.ENSP00000305221</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000420168">
+  <data key="d5">GSTA2</data>
+  <data key="d6">9606.ENSP00000420168</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000336528">
+  <data key="d5">NR1I2</data>
+  <data key="d6">9606.ENSP00000336528</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2;CYP2C19;CYP2C9;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000360028">
+  <data key="d5">GSTA5</data>
+  <data key="d6">9606.ENSP00000360028</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000241337">
+  <data key="d5">GSTM2</data>
+  <data key="d6">9606.ENSP00000241337</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000354357">
+  <data key="d5">GSTM3</data>
+  <data key="d6">9606.ENSP00000354357</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000358727">
+  <data key="d5">GSTO1</data>
+  <data key="d6">9606.ENSP00000358727</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C19;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000356729">
+  <data key="d5">FMO3</data>
+  <data key="d6">9606.ENSP00000356729</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000430269">
+  <data key="d5">EPHX2</data>
+  <data key="d6">9606.ENSP00000430269</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000254090">
+  <data key="d5">FMO5</data>
+  <data key="d6">9606.ENSP00000254090</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000480571">
+  <data key="d5">ENSP00000480571</data>
+  <data key="d6">9606.ENSP00000480571</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000301141">
+  <data key="d5">CYP2A6</data>
+  <data key="d6">9606.ENSP00000301141</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000337450">
+  <data key="d5">CYP3A7</data>
+  <data key="d6">9606.ENSP00000337450</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000363832">
+  <data key="d5">AOX1</data>
+  <data key="d6">9606.ENSP00000363832</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000224356">
+  <data key="d5">CYP26A1</data>
+  <data key="d6">9606.ENSP00000224356</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000301146">
+  <data key="d5">CYP2A7</data>
+  <data key="d6">9606.ENSP00000301146</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000477567">
+  <data key="d5">CYP4F8</data>
+  <data key="d6">9606.ENSP00000477567</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000001146">
+  <data key="d5">CYP26B1</data>
+  <data key="d6">9606.ENSP00000001146</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000378488">
+  <data key="d5">CYP1A1</data>
+  <data key="d6">9606.ENSP00000378488</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000297785">
+  <data key="d5">ALDH1A1</data>
+  <data key="d6">9606.ENSP00000297785</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2;CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000356723">
+  <data key="d5">FMO4</data>
+  <data key="d6">9606.ENSP00000356723</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000498424">
+  <data key="d5">CYP26C1</data>
+  <data key="d6">9606.ENSP00000498424</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000346901">
+  <data key="d5">FMO1</data>
+  <data key="d6">9606.ENSP00000346901</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000332256">
+  <data key="d5">ALDH1A3</data>
+  <data key="d6">9606.ENSP00000332256</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000209929">
+  <data key="d5">FMO2</data>
+  <data key="d6">9606.ENSP00000209929</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000211122">
+  <data key="d5">GSTA3</data>
+  <data key="d6">9606.ENSP00000211122</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000310149">
+  <data key="d5">CYP2W1</data>
+  <data key="d6">9606.ENSP00000310149</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000290765">
+  <data key="d5">GSTT2B</data>
+  <data key="d6">9606.ENSP00000290765</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000356864">
+  <data key="d5">MGST3</data>
+  <data key="d6">9606.ENSP00000356864</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000379512">
+  <data key="d5">MGST1</data>
+  <data key="d6">9606.ENSP00000379512</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000249750">
+  <data key="d5">ALDH1A2</data>
+  <data key="d6">9606.ENSP00000249750</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000360002">
+  <data key="d5">GSTA4</data>
+  <data key="d6">9606.ENSP00000360002</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000345023">
+  <data key="d5">GSTO2</data>
+  <data key="d6">9606.ENSP00000345023</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000482639">
+  <data key="d5">MGST2</data>
+  <data key="d6">9606.ENSP00000482639</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000256593">
+  <data key="d5">GSTM5</data>
+  <data key="d6">9606.ENSP00000256593</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000358851">
+  <data key="d5">GSTM4</data>
+  <data key="d6">9606.ENSP00000358851</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000492273">
+  <data key="d5">GSTT4</data>
+  <data key="d6">9606.ENSP00000492273</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000233838">
+  <data key="d5">GGCX</data>
+  <data key="d6">9606.ENSP00000233838</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9;CYP4F2;VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000320401">
+  <data key="d5">UGT2B17</data>
+  <data key="d6">9606.ENSP00000320401</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000387683">
+  <data key="d5">UGT2B11</data>
+  <data key="d6">9606.ENSP00000387683</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000362513">
+  <data key="d5">UGT1A5</data>
+  <data key="d6">9606.ENSP00000362513</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000334276">
+  <data key="d5">UGT2B28</data>
+  <data key="d6">9606.ENSP00000334276</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000251566">
+  <data key="d5">UGT2A3</data>
+  <data key="d6">9606.ENSP00000251566</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000475028">
+  <data key="d5">UGT2A2</data>
+  <data key="d6">9606.ENSP00000475028</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000356959">
+  <data key="d5">NR1I3</data>
+  <data key="d6">9606.ENSP00000356959</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000312987">
+  <data key="d5">HNF4A</data>
+  <data key="d6">9606.ENSP00000312987</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000356436">
+  <data key="d5">PLA2G4A</data>
+  <data key="d6">9606.ENSP00000356436</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP2C9;CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000403077">
+  <data key="d5">VKORC1L1</data>
+  <data key="d6">9606.ENSP00000403077</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000319788">
+  <data key="d5">NQO1</data>
+  <data key="d6">9606.ENSP00000319788</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000228938">
+  <data key="d5">MGP</data>
+  <data key="d6">9606.ENSP00000228938</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000308541">
+  <data key="d5">F2</data>
+  <data key="d6">9606.ENSP00000308541</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000205557">
+  <data key="d5">ABCC6</data>
+  <data key="d6">9606.ENSP00000205557</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000438248">
+  <data key="d5">CALU</data>
+  <data key="d6">9606.ENSP00000438248</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000359211">
+  <data key="d5">DPYD</data>
+  <data key="d6">9606.ENSP00000359211</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">VKORC1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000448998">
+  <data key="d5">CYP4F12</data>
+  <data key="d6">9606.ENSP00000448998</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000228740">
+  <data key="d5">LTA4H</data>
+  <data key="d6">9606.ENSP00000228740</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000385763">
+  <data key="d5">PTGR1</data>
+  <data key="d6">9606.ENSP00000385763</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000323678">
+  <data key="d5">ZADH2</data>
+  <data key="d6">9606.ENSP00000323678</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000452280">
+  <data key="d5">PTGR2</data>
+  <data key="d6">9606.ENSP00000452280</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000384588">
+  <data key="d5">CYP4F11</data>
+  <data key="d6">9606.ENSP00000384588</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000360576">
+  <data key="d5">NDOR1</data>
+  <data key="d6">9606.ENSP00000360576</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000362123">
+  <data key="d5">PLA2G12B</data>
+  <data key="d6">9606.ENSP00000362123</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">CYP4F2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000361666">
+  <data key="d5">SLC22A7</data>
+  <data key="d6">9606.ENSP00000361666</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000261196">
+  <data key="d5">SLCO1B3</data>
+  <data key="d6">9606.ENSP00000261196</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000441269">
+  <data key="d5">ENSP00000441269</data>
+  <data key="d6">9606.ENSP00000441269</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000216540">
+  <data key="d5">SLC10A1</data>
+  <data key="d6">9606.ENSP00000216540</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000337335">
+  <data key="d5">SLC22A8</data>
+  <data key="d6">9606.ENSP00000337335</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000497931">
+  <data key="d5">ABCB11</data>
+  <data key="d6">9606.ENSP00000497931</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000497274">
+  <data key="d5">ABCC2</data>
+  <data key="d6">9606.ENSP00000497274</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000355930">
+  <data key="d5">SLC22A1</data>
+  <data key="d6">9606.ENSP00000355930</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000270570">
+  <data key="d5">SLC47A1</data>
+  <data key="d6">9606.ENSP00000270570</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2;SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000465734">
+  <data key="d5">SLC16A2</data>
+  <data key="d6">9606.ENSP00000465734</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000274507">
+  <data key="d5">LECT2</data>
+  <data key="d6">9606.ENSP00000274507</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">SLCO1B1</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000382342">
+  <data key="d5">ABCC1</data>
+  <data key="d6">9606.ENSP00000382342</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000264784">
+  <data key="d5">SLC2A9</data>
+  <data key="d6">9606.ENSP00000264784</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000245539">
+  <data key="d5">MRPS7</data>
+  <data key="d6">9606.ENSP00000245539</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000366797">
+  <data key="d5">SLC22A12</data>
+  <data key="d6">9606.ENSP00000366797</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000426809">
+  <data key="d5">PROM1</data>
+  <data key="d6">9606.ENSP00000426809</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000289575">
+  <data key="d5">SLCO2B1</data>
+  <data key="d6">9606.ENSP00000289575</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000326671">
+  <data key="d5">SLC47A2</data>
+  <data key="d6">9606.ENSP00000326671</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000301891">
+  <data key="d5">SLC22A11</data>
+  <data key="d6">9606.ENSP00000301891</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000229307">
+  <data key="d5">NANOG</data>
+  <data key="d6">9606.ENSP00000229307</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000259915">
+  <data key="d5">POU5F1</data>
+  <data key="d6">9606.ENSP00000259915</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000365851">
+  <data key="d5">BMI1</data>
+  <data key="d6">9606.ENSP00000365851</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000473391">
+  <data key="d5">COMMD3-BMI1</data>
+  <data key="d6">9606.ENSP00000473391</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<node id="9606.ENSP00000367102">
+  <data key="d5">SLC22A6</data>
+  <data key="d6">9606.ENSP00000367102</data>
+  <data key="d7">first_degree_interactor</data>
+  <data key="d8">ABCG2</data>
+  <data key="d9">False</data>
+</node>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000260682">
+  <data key="d10">0.999</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.048</data>
+  <data key="d14">0.944</data>
+  <data key="d15">0.94</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.199</data>
+  <data key="d18">True</data>
+  <data key="d19">0.944</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000285979">
+  <data key="d10">0.976</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.049</data>
+  <data key="d14">0.822</data>
+  <data key="d15">0.868</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.055</data>
+  <data key="d18">True</data>
+  <data key="d19">0.868</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000498939">
+  <data key="d10">0.975</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.221</data>
+  <data key="d14">0.488</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.907</data>
+  <data key="d17">0.402</data>
+  <data key="d18">True</data>
+  <data key="d19">0.907</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000360317">
+  <data key="d10">0.973</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.05</data>
+  <data key="d14">0.743</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.06</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000260970">
+  <data key="d10">0.961</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.054</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.961</data>
+  <data key="d18">True</data>
+  <data key="d19">0.054</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000222982">
+  <data key="d10">0.959</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.222</data>
+  <data key="d14">0.171</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.907</data>
+  <data key="d17">0.394</data>
+  <data key="d18">True</data>
+  <data key="d19">0.907</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000221700">
+  <data key="d10">0.955</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.242</data>
+  <data key="d14">0.154</data>
+  <data key="d15">0.078</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.343</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000342007">
+  <data key="d10">0.952</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.167</data>
+  <data key="d14">0.205</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.276</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000480004">
+  <data key="d10">0.951</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.089</data>
+  <data key="d15">0.069</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.497</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000496150">
+  <data key="d10">0.951</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.096</data>
+  <data key="d14">0.346</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.911</data>
+  <data key="d17">0.183</data>
+  <data key="d18">True</data>
+  <data key="d19">0.911</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000221307">
+  <data key="d10">0.95</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.244</data>
+  <data key="d14">0.131</data>
+  <data key="d15">0.078</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.273</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000340684">
+  <data key="d10">0.943</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.054</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.451</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000367309">
+  <data key="d10">0.943</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.087</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.433</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000440689">
+  <data key="d10">0.935</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.059</data>
+  <data key="d14">0.257</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.076</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000262623">
+  <data key="d10">0.932</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.058</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.083</data>
+  <data key="d17">0.928</data>
+  <data key="d18">True</data>
+  <data key="d19">0.083</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000354612">
+  <data key="d10">0.932</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.352</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000218548">
+  <data key="d10">0.931</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.06</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.083</data>
+  <data key="d17">0.927</data>
+  <data key="d18">True</data>
+  <data key="d19">0.083</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000360247">
+  <data key="d10">0.931</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.092</data>
+  <data key="d14">0.096</data>
+  <data key="d15">0.093</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.118</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000324648">
+  <data key="d10">0.929</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.069</data>
+  <data key="d14">0.176</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.911</data>
+  <data key="d17">0.094</data>
+  <data key="d18">True</data>
+  <data key="d19">0.911</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000356438">
+  <data key="d10">0.927</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.296</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000333212">
+  <data key="d10">0.926</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.109</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.1</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.079</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000363512">
+  <data key="d10">0.925</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.055</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.273</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000293761">
+  <data key="d10">0.916</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.196</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000251535">
+  <data key="d10">0.913</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.055</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.147</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000369530">
+  <data key="d10">0.912</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.157</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000497784">
+  <data key="d10">0.909</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.061</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.105</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000419970">
+  <data key="d10">0.889</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.802</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.464</data>
+  <data key="d18">True</data>
+  <data key="d19">0.802</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000230053">
+  <data key="d10">0.848</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.07</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.844</data>
+  <data key="d18">True</data>
+  <data key="d19">0.07</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000478255">
+  <data key="d10">0.841</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.066</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.837</data>
+  <data key="d18">True</data>
+  <data key="d19">0.066</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000362508">
+  <data key="d10">0.835</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.234</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.778</data>
+  <data key="d18">True</data>
+  <data key="d19">0.234</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000303174">
+  <data key="d10">0.826</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.206</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.774</data>
+  <data key="d18">True</data>
+  <data key="d19">0.206</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000304811">
+  <data key="d10">0.824</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.261</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.083</data>
+  <data key="d17">0.762</data>
+  <data key="d18">True</data>
+  <data key="d19">0.261</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000311469">
+  <data key="d10">0.815</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.491</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000362549">
+  <data key="d10">0.814</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.2</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.76</data>
+  <data key="d18">True</data>
+  <data key="d19">0.2</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000362525">
+  <data key="d10">0.806</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.164</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.76</data>
+  <data key="d18">True</data>
+  <data key="d19">0.164</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000381607">
+  <data key="d10">0.806</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.092</data>
+  <data key="d15">0.046</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.437</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000343838">
+  <data key="d10">0.804</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.158</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.76</data>
+  <data key="d18">True</data>
+  <data key="d19">0.158</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000256958">
+  <data key="d10">0.802</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.148</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.778</data>
+  <data key="d18">True</data>
+  <data key="d19">0.148</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000295256">
+  <data key="d10">0.788</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.108</data>
+  <data key="d15">0.046</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.373</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000335620">
+  <data key="d10">0.788</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.127</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.36</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000304845">
+  <data key="d10">0.785</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.084</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.758</data>
+  <data key="d18">True</data>
+  <data key="d19">0.111</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000346768">
+  <data key="d10">0.782</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.2</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.719</data>
+  <data key="d18">True</data>
+  <data key="d19">0.2</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000312304">
+  <data key="d10">0.773</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.163</data>
+  <data key="d17">0.741</data>
+  <data key="d18">True</data>
+  <data key="d19">0.163</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000341045">
+  <data key="d10">0.744</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.227</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.083</data>
+  <data key="d17">0.668</data>
+  <data key="d18">True</data>
+  <data key="d19">0.227</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000265403">
+  <data key="d10">0.74</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.326</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.083</data>
+  <data key="d17">0.614</data>
+  <data key="d18">True</data>
+  <data key="d19">0.326</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000418532">
+  <data key="d10">0.739</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.21</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.111</data>
+  <data key="d17">0.659</data>
+  <data key="d18">True</data>
+  <data key="d19">0.21</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000305221">
+  <data key="d10">0.726</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.267</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.083</data>
+  <data key="d17">0.626</data>
+  <data key="d18">True</data>
+  <data key="d19">0.267</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000420168">
+  <data key="d10">0.725</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.102</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.192</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000336528">
+  <data key="d10">0.721</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.121</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.696</data>
+  <data key="d18">True</data>
+  <data key="d19">0.121</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000360028">
+  <data key="d10">0.717</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.086</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.183</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000241337">
+  <data key="d10">0.709</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.058</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.186</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000354357">
+  <data key="d10">0.709</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.2</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000360372" target="9606.ENSP00000358727">
+  <data key="d10">0.701</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.176</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000285979">
+  <data key="d10">0.992</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.049</data>
+  <data key="d14">0.772</data>
+  <data key="d15">0.967</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.053</data>
+  <data key="d18">True</data>
+  <data key="d19">0.967</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000498939">
+  <data key="d10">0.99</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.216</data>
+  <data key="d14">0.646</data>
+  <data key="d15">0.46</data>
+  <data key="d16">0.907</data>
+  <data key="d17">0.395</data>
+  <data key="d18">True</data>
+  <data key="d19">0.907</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000360317">
+  <data key="d10">0.985</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.051</data>
+  <data key="d14">0.855</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.082</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000378426">
+  <data key="d10">0.982</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.066</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.982</data>
+  <data key="d18">True</data>
+  <data key="d19">0.066</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000356729">
+  <data key="d10">0.97</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.491</data>
+  <data key="d15">0.067</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.446</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000303174">
+  <data key="d10">0.966</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.224</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.877</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000430269">
+  <data key="d10">0.964</data>
+  <data key="d11">0.059</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.073</data>
+  <data key="d15">0.065</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.615</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000254090">
+  <data key="d10">0.962</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.557</data>
+  <data key="d15">0.067</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.192</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000480571">
+  <data key="d10">0.962</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.225</data>
+  <data key="d14">0.386</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.303</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000221700">
+  <data key="d10">0.961</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.242</data>
+  <data key="d14">0.159</data>
+  <data key="d15">0.078</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.43</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000260970">
+  <data key="d10">0.961</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.054</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.961</data>
+  <data key="d18">True</data>
+  <data key="d19">0.054</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000301141">
+  <data key="d10">0.96</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.068</data>
+  <data key="d14">0.531</data>
+  <data key="d15">0.064</data>
+  <data key="d16">0.909</data>
+  <data key="d17">0.092</data>
+  <data key="d18">True</data>
+  <data key="d19">0.909</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000480004">
+  <data key="d10">0.96</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.089</data>
+  <data key="d15">0.069</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.593</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000222982">
+  <data key="d10">0.958</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.217</data>
+  <data key="d14">0.205</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.907</data>
+  <data key="d17">0.37</data>
+  <data key="d18">True</data>
+  <data key="d19">0.907</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000342007">
+  <data key="d10">0.955</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.156</data>
+  <data key="d14">0.289</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.25</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000337450">
+  <data key="d10">0.953</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.225</data>
+  <data key="d14">0.152</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.907</data>
+  <data key="d17">0.321</data>
+  <data key="d18">True</data>
+  <data key="d19">0.907</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000221307">
+  <data key="d10">0.952</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.244</data>
+  <data key="d14">0.157</data>
+  <data key="d15">0.078</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.286</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000335620">
+  <data key="d10">0.948</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.153</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.435</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000362508">
+  <data key="d10">0.948</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.291</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.794</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000363832">
+  <data key="d10">0.948</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.098</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.408</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000311469">
+  <data key="d10">0.947</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.491</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000381607">
+  <data key="d10">0.947</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.092</data>
+  <data key="d15">0.046</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.466</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000295256">
+  <data key="d10">0.945</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.112</data>
+  <data key="d15">0.046</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.429</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000304811">
+  <data key="d10">0.944</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.338</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.77</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000224356">
+  <data key="d10">0.942</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.237</data>
+  <data key="d14">0.067</data>
+  <data key="d15">0.065</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.234</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000362549">
+  <data key="d10">0.942</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.28</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.774</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000440689">
+  <data key="d10">0.942</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.06</data>
+  <data key="d14">0.328</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.087</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000301146">
+  <data key="d10">0.94</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.069</data>
+  <data key="d14">0.293</data>
+  <data key="d15">0.064</data>
+  <data key="d16">0.909</data>
+  <data key="d17">0.101</data>
+  <data key="d18">True</data>
+  <data key="d19">0.909</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000477567">
+  <data key="d10">0.939</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.243</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.078</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.177</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000001146">
+  <data key="d10">0.937</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.23</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.065</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.206</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000362525">
+  <data key="d10">0.936</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.213</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.773</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000378488">
+  <data key="d10">0.936</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.141</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.194</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000343838">
+  <data key="d10">0.935</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.191</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.774</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000356438">
+  <data key="d10">0.933</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.36</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000354612">
+  <data key="d10">0.932</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.352</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000360247">
+  <data key="d10">0.932</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.094</data>
+  <data key="d14">0.096</data>
+  <data key="d15">0.093</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.126</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000324648">
+  <data key="d10">0.931</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.068</data>
+  <data key="d14">0.199</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.911</data>
+  <data key="d17">0.09</data>
+  <data key="d18">True</data>
+  <data key="d19">0.911</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000363512">
+  <data key="d10">0.931</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.072</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.311</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000420168">
+  <data key="d10">0.93</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.129</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.26</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000297785">
+  <data key="d10">0.929</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.072</data>
+  <data key="d15">0.064</data>
+  <data key="d16">0.91</data>
+  <data key="d17">0.2</data>
+  <data key="d18">True</data>
+  <data key="d19">0.91</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000304845">
+  <data key="d10">0.929</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.12</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.773</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000341045">
+  <data key="d10">0.928</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.336</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.705</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000356723">
+  <data key="d10">0.928</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.094</data>
+  <data key="d15">0.067</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.257</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000346768">
+  <data key="d10">0.927</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.263</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.722</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000333212">
+  <data key="d10">0.926</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.107</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.1</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.079</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000498424">
+  <data key="d10">0.926</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.231</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.116</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000265403">
+  <data key="d10">0.925</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.409</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.655</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000346901">
+  <data key="d10">0.924</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.062</data>
+  <data key="d15">0.067</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.24</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000332256">
+  <data key="d10">0.923</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.052</data>
+  <data key="d15">0.064</data>
+  <data key="d16">0.91</data>
+  <data key="d17">0.16</data>
+  <data key="d18">True</data>
+  <data key="d19">0.91</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000354357">
+  <data key="d10">0.923</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.26</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000419970">
+  <data key="d10">0.921</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.826</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.549</data>
+  <data key="d18">True</data>
+  <data key="d19">0.826</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000209929">
+  <data key="d10">0.919</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.043</data>
+  <data key="d15">0.067</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.2</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000256958">
+  <data key="d10">0.919</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.171</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.907</data>
+  <data key="d18">True</data>
+  <data key="d19">0.171</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000211122">
+  <data key="d10">0.918</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.13</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.136</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000251535">
+  <data key="d10">0.918</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.055</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.195</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000293761">
+  <data key="d10">0.918</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.208</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000310149">
+  <data key="d10">0.918</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.097</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.071</data>
+  <data key="d16">0.907</data>
+  <data key="d17">0.077</data>
+  <data key="d18">True</data>
+  <data key="d19">0.907</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000336528">
+  <data key="d10">0.918</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.116</data>
+  <data key="d15">0.523</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.823</data>
+  <data key="d18">True</data>
+  <data key="d19">0.523</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000290765">
+  <data key="d10">0.917</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.044</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.207</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000360028">
+  <data key="d10">0.917</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.095</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.156</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000241337">
+  <data key="d10">0.916</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.199</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000305221">
+  <data key="d10">0.916</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.325</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.659</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000418532">
+  <data key="d10">0.916</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.257</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.683</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000356864">
+  <data key="d10">0.914</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.182</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000379512">
+  <data key="d10">0.914</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.067</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.162</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000249750">
+  <data key="d10">0.913</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.053</data>
+  <data key="d15">0.064</data>
+  <data key="d16">0.91</data>
+  <data key="d17">0.049</data>
+  <data key="d18">True</data>
+  <data key="d19">0.91</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000358727">
+  <data key="d10">0.913</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.166</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000369530">
+  <data key="d10">0.912</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.157</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000360002">
+  <data key="d10">0.911</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.148</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000345023">
+  <data key="d10">0.91</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.134</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000497784">
+  <data key="d10">0.91</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.05</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.105</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000482639">
+  <data key="d10">0.908</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.121</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000256593">
+  <data key="d10">0.905</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.091</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000358851">
+  <data key="d10">0.905</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.092</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000492273">
+  <data key="d10">0.904</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.044</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.082</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000233838">
+  <data key="d10">0.901</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.062</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.899</data>
+  <data key="d18">True</data>
+  <data key="d19">0.062</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000320401">
+  <data key="d10">0.898</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.2</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.652</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000387683">
+  <data key="d10">0.897</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.247</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.626</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000362513">
+  <data key="d10">0.896</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.217</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.675</data>
+  <data key="d17">0.626</data>
+  <data key="d18">True</data>
+  <data key="d19">0.675</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000334276">
+  <data key="d10">0.892</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.212</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.627</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000251566">
+  <data key="d10">0.89</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.199</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.625</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000475028">
+  <data key="d10">0.869</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.665</data>
+  <data key="d17">0.627</data>
+  <data key="d18">True</data>
+  <data key="d19">0.665</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000356959">
+  <data key="d10">0.816</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.09</data>
+  <data key="d15">0.45</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.663</data>
+  <data key="d18">True</data>
+  <data key="d19">0.45</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000312987">
+  <data key="d10">0.784</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.093</data>
+  <data key="d15">0.629</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.412</data>
+  <data key="d18">True</data>
+  <data key="d19">0.629</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000496150">
+  <data key="d10">0.774</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.097</data>
+  <data key="d14">0.437</data>
+  <data key="d15">0.456</data>
+  <data key="d16">0.148</data>
+  <data key="d17">0.19</data>
+  <data key="d18">True</data>
+  <data key="d19">0.456</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000312304">
+  <data key="d10">0.76</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.064</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.163</data>
+  <data key="d17">0.719</data>
+  <data key="d18">True</data>
+  <data key="d19">0.163</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000478255">
+  <data key="d10">0.726</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.066</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.719</data>
+  <data key="d18">True</data>
+  <data key="d19">0.066</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000260682" target="9606.ENSP00000356436">
+  <data key="d10">0.713</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.07</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.19</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000233838">
+  <data key="d10">0.998</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.099</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.988</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000403077">
+  <data key="d10">0.961</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.066</data>
+  <data key="d15">0.457</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.337</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000221700">
+  <data key="d10">0.959</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.064</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.959</data>
+  <data key="d18">True</data>
+  <data key="d19">0.064</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000319788">
+  <data key="d10">0.947</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.48</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000228938">
+  <data key="d10">0.853</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.073</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.848</data>
+  <data key="d18">True</data>
+  <data key="d19">0.073</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000308541">
+  <data key="d10">0.842</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.837</data>
+  <data key="d18">True</data>
+  <data key="d19">0.075</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000360317">
+  <data key="d10">0.822</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.059</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.819</data>
+  <data key="d18">True</data>
+  <data key="d19">0.059</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000205557">
+  <data key="d10">0.809</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.802</data>
+  <data key="d18">True</data>
+  <data key="d19">0.075</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000312304">
+  <data key="d10">0.781</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.06</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.777</data>
+  <data key="d18">True</data>
+  <data key="d19">0.06</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000496150">
+  <data key="d10">0.758</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.071</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.751</data>
+  <data key="d18">True</data>
+  <data key="d19">0.071</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000480004">
+  <data key="d10">0.753</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.744</data>
+  <data key="d18">True</data>
+  <data key="d19">0.075</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000438248">
+  <data key="d10">0.726</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.209</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.669</data>
+  <data key="d18">True</data>
+  <data key="d19">0.209</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000378426" target="9606.ENSP00000359211">
+  <data key="d10">0.715</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.089</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.701</data>
+  <data key="d18">True</data>
+  <data key="d19">0.089</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000221307">
+  <data key="d10">0.993</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.049</data>
+  <data key="d14">0.94</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.057</data>
+  <data key="d18">True</data>
+  <data key="d19">0.94</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000360247">
+  <data key="d10">0.954</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.234</data>
+  <data key="d14">0.119</data>
+  <data key="d15">0.102</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.337</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000360317">
+  <data key="d10">0.953</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.245</data>
+  <data key="d14">0.095</data>
+  <data key="d15">0.078</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.344</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000448998">
+  <data key="d10">0.951</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.05</data>
+  <data key="d14">0.856</data>
+  <data key="d15">0.665</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.058</data>
+  <data key="d18">True</data>
+  <data key="d19">0.856</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000324648">
+  <data key="d10">0.949</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.238</data>
+  <data key="d14">0.116</data>
+  <data key="d15">0.07</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.295</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000440689">
+  <data key="d10">0.947</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.247</data>
+  <data key="d14">0.103</data>
+  <data key="d15">0.07</data>
+  <data key="d16">0.904</data>
+  <data key="d17">0.266</data>
+  <data key="d18">True</data>
+  <data key="d19">0.904</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000333212">
+  <data key="d10">0.942</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.237</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.093</data>
+  <data key="d16">0.912</data>
+  <data key="d17">0.169</data>
+  <data key="d18">True</data>
+  <data key="d19">0.912</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000356438">
+  <data key="d10">0.94</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.432</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000419970">
+  <data key="d10">0.938</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.899</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.081</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.392</data>
+  <data key="d18">True</data>
+  <data key="d19">0.899</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000363512">
+  <data key="d10">0.924</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.044</data>
+  <data key="d15">0.062</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.261</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000497784">
+  <data key="d10">0.921</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.068</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.222</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000251535">
+  <data key="d10">0.918</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.07</data>
+  <data key="d15">0.062</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.18</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000228740">
+  <data key="d10">0.917</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.049</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.2</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000293761">
+  <data key="d10">0.917</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.058</data>
+  <data key="d15">0.068</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.17</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000354612">
+  <data key="d10">0.915</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.19</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000233838">
+  <data key="d10">0.914</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.1</data>
+  <data key="d15">0.066</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.906</data>
+  <data key="d18">True</data>
+  <data key="d19">0.1</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000369530">
+  <data key="d10">0.913</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.052</data>
+  <data key="d15">0.068</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.138</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000385763">
+  <data key="d10">0.909</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.092</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.086</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000477567">
+  <data key="d10">0.908</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.05</data>
+  <data key="d14">0.101</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.058</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000323678">
+  <data key="d10">0.905</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.057</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.078</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000452280">
+  <data key="d10">0.903</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.054</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.063</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000384588">
+  <data key="d10">0.862</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.048</data>
+  <data key="d14">0.859</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.056</data>
+  <data key="d18">True</data>
+  <data key="d19">0.859</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000360576">
+  <data key="d10">0.833</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.83</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.059</data>
+  <data key="d18">True</data>
+  <data key="d19">0.83</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000362123">
+  <data key="d10">0.73</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.203</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.111</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000221700" target="9606.ENSP00000356436">
+  <data key="d10">0.702</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.047</data>
+  <data key="d15">0.065</data>
+  <data key="d16">0.65</data>
+  <data key="d17">0.158</data>
+  <data key="d18">True</data>
+  <data key="d19">0.65</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000361666">
+  <data key="d10">0.96</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.174</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.954</data>
+  <data key="d18">True</data>
+  <data key="d19">0.174</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000261196">
+  <data key="d10">0.951</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.05</data>
+  <data key="d14">0.227</data>
+  <data key="d15">0.401</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.06</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000360317">
+  <data key="d10">0.938</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.151</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.931</data>
+  <data key="d18">True</data>
+  <data key="d19">0.151</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000304845">
+  <data key="d10">0.926</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.068</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.924</data>
+  <data key="d18">True</data>
+  <data key="d19">0.068</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000498939">
+  <data key="d10">0.926</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.156</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.916</data>
+  <data key="d18">True</data>
+  <data key="d19">0.156</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000441269">
+  <data key="d10">0.909</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.051</data>
+  <data key="d14">0.113</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.9</data>
+  <data key="d17">0.051</data>
+  <data key="d18">True</data>
+  <data key="d19">0.9</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000216540">
+  <data key="d10">0.878</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.427</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.797</data>
+  <data key="d18">True</data>
+  <data key="d19">0.427</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000478255">
+  <data key="d10">0.868</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.076</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.864</data>
+  <data key="d18">True</data>
+  <data key="d19">0.076</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000337335">
+  <data key="d10">0.857</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.061</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.854</data>
+  <data key="d18">True</data>
+  <data key="d19">0.061</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000336528">
+  <data key="d10">0.846</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.124</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.832</data>
+  <data key="d18">True</data>
+  <data key="d19">0.124</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000497931">
+  <data key="d10">0.841</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.336</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.771</data>
+  <data key="d18">True</data>
+  <data key="d19">0.336</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000260970">
+  <data key="d10">0.816</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.071</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.811</data>
+  <data key="d18">True</data>
+  <data key="d19">0.071</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000497274">
+  <data key="d10">0.815</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.123</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.798</data>
+  <data key="d18">True</data>
+  <data key="d19">0.123</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000498246">
+  <data key="d10">0.804</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.063</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.8</data>
+  <data key="d18">True</data>
+  <data key="d19">0.063</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000362508">
+  <data key="d10">0.801</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.095</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.79</data>
+  <data key="d18">True</data>
+  <data key="d19">0.095</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000303174">
+  <data key="d10">0.798</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.075</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.791</data>
+  <data key="d18">True</data>
+  <data key="d19">0.075</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000496150">
+  <data key="d10">0.798</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.158</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.771</data>
+  <data key="d18">True</data>
+  <data key="d19">0.158</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000222982">
+  <data key="d10">0.79</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.103</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.776</data>
+  <data key="d18">True</data>
+  <data key="d19">0.103</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000362549">
+  <data key="d10">0.785</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.069</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.779</data>
+  <data key="d18">True</data>
+  <data key="d19">0.069</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000355930">
+  <data key="d10">0.774</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.161</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.742</data>
+  <data key="d18">True</data>
+  <data key="d19">0.161</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000342007">
+  <data key="d10">0.769</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.261</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.701</data>
+  <data key="d18">True</data>
+  <data key="d19">0.261</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000270570">
+  <data key="d10">0.764</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.064</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.759</data>
+  <data key="d18">True</data>
+  <data key="d19">0.064</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000324648">
+  <data key="d10">0.764</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.131</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.74</data>
+  <data key="d18">True</data>
+  <data key="d19">0.131</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000304811">
+  <data key="d10">0.751</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.164</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.715</data>
+  <data key="d18">True</data>
+  <data key="d19">0.164</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000312304">
+  <data key="d10">0.727</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.069</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.719</data>
+  <data key="d18">True</data>
+  <data key="d19">0.069</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000465734">
+  <data key="d10">0.709</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.055</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.4</data>
+  <data key="d17">0.529</data>
+  <data key="d18">True</data>
+  <data key="d19">0.4</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000256958" target="9606.ENSP00000274507">
+  <data key="d10">0.705</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.705</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+  <data key="d19">0.705</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000497274">
+  <data key="d10">0.98</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.189</data>
+  <data key="d15">0.076</data>
+  <data key="d16">0.8</data>
+  <data key="d17">0.888</data>
+  <data key="d18">True</data>
+  <data key="d19">0.8</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000382342">
+  <data key="d10">0.944</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.076</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.942</data>
+  <data key="d18">True</data>
+  <data key="d19">0.076</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000498939">
+  <data key="d10">0.792</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.116</data>
+  <data key="d15">0.062</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.77</data>
+  <data key="d18">True</data>
+  <data key="d19">0.116</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000264784">
+  <data key="d10">0.788</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.059</data>
+  <data key="d15">0.046</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.783</data>
+  <data key="d18">True</data>
+  <data key="d19">0.059</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000337335">
+  <data key="d10">0.785</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.049</data>
+  <data key="d15">0.074</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.776</data>
+  <data key="d18">True</data>
+  <data key="d19">0.074</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000245539">
+  <data key="d10">0.781</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.052</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.779</data>
+  <data key="d18">True</data>
+  <data key="d19">0.052</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000366797">
+  <data key="d10">0.777</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.074</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.77</data>
+  <data key="d18">True</data>
+  <data key="d19">0.074</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000270570">
+  <data key="d10">0.764</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.172</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.727</data>
+  <data key="d18">True</data>
+  <data key="d19">0.172</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000426809">
+  <data key="d10">0.762</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.056</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.759</data>
+  <data key="d18">True</data>
+  <data key="d19">0.056</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000289575">
+  <data key="d10">0.757</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.085</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.746</data>
+  <data key="d18">True</data>
+  <data key="d19">0.085</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000336528">
+  <data key="d10">0.747</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.064</data>
+  <data key="d15">0.045</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.74</data>
+  <data key="d18">True</data>
+  <data key="d19">0.064</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000326671">
+  <data key="d10">0.741</data>
+  <data key="d11">0.042</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.142</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.711</data>
+  <data key="d18">True</data>
+  <data key="d19">0.142</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000297785">
+  <data key="d10">0.729</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.077</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.719</data>
+  <data key="d18">True</data>
+  <data key="d19">0.077</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000301891">
+  <data key="d10">0.729</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.074</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.72</data>
+  <data key="d18">True</data>
+  <data key="d19">0.074</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000229307">
+  <data key="d10">0.728</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.071</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.72</data>
+  <data key="d18">True</data>
+  <data key="d19">0.071</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000259915">
+  <data key="d10">0.717</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.065</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.71</data>
+  <data key="d18">True</data>
+  <data key="d19">0.065</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000365851">
+  <data key="d10">0.706</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.208</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.645</data>
+  <data key="d18">True</data>
+  <data key="d19">0.208</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000473391">
+  <data key="d10">0.705</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.0</data>
+  <data key="d15">0.208</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.644</data>
+  <data key="d18">True</data>
+  <data key="d19">0.208</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+<edge source="9606.ENSP00000498246" target="9606.ENSP00000367102">
+  <data key="d10">0.701</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.0</data>
+  <data key="d13">0.0</data>
+  <data key="d14">0.079</data>
+  <data key="d15">0.074</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.678</data>
+  <data key="d18">True</data>
+  <data key="d19">0.079</data>
+  <data key="d20">STRING</data>
+  <data key="d21">12.5</data>
+</edge>
+</graph></graphml>

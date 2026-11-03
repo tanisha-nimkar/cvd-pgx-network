@@ -75,3 +75,22 @@
 | Draft figure | `figures/fig2_freq_comparison.png` (DRAFT) — 6-panel allele frequency comparison across panel genes comparing South Asian cohorts against NFE reference |
 | QC results | 688 tested comparisons; 248 BH-significant; 168 Bonferroni-significant; Direction consistency: 100% |
 | Known limitations | Allele-count tests assume independent alleles; small 1kGP subpopulation sizes; frequencies integrated across differing sequencing/calling platforms |
+
+## Week 7 — STRING Network (PROVISIONAL until sign-off)
+| Field | Value |
+|---|---|
+| Source / host | STRING API, `https://string-db.org/api` |
+| Release/version | 12.5 (stable address: `https://version-12-5.string-db.org`) |
+| Access date | 2026-11-04 |
+| Organism / network_type | 9606 (*Homo sapiens*) / functional |
+| Gene panel + source | CYP2C19, CYP2C9, VKORC1, CYP4F2, SLCO1B1, ABCG2 (from config.yaml) |
+| ID mapping | `get_string_ids`, limit=5, exact preferredName match; table: `results/network/string_id_mapping.tsv` (6/6 exact matches) |
+| Retrieval | `interaction_partners`, seeds only, no recursion, limit=1000, required_score=0 |
+| Score scale | API score 0–1; required_score 0–1000; threshold 700 = 0.700 (verified empirically) |
+| Evidence channels used | nscore, fscore, pscore, ascore, escore, dscore, tscore |
+| Text-mining-only rule | tscore > 0 and all other channels == 0 (22 edges excluded) |
+| Dedup / isolated nodes | Undirected, sorted-pair key / 0 isolated seeds (all 6 connected) |
+| Output + checksum | `results/network/network.graphml`, sha256 `33bcd28abc5583d264ebda841b09cdba2364ceeccd5d4d63b5a6501b068c8b23`; audit: `results/network/string_edges_audit.tsv` |
+| Manual validation | CYP2C9-PTGS2 (score 0.933, dscore 0.900, PASS); CYP2C9-ALOX15B (score 0.912, dscore 0.900, escore 0.050, PASS) |
+| QC results | 135 nodes, 225 edges; min combined score 0.7010; zero text-mining-only edges in graph |
+| Approval status | pending (awaiting supervisor sign-off) |
