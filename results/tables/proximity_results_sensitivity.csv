@@ -1,0 +1,102 @@
+sensitivity_dimension,condition,query_id,mapped_genes,n_query,n_disease,d_obs,null_mean,z_score,p_empirical,fdr_bh_qval
+Interactome Representation,TM_Excluded_Functional,ABCG2,ABCG2,1,1002,2.0,1.194,1.5736,0.999001,0.999001
+Interactome Representation,TM_Excluded_Functional,CYP2C19,CYP2C19,1,1002,0.0,0.924,-3.0426,0.087912,0.301983
+Interactome Representation,TM_Excluded_Functional,CYP2C9,CYP2C9,1,1002,1.0,0.928,0.2745,0.999001,0.999001
+Interactome Representation,TM_Excluded_Functional,CYP4F2,CYP4F2,1,1002,1.0,1.08,-0.1877,0.866134,0.999001
+Interactome Representation,TM_Excluded_Functional,SLCO1B1,SLCO1B1,1,1002,1.0,0.975,0.0548,0.908092,0.999001
+Interactome Representation,TM_Excluded_Functional,VKORC1,VKORC1,1,1002,1.0,1.339,-0.5918,0.632368,0.983417
+Interactome Representation,TM_Excluded_Functional,clopidogrel_antiplatelet,CYP2C19,1,1002,0.0,0.923,-2.9324,0.091908,0.301983
+Interactome Representation,TM_Excluded_Functional,clopidogrel_antiplatelet_direct_target,P2RY12,1,1002,0.0,1.124,-2.6159,0.037962,0.301983
+Interactome Representation,TM_Excluded_Functional,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,1002,1.3333,1.0193,1.2788,0.981019,0.999001
+Interactome Representation,TM_Excluded_Functional,statins_lipid_lowering_direct_target,HMGCR,1,1002,0.0,0.888,-2.6134,0.120879,0.347527
+Interactome Representation,TM_Excluded_Functional,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,1002,1.0,1.0903,-0.3591,0.641359,0.983417
+Interactome Representation,TM_Excluded_Functional,warfarin_anticoagulation_separate_direct_target,VKORC1,1,1002,1.0,1.349,-0.6139,0.627373,0.983417
+Interactome Representation,TM_Excluded_Functional,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,1002,1.0,1.063,-0.3596,0.568432,0.983417
+Interactome Representation,Physical_Subnetwork,CYP2C19,CYP2C19,1,877,0.0,1.731,-2.2996,0.080919,0.301983
+Interactome Representation,Physical_Subnetwork,CYP2C9,CYP2C9,1,877,1.0,1.584,-0.8621,0.393606,0.877304
+Interactome Representation,Physical_Subnetwork,VKORC1,VKORC1,1,877,4.0,2.351,1.7888,0.987013,0.999001
+Interactome Representation,Physical_Subnetwork,clopidogrel_antiplatelet,CYP2C19,1,877,0.0,1.724,-2.3958,0.067932,0.301983
+Interactome Representation,Physical_Subnetwork,clopidogrel_antiplatelet_direct_target,P2RY12,1,877,0.0,1.38,-2.1406,0.081918,0.301983
+Interactome Representation,Physical_Subnetwork,statins_lipid_lowering,CYP2C9,1,877,1.0,1.583,-0.8458,0.3996,0.877304
+Interactome Representation,Physical_Subnetwork,statins_lipid_lowering_direct_target,HMGCR,1,877,0.0,1.684,-2.5558,0.051948,0.301983
+Interactome Representation,Physical_Subnetwork,warfarin_anticoagulation_separate,CYP2C9;VKORC1,2,877,2.5,1.9635,0.9846,0.946054,0.999001
+Interactome Representation,Physical_Subnetwork,warfarin_anticoagulation_separate_direct_target,VKORC1,1,877,4.0,2.289,1.8224,0.987013,0.999001
+Interactome Representation,Physical_Subnetwork,all_6_pharmacogenes,CYP2C19;VKORC1;CYP2C9,3,877,1.6667,1.8857,-0.4839,0.41958,0.877304
+Disease Concept,Myocardial_Infarction_Direct,ABCG2,ABCG2,1,458,2.0,1.331,1.2026,0.997003,0.997003
+Disease Concept,Myocardial_Infarction_Direct,CYP2C19,CYP2C19,1,458,1.0,1.038,-0.1044,0.914086,0.997003
+Disease Concept,Myocardial_Infarction_Direct,CYP2C9,CYP2C9,1,458,1.0,0.984,0.0717,0.983017,0.997003
+Disease Concept,Myocardial_Infarction_Direct,CYP4F2,CYP4F2,1,458,1.0,1.279,-0.5206,0.678322,0.997003
+Disease Concept,Myocardial_Infarction_Direct,SLCO1B1,SLCO1B1,1,458,1.0,1.236,-0.5098,0.747253,0.997003
+Disease Concept,Myocardial_Infarction_Direct,VKORC1,VKORC1,1,458,0.0,1.459,-2.4792,0.040959,0.246753
+Disease Concept,Myocardial_Infarction_Direct,clopidogrel_antiplatelet,CYP2C19,1,458,1.0,1.054,-0.1503,0.907093,0.997003
+Disease Concept,Myocardial_Infarction_Direct,clopidogrel_antiplatelet_direct_target,P2RY12,1,458,0.0,1.234,-2.2866,0.056943,0.246753
+Disease Concept,Myocardial_Infarction_Direct,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,458,1.3333,1.189,0.5501,0.886114,0.997003
+Disease Concept,Myocardial_Infarction_Direct,statins_lipid_lowering_direct_target,HMGCR,1,458,0.0,1.004,-3.7421,0.034965,0.246753
+Disease Concept,Myocardial_Infarction_Direct,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,458,0.6667,1.238,-2.0367,0.04995,0.246753
+Disease Concept,Myocardial_Infarction_Direct,warfarin_anticoagulation_separate_direct_target,VKORC1,1,458,0.0,1.454,-2.4867,0.041958,0.246753
+Disease Concept,Myocardial_Infarction_Direct,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,458,1.0,1.2207,-1.2152,0.213786,0.617604
+Disease Concept,Myocardial_Ischemia_Direct,ABCG2,ABCG2,1,229,2.0,1.62,0.7086,0.989011,0.997003
+Disease Concept,Myocardial_Ischemia_Direct,CYP2C19,CYP2C19,1,229,1.0,1.356,-0.6861,0.624376,0.997003
+Disease Concept,Myocardial_Ischemia_Direct,CYP2C9,CYP2C9,1,229,1.0,1.18,-0.4134,0.799201,0.997003
+Disease Concept,Myocardial_Ischemia_Direct,CYP4F2,CYP4F2,1,229,1.0,1.581,-1.0478,0.38961,0.844155
+Disease Concept,Myocardial_Ischemia_Direct,SLCO1B1,SLCO1B1,1,229,1.0,1.546,-1.0549,0.448551,0.897102
+Disease Concept,Myocardial_Ischemia_Direct,VKORC1,VKORC1,1,229,1.0,1.725,-1.3619,0.283716,0.670601
+Disease Concept,Myocardial_Ischemia_Direct,clopidogrel_antiplatelet,CYP2C19,1,229,1.0,1.349,-0.6777,0.632368,0.997003
+Disease Concept,Myocardial_Ischemia_Direct,clopidogrel_antiplatelet_direct_target,P2RY12,1,229,0.0,1.549,-2.7839,0.026973,0.246753
+Disease Concept,Myocardial_Ischemia_Direct,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,229,1.3333,1.438,-0.3687,0.58042,0.997003
+Disease Concept,Myocardial_Ischemia_Direct,statins_lipid_lowering_direct_target,HMGCR,1,229,1.0,1.248,-0.5306,0.736264,0.997003
+Disease Concept,Myocardial_Ischemia_Direct,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,229,1.0,1.4983,-1.7522,0.120879,0.392857
+Disease Concept,Myocardial_Ischemia_Direct,warfarin_anticoagulation_separate_direct_target,VKORC1,1,229,1.0,1.746,-1.4817,0.266733,0.670601
+Disease Concept,Myocardial_Ischemia_Direct,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,229,1.1667,1.5153,-1.6104,0.111888,0.392857
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,ABCG2,ABCG2,1,1132,1.0,1.018,-0.0422,0.9001,1.0
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,CYP2C19,CYP2C19,1,1132,0.0,0.917,-3.2398,0.085914,0.207792
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,CYP2C9,CYP2C9,1,1132,1.0,0.944,0.2436,1.0,1.0
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,CYP4F2,CYP4F2,1,1132,1.0,1.009,-0.0255,0.933067,1.0
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,SLCO1B1,SLCO1B1,1,1132,0.0,0.976,-3.1932,0.05994,0.207792
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,VKORC1,VKORC1,1,1132,1.0,1.112,-0.2166,0.806194,1.0
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,clopidogrel_antiplatelet,CYP2C19,1,1132,0.0,0.945,-3.6791,0.062937,0.207792
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,clopidogrel_antiplatelet_direct_target,P2RY12,1,1132,0.0,0.972,-2.4208,0.095904,0.207792
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,1132,0.6667,0.982,-1.6342,0.162837,0.302412
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,statins_lipid_lowering_direct_target,HMGCR,1,1132,0.0,0.921,-3.4144,0.07992,0.207792
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,1132,1.0,1.0147,-0.0647,0.775225,1.0
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,warfarin_anticoagulation_separate_direct_target,VKORC1,1,1132,1.0,1.089,-0.179,0.828172,1.0
+Ontology Evidence (Direct vs Indirect),CAD_Indirect_Descendant_Inclusive,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,1132,0.6667,0.9952,-2.1227,0.051948,0.207792
+Score Cutoff,CAD_Direct_Cutoff_0.05,ABCG2,ABCG2,1,1648,1.0,0.924,0.2015,0.964036,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.05,CYP2C19,CYP2C19,1,1648,0.0,0.829,-2.2018,0.171828,0.634002
+Score Cutoff,CAD_Direct_Cutoff_0.05,CYP2C9,CYP2C9,1,1648,1.0,0.892,0.348,1.0,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.05,CYP4F2,CYP4F2,1,1648,0.0,0.935,-2.9453,0.085914,0.558441
+Score Cutoff,CAD_Direct_Cutoff_0.05,SLCO1B1,SLCO1B1,1,1648,0.0,0.9,-2.7908,0.107892,0.599025
+Score Cutoff,CAD_Direct_Cutoff_0.05,VKORC1,VKORC1,1,1648,1.0,0.974,0.0568,0.908092,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.05,clopidogrel_antiplatelet,CYP2C19,1,1648,0.0,0.822,-2.1489,0.178821,0.634002
+Score Cutoff,CAD_Direct_Cutoff_0.05,clopidogrel_antiplatelet_direct_target,P2RY12,1,1648,0.0,0.894,-2.511,0.122877,0.599025
+Score Cutoff,CAD_Direct_Cutoff_0.05,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,1648,0.6667,0.9087,-1.2659,0.284715,0.793135
+Score Cutoff,CAD_Direct_Cutoff_0.05,statins_lipid_lowering_direct_target,HMGCR,1,1648,0.0,0.84,-2.2913,0.160839,0.634002
+Score Cutoff,CAD_Direct_Cutoff_0.05,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,1648,0.6667,0.9337,-1.2869,0.25974,0.793135
+Score Cutoff,CAD_Direct_Cutoff_0.05,warfarin_anticoagulation_separate_direct_target,VKORC1,1,1648,1.0,0.947,0.1151,0.919081,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.05,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,1648,0.5,0.909,-2.7473,0.020979,0.537662
+Score Cutoff,CAD_Direct_Cutoff_0.2,ABCG2,ABCG2,1,668,2.0,1.237,1.4608,1.0,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,CYP2C19,CYP2C19,1,668,1.0,1.025,-0.0893,0.948052,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,CYP2C9,CYP2C9,1,668,1.0,0.974,0.1279,0.992008,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,CYP4F2,CYP4F2,1,668,1.0,1.176,-0.363,0.779221,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,SLCO1B1,SLCO1B1,1,668,1.0,1.105,-0.2422,0.848152,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,VKORC1,VKORC1,1,668,1.0,1.306,-0.5276,0.634366,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,clopidogrel_antiplatelet,CYP2C19,1,668,1.0,1.021,-0.0791,0.954046,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,clopidogrel_antiplatelet_direct_target,P2RY12,1,668,0.0,1.146,-2.2708,0.065934,0.537662
+Score Cutoff,CAD_Direct_Cutoff_0.2,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,668,1.3333,1.108,0.9494,0.953047,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,statins_lipid_lowering_direct_target,HMGCR,1,668,0.0,0.971,-3.3471,0.057942,0.537662
+Score Cutoff,CAD_Direct_Cutoff_0.2,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,668,1.0,1.1793,-0.7098,0.485514,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,warfarin_anticoagulation_separate_direct_target,VKORC1,1,668,1.0,1.342,-0.598,0.615385,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.2,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,668,1.1667,1.1405,0.1473,0.742258,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,ABCG2,ABCG2,1,393,2.0,1.429,1.011,0.996004,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,CYP2C19,CYP2C19,1,393,1.0,1.188,-0.4351,0.795205,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,CYP2C9,CYP2C9,1,393,1.0,1.069,-0.2323,0.919081,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,CYP4F2,CYP4F2,1,393,1.0,1.407,-0.7756,0.576424,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,SLCO1B1,SLCO1B1,1,393,1.0,1.307,-0.6131,0.674326,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,VKORC1,VKORC1,1,393,1.0,1.58,-0.9924,0.395604,0.946523
+Score Cutoff,CAD_Direct_Cutoff_0.3,clopidogrel_antiplatelet,CYP2C19,1,393,1.0,1.162,-0.3886,0.819181,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,clopidogrel_antiplatelet_direct_target,P2RY12,1,393,0.0,1.362,-2.3604,0.051948,0.537662
+Score Cutoff,CAD_Direct_Cutoff_0.3,statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,3,393,1.3333,1.2693,0.2369,0.806194,1.0
+Score Cutoff,CAD_Direct_Cutoff_0.3,statins_lipid_lowering_direct_target,HMGCR,1,393,0.0,1.044,-2.4741,0.068931,0.537662
+Score Cutoff,CAD_Direct_Cutoff_0.3,warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,3,393,1.0,1.338,-1.2036,0.272727,0.793135
+Score Cutoff,CAD_Direct_Cutoff_0.3,warfarin_anticoagulation_separate_direct_target,VKORC1,1,393,1.0,1.564,-0.9879,0.412587,0.946523
+Score Cutoff,CAD_Direct_Cutoff_0.3,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,393,1.1667,1.3372,-0.8465,0.317682,0.825973

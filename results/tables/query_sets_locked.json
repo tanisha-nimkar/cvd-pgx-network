@@ -1,0 +1,65 @@
+{
+  "level_A_individual": {
+    "CYP2C19": [
+      "CYP2C19"
+    ],
+    "CYP2C9": [
+      "CYP2C9"
+    ],
+    "VKORC1": [
+      "VKORC1"
+    ],
+    "CYP4F2": [
+      "CYP4F2"
+    ],
+    "SLCO1B1": [
+      "SLCO1B1"
+    ],
+    "ABCG2": [
+      "ABCG2"
+    ]
+  },
+  "level_B_drug_specific": {
+    "clopidogrel_antiplatelet": {
+      "genes": [
+        "CYP2C19"
+      ],
+      "indication": "Coronary artery disease / ACS / Post-PCI antiplatelet therapy",
+      "direct_targets_comparator": [
+        "P2RY12"
+      ]
+    },
+    "statins_lipid_lowering": {
+      "genes": [
+        "SLCO1B1",
+        "ABCG2",
+        "CYP2C9"
+      ],
+      "indication": "Coronary artery disease / Atherosclerosis prevention",
+      "direct_targets_comparator": [
+        "HMGCR"
+      ]
+    },
+    "warfarin_anticoagulation_separate": {
+      "genes": [
+        "CYP2C9",
+        "VKORC1",
+        "CYP4F2"
+      ],
+      "indication": "Venous thromboembolism / Atrial fibrillation anticoagulation (Separate from primary CAD antiplatelet therapy)",
+      "direct_targets_comparator": [
+        "VKORC1"
+      ]
+    }
+  },
+  "level_C_exploratory_whole_panel": {
+    "all_6_pharmacogenes": [
+      "CYP2C19",
+      "CYP2C9",
+      "VKORC1",
+      "CYP4F2",
+      "SLCO1B1",
+      "ABCG2"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+query_level,query_id,query_genes,mapped_query_genes,n_query_genes,n_disease_genes,direct_overlap_genes,n_direct_overlap,observed_distance,overlap_excluded_distance,null_mean_10k,null_sd_10k,z_score_10k,p_empirical_10k,null_mean_1k_guney,null_sd_1k_guney,z_score_1k_guney,p_empirical_1k_guney,permutations_run,random_seed,benchmark_runtime_sec,fdr_bh_qval_10k
+Level A: Individual,ABCG2,ABCG2,ABCG2,1,1007,,0,2.0,2.0,1.0594,0.4583,2.0522,1.0,1.062,0.4496,2.0862,1.0,10000,42,3.47,1.0
+Level A: Individual,CYP2C19,CYP2C19,CYP2C19,1,1007,CYP2C19,1,0.0,1.0,0.9479,0.2541,-3.7299,0.059794,0.958,0.2495,-3.8401,0.053946,10000,42,3.72,0.240152
+Level A: Individual,CYP2C9,CYP2C9,CYP2C9,1,1007,,0,1.0,1.0,0.9471,0.2265,0.2336,0.9994,0.936,0.2448,0.2615,1.0,10000,42,3.45,1.0
+Level A: Individual,CYP4F2,CYP4F2,CYP4F2,1,1007,,0,1.0,1.0,1.0478,0.3908,-0.1223,0.89861,1.046,0.3897,-0.118,0.9001,10000,42,3.49,1.0
+Level A: Individual,SLCO1B1,SLCO1B1,SLCO1B1,1,1007,,0,1.0,1.0,1.0108,0.3223,-0.0335,0.942606,1.004,0.2828,-0.0141,0.958042,10000,42,3.43,1.0
+Level A: Individual,VKORC1,VKORC1,VKORC1,1,1007,,0,1.0,1.0,1.1356,0.5376,-0.2522,0.779922,1.151,0.5534,-0.2729,0.76024,10000,42,3.45,1.0
+Level B: Drug-specific (clopidogrel_antiplatelet),clopidogrel_antiplatelet,CYP2C19,CYP2C19,1,1007,CYP2C19,1,0.0,1.0,0.9485,0.2531,-3.7479,0.059194,0.963,0.2316,-4.1583,0.046953,10000,42,3.71,0.240152
+Level B: Direct Target Comparator (clopidogrel_antiplatelet),clopidogrel_antiplatelet_direct_target,P2RY12,P2RY12,1,1007,P2RY12,1,0.0,1.0,1.0158,0.4039,-2.5149,0.073893,1.02,0.402,-2.5373,0.071928,10000,42,4.34,0.240152
+Level B: Drug-specific (statins_lipid_lowering),statins_lipid_lowering,SLCO1B1;ABCG2;CYP2C9,SLCO1B1;ABCG2;CYP2C9,3,1007,,0,1.3333,1.3333,1.0062,0.1972,1.6583,0.992801,1.0153,0.1949,1.6316,0.991009,10000,42,3.89,1.0
+Level B: Direct Target Comparator (statins_lipid_lowering),statins_lipid_lowering_direct_target,HMGCR,HMGCR,1,1007,HMGCR,1,0.0,1.0,0.9314,0.2632,-3.5382,0.071393,0.935,0.2545,-3.6737,0.067932,10000,42,4.12,0.240152
+Level B: Drug-specific (warfarin_anticoagulation_separate),warfarin_anticoagulation_separate,CYP2C9;VKORC1;CYP4F2,CYP2C9;VKORC1;CYP4F2,3,1007,,0,1.0,1.0,1.0433,0.2372,-0.1824,0.729627,1.0393,0.2463,-0.1597,0.733267,10000,42,4.38,1.0
+Level B: Direct Target Comparator (warfarin_anticoagulation_separate),warfarin_anticoagulation_separate_direct_target,VKORC1,VKORC1,1,1007,,0,1.0,1.0,1.1365,0.5354,-0.2549,0.781322,1.154,0.5313,-0.2899,0.774226,10000,42,4.05,1.0
+Level C: Exploratory Pooled Panel,all_6_pharmacogenes,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,CYP4F2;CYP2C19;ABCG2;VKORC1;SLCO1B1;CYP2C9,6,1007,CYP2C19,1,1.0,1.1667,1.0265,0.157,-0.1684,0.662034,1.02,0.157,-0.1274,0.671329,10000,42,3.75,1.0

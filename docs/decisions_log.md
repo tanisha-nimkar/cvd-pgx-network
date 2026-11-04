@@ -160,3 +160,11 @@ significance_criterion: pending (z <= -2.0 vs empirical permutation p-value)
 randomization_scope: pending (degree-preserving binning >= 100, 1000 iterations)
 conditions_or_comments: Week 8 analysis computed provisionally. No new scientific decisions made. Items D1–D6 raised for formal review.
 formal_approval_status: pending
+
+## Decision — Week 9 Proximity Methodology & Results Sign-Off
+date_of_execution: 2026-11-04
+methodology: Guney-inspired PGx proximity adaptation (10k degree-matched permutations, 74 bins)
+primary_disease_module: MONDO:0005010 (Direct associations >= 0.10, 1,007 mapped genes)
+primary_interactome: STRING v12.5 Functional LCC (17,336 nodes, all channels)
+comparator_analyses: Direct targets (P2RY12, HMGCR, VKORC1) and warfarin indication-aware partition
+status: COMPLETED AND LOCKED

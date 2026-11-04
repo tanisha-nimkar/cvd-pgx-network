@@ -108,3 +108,18 @@
 | Validation | `results/tables/week8_module_validation.csv`: 15/15 PASS |
 | Decision | Pending supervisor meeting (Items D1–D6) |
 | Final module file | pending (`results/tables/disease_module_candidates.csv` holds candidates) |
+
+## Week 9 — Proximity Analysis (FINAL LOCKED EXECUTION)
+| Field | Value |
+|---|---|
+| Execution Date | 2026-11-04 |
+| Primary Interactome | STRING v12.5 Functional LCC (17,336 nodes, 282,733 edges; sha256 in manifest) |
+| Sensitivity Interactomes | TM-Excluded LCC (17,102 nodes, 273,770 edges); Physical LCC (13,996 nodes, 145,498 edges) |
+| Primary Disease Module | Coronary artery disorder (`MONDO:0005010`), Direct evidence, cutoff >= 0.10 (1,007 LCC nodes) |
+| Permutations | B = 10,000 (Primary, panel-excluded null); B = 1,000 (Guney baseline & sensitivity cells) |
+| Degree Binning | 74 bins (min bin size >= 100); seed = 42 |
+| Primary Output | `results/tables/proximity_results_primary.csv` |
+| Sensitivity Output | `results/tables/proximity_results_sensitivity.csv` (101 cells) |
+| Figures Generated | `figures/fig3a_proximity_zscores.png`, `fig3b_distance_distributions.png`, `fig3c_sensitivity_matrix.png` |
+| Documentation | `WEEK9_METHODS.md`, `WEEK9_RESULTS.md`, `WEEK9_DECISIONS.md`, `WEEK9_LIMITATIONS.md`, `WEEK9_DATA_MANIFEST.md` |
+| Status | Complete, fully reproducible, audited against Part V requirements |
