@@ -1,0 +1,9 @@
+{
+  "gene_symbol": "ADGRG6",
+  "control_seed": 123,
+  "in_universe_lcc": true,
+  "is_panel_gene": false,
+  "ot_cad_association_score": 0.0,
+  "eligible_pool_size": 11495,
+  "selection_criteria": "W9.6: in LCC, not panel, absent from OT CAD associations, protein-coding"
+}

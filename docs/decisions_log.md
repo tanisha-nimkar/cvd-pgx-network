@@ -168,3 +168,56 @@ primary_disease_module: MONDO:0005010 (Direct associations >= 0.10, 1,007 mapped
 primary_interactome: STRING v12.5 Functional LCC (17,336 nodes, all channels)
 comparator_analyses: Direct targets (P2RY12, HMGCR, VKORC1) and warfarin indication-aware partition
 status: COMPLETED AND LOCKED
+
+## Decision — Week 9 Pre-Flight Gates Formal Pre-Registration
+date_of_decision: 2026-11-04
+approval_status: provisional_approved_for_execution
+gate1_week7_network_status: approved (135 nodes, 225 edges; sha256: 33bcd28abc5583d264ebda841b09cdba2364ceeccd5d4d63b5a6501b068c8b23)
+gate2_week8_centrality_status: passed_qc (135 nodes, degree and betweenness unweighted)
+gate3_disease_module_final: approved (coronary artery disorder MONDO:0005010, direct score >= 0.10, 1006 genes in LCC; sha256: 43d62cbcbc0a05b27f531b21b50b08b22233001fdf63c95e3cab542571f46de4)
+gate4_D2_proximity_universe: approved (STRING v12.5 text-mining-excluded functional LCC, 17,102 nodes, 273,770 edges)
+gate4_D3_significance_criterion: pre-registered (empirical lower-tail permutation p < 0.05, Benjamini-Hochberg FDR q < 0.05; z <= -2.0 descriptive)
+gate4_D4_randomization_scope: approved (1,000 permutations, min_bin_size >= 100, merged leftover, strict sampling without replacement, panel excluded from random query pool)
+gate4_D5_negative_control: approved (gene-level negative control: ADGRG6, seed=123)
+gate5_universe_qc_status: approved (17,102 nodes, 273,770 edges, 0 missing seed edges, 0 text-mining audit edges retained)
+gate6_unmapped_list: saved to results/tables/disease_module_unmapped.csv (550 genes)
+
+## Decision — Week 9 Pre-Flight Gates Formal Pre-Registration
+date_of_decision: 2026-11-04
+approval_status: provisional_approved_for_execution
+gate1_week7_network_status: approved (135 nodes, 225 edges; sha256: 33bcd28abc5583d264ebda841b09cdba2364ceeccd5d4d63b5a6501b068c8b23)
+gate2_week8_centrality_status: passed_qc (135 nodes, degree and betweenness unweighted)
+gate3_disease_module_final: approved (coronary artery disorder MONDO:0005010, direct score >= 0.10, 1006 genes in LCC; sha256: 43d62cbcbc0a05b27f531b21b50b08b22233001fdf63c95e3cab542571f46de4)
+gate4_D2_proximity_universe: approved (STRING v12.5 text-mining-excluded functional LCC, 17,102 nodes, 273,770 edges)
+gate4_D3_significance_criterion: pre-registered (empirical lower-tail permutation p < 0.05, Benjamini-Hochberg FDR q < 0.05; z <= -2.0 descriptive)
+gate4_D4_randomization_scope: approved (1,000 permutations, min_bin_size >= 100, merged leftover, strict sampling without replacement, panel excluded from random query pool)
+gate4_D5_negative_control: approved (gene-level negative control: ADGRG6, seed=123)
+gate5_universe_qc_status: approved (17,102 nodes, 273,770 edges, 0 missing seed edges, 0 text-mining audit edges retained)
+gate6_unmapped_list: saved to results/tables/disease_module_unmapped.csv (550 genes)
+
+## Decision — W9.9 STOP & EVALUATE #2 Responses (Written Sign-Off)
+date_of_evaluation: 2026-11-04
+1. **Is the method implemented as specified?** YES. Guney closest distance d_c(S, T) implemented via multi-source BFS from randomized disease module S_rand.
+2. **Was the original closest measure followed, and the deviations listed?** YES. Closest measure followed asymmetric definition T -> S; deviations (functional network, per-gene queries, sampling without replacement) documented in `docs/WEEK9_DECISIONS.md`.
+3. **Was the reference code read, or its unavailability documented?** YES. Guney toolbox inspected; deviations in sampling replacement and bin merging explicitly recorded.
+4. **Did the toy tests pass?** YES. All 10/10 hand-derived and toy.sif tests passed via `scripts/network_proximity.py --selftest`.
+5. **Is the module approved?** YES. Direct CAD module (`MONDO:0005010`, score >= 0.10, 1,006 genes) frozen into `disease_module_final.csv`.
+6. **Is the Week 7 network approved?** YES. 135-node, 225-edge ego-network verified and locked.
+7. **Is degree matching correct?** YES. Universe partitioned into 72 degree bins (>= 100 nodes), leftover merged into preceding bin, capacity assertion verified.
+8. **Were 1,000 permutations completed, or a reduction justified and approved?** YES. Exactly 1,000 permutations requested and completed with 0 failures.
+9. **Are z-scores finite and interpretable?** YES. All 7 z-scores are finite, with negative signs indicating closer-than-random proximity.
+10. **Were unreachable and out-of-LCC genes handled with statuses?** YES. All query genes map to LCC; unreachable handling returns infinity with status flagging.
+11. **Were both controls investigated?** YES. Positive control (CYP2C19, z = -2.85) and pre-registered gene-level negative control (ADGRG6, z = -1.19) evaluated.
+12. **Is everything reproducible and documented?** YES. Fixed seeds (42 and 123), frozen checksums, and scripts committed.
+
+## Supervisor Discussion Package before Week 10 (W9.10)
+date_of_discussion: pending_supervisor_review
+supervisor: Faculty Supervisor
+network_version: STRING v12.5 functional text-mining-excluded LCC (17,102 nodes, 273,770 edges; sha256: 54f6d627731643b284b5eab990cda61ee75619e33f595a4ba5542256fc1160e3)
+selected_EFO_id: MONDO:0005010 (coronary artery disorder, direct evidence >= 0.10, 1,006 genes; sha256: 43d62cbcbc0a05b27f531b21b50b08b22233001fdf63c95e3cab542571f46de4)
+proximity_method: Guney et al. (2016) closest distance d_c(S, T) via multi-source BFS
+permutation_method: 1,000 iterations, 72 degree bins (min_bin >= 100), sampling without replacement, panel excluded from random query pool
+centrality_metrics_retained: degree and betweenness (unweighted on 135-node Week 7 graph; reported in network_metrics.csv)
+equal_weight_scheme_reviewed: planned composite score weights (0.25 population, 0.25 consequence, 0.25 centrality, 0.25 proximity) pending supervisor confirmation
+approval_status: pending_formal_signoff
+conditions_or_comments: Week 9 proximity analysis fully completed and compliant with W9.1–W9.12 protocol gates. Ready for formal Week 10 progression.

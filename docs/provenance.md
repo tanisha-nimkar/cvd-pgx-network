@@ -123,3 +123,58 @@
 | Figures Generated | `figures/fig3a_proximity_zscores.png`, `fig3b_distance_distributions.png`, `fig3c_sensitivity_matrix.png` |
 | Documentation | `WEEK9_METHODS.md`, `WEEK9_RESULTS.md`, `WEEK9_DECISIONS.md`, `WEEK9_LIMITATIONS.md`, `WEEK9_DATA_MANIFEST.md` |
 | Status | Complete, fully reproducible, audited against Part V requirements |
+
+### W9.5 Toy-Network Validation Results
+
+### W9.5 Toy-Network Validation Results
+
+### W9.5 Toy-Network Validation Results
+| test_case | expected | observed | pass_fail | notes |
+| --- | --- | --- | --- | --- |
+| d_c({A}, S) | 3.0 | 3.0 | PASS | Hand-derived path A-B-C-F |
+| d_c({A,D}, S) | 2.0 | 2.0 | PASS | Hand-derived (3+1)/2 = 2.0 |
+| d_c({E}, S) | 0.0 | 0.0 | PASS | E in S -> distance 0 |
+| T={G} unreachable | inf | inf | PASS | Unreachable pair returns inf |
+| Bins min_bin=2 | 2 bins: {A,E,F}, {B,D,C} | 2 bins | PASS | Merged leftover bin |
+| draw_matched distinct | 2 distinct matched nodes | ['A', 'C'] | PASS | Without-replacement match |
+| z on null=[2,2,3,3] | mu=2.5, sd=0.5, z=-3.0, p=0.2 | mu=2.5, sd=0.5, z=-3.0, p=0.2 | PASS | Hand-derived z and p |
+| z on zero variance | NaN (zero_variance_null) | nan | PASS | Zero SD returns NaN |
+| toy.sif closest (A,C)->(B,D,E) | 1.0 | 1.0 | PASS | Matches Guney README |
+| toy.sif 20k draws | mu ~ 0.4167, sd ~ 0.3436 | mu=0.4169, sd=0.3436 | PASS | Within +-0.02 of hand enumeration |
+
+
+## Week 9 — Controlling Proximity Run (LOCKED PROTOCOL VERIFIED)
+
+| Field | Value |
+| :--- | :--- |
+| Inputs + Checksums | `results/network/network.graphml` (`33bcd28abc5583d264ebda841b09cdba2364ceeccd5d4d63b5a6501b068c8b23`); `results/tables/disease_module_final.csv` (`43d62cbcbc0a05b27f531b21b50b08b22233001fdf63c95e3cab542571f46de4`); `data/processed/string_functional_tm_excluded_edges.tsv` (`54f6d627731643b284b5eab990cda61ee75619e33f595a4ba5542256fc1160e3`); STRING v12.5 (Taxon 9606) |
+| Sets | Query = CYP2C19, CYP2C9, VKORC1, CYP4F2, SLCO1B1, ABCG2 + Negative Control ADGRG6; Module total = 1,006, in LCC = 1,006; Universe nodes = 17,102, edges = 273,770, LCC = 100% |
+| Method | Guney et al. (2016) closest distance measure d_c(S, T); direction: query T -> module S; unweighted shortest paths |
+| Reference Code Answers | 1. Replacement: Without replacement inside each set (Guney toolbox uses with-replacement); 2. Random stream: Single seeded NumPy generator stream (`seed=42`); 3. Reappearance: Panel excluded from random query pool; 4. Leftover bins: Merged into previous bin |
+| Deviations | Functional network (enzymes/transporters require non-binding functional links); per-gene query (|T|=1); panel exclusion from query null pool; discrete empirical permutation testing |
+| Null Specification | Degree bins >= 100 nodes (72 bins, smallest=101); N=1,000 permutations (1,000 completed, 0 failed); `seed=42`; ddof=0 |
+| z and p Formulas | z = (d_obs - mu) / sigma (negative = closer); p_emp = (1 + count(d_null <= d_obs)) / (N + 1) (lower-tail) |
+| Controls | Positive Control: CYP2C19 (d_c = 0.0000, z = -2.8520, p_emp = 0.099900, in module: True); Negative Control: ADGRG6 (d_c = 1.0000, null mu = 1.7330, z = -1.1895, p_emp = 0.264735) |
+| Outputs + Checksums | `results/tables/network_metrics.csv` (`153b14b3aae83c0486521fdcfe43f98c80c86e4954f49452f6885dabfcf17810`); `figures/fig3_network.png` (`c0bcff235dc01a794cdb45d09343e32d33a6d38d20ea59a88f6116601420acda`); `figures/fig5_proximity.png` (`6143192494027f13ecdcccff57ab63e591581ab18382d67e34f9f66880800998`) |
+| QC / Approval | W9.1–W9.12 Fully Satisfied / Approved for Supervisor Sign-off |
+
+### W9.8 QC Table
+| QC Item | Required Specification | Observed Value / Status |
+| :--- | :--- | :--- |
+| Week 7 graph and module approvals | Verified in decisions log | Approved in `docs/decisions_log.md` (Gate 1 & Gate 3) |
+| Query, module and universe sets | Documented with counts | 6 panel + 1 control; 1,006 module genes; 17,102 universe nodes |
+| Identifier matching | Unmapped lists saved | `results/tables/disease_module_unmapped.csv` (550 unmapped targets saved) |
+| Network coverage | Query & module genes in LCC | 100% of panel (6/6) and 100% of final module (1,006/1,006) in LCC |
+| Disconnected components | LCC applied; no out-of-LCC queries | LCC enforced (17,102 nodes); 0 queries outside LCC |
+| Method vs. original | Deviation table complete | Documented in `docs/WEEK9_DECISIONS.md` and provenance |
+| Reference code | Inspected; 4 questions answered | Answered in provenance (wrappers.py & selection_utilities.py) |
+| Toy validation | All rows pass | 10/10 PASS on Graph 1 and toy.sif 20k draws |
+| Degree matching | Bin sizes >= min; capacity check | 72 bins constructed; min size = 101; capacity assertion passed |
+| Iterations | Requested=1,000; recorded | 1,000 requested, 1,000 completed, 0 failed |
+| Seed; failed iterations | Recorded | `seed=42`, `control_seed=123`, failed = 0 |
+| Null distributions | Saved to disk | `results/tables/proximity_null_<gene>.csv` saved for all 7 queries |
+| z formula and sign | Checked by hand on one gene | CYP2C19: (0 - 0.912) / 0.3198 = -2.8518 ~ -2.8520 (PASS) |
+| NaN or infinite z | 0 unexplained | 0 unexplained NaNs (all 7 finite with status 'ok') |
+| Both controls | Investigated and documented | CYP2C19 (positive) and ADGRG6 (negative) documented |
+| Required tables & figures | Created | `network_metrics.csv`, `fig3_network.png`, `fig5_proximity.png` generated |
+| Provenance | Complete | Synced and locked |
