@@ -178,3 +178,31 @@
 | Both controls | Investigated and documented | CYP2C19 (positive) and ADGRG6 (negative) documented |
 | Required tables & figures | Created | `network_metrics.csv`, `fig3_network.png`, `fig5_proximity.png` generated |
 | Provenance | Complete | Synced and locked |
+
+## Week 10 — Composite Variant Prioritization & Sensitivity Analysis (FROZEN)
+
+| Field | Value |
+| :--- | :--- |
+| Inputs + Checksums | `results/tables/variants_annotated.csv` (480d1826bcef7b31bfc753ec7df725a976364aab21c4b1ad9819224e2d71b617); `results/tables/population_frequencies.csv` (f0d5dd70837a6b0e1f1c1578da3c63ed9320e81fb235df450518b2c9458d1bc8); `results/tables/network_metrics.csv` (153b14b3aae83c0486521fdcfe43f98c80c86e4954f49452f6885dabfcf17810) |
+| Ranking Unit | Variant candidates (465 rows total; 116 complete-case ranked, 349 unranked missing GIH counts) |
+| Score Weights | Equal baseline: 0.25 Population Enrichment, 0.25 Functional Consequence, 0.25 Network Centrality, 0.25 Disease Proximity (provisional model) |
+| Scaler Fit Bounds | P_min_max: (-0.5399, 0.5022); F_min_max: (0.0, 3.0); C_min_max: (0.1040, 0.6639); D_min_max: (-1.6594, 2.8520) |
+| Guideline Exclusion Test | Passed (mutation tests confirmed guideline_covered is strictly descriptive; 0 leakage into score or rank) |
+| Sensitivity Grid | 593 unique normalized scenarios (+-50% relative weight grid; 5 levels per weight) |
+| Baseline Correlations | Frequency-only: Spearman rho = 0.3469 (p = 1.36e-4), Kendall tau = 0.2523 (p = 6.2e-5); Evidence-only: Spearman rho = 0.3735 (p = 3.6e-5), Kendall tau = 0.3064 (p = 6.2e-5) |
+| Controls Checked | CYP2C19*3 ranked #1 (Score: 0.7406); Negative control ADGRG6 retained at gene level only (no variants to rank) |
+| Output Checksums | `prioritization_ranked.csv` (c1d0df71491a12195d136d859c999aa79741646e9c8ef48dd507429a3c0b6ba5); `sensitivity_analysis.csv` (a8a66327cb765b6f4acd64c35bb97e97fd9320788b94a88f0b0242cf3896086b); `sensitivity_summary.csv` (0b224d2225e67019e59336d575bd5c582ae5eb3cc52f1099ea4763fbc6e7e905); `fig6_ranking.png` (4dd84c4126d6787ea5f9b8400596c0050a0bea0651f1198e0511e08c9dfdc376); `fig7_sensitivity.png` (777ab052d385afb68370deaa0a45645c2a5a3e91f394837a650e4ab47783d73f) |
+| Status | Complete, frozen, tagged `week10-ranking` |
+
+### W10.11 QC Table
+| QC Item | Required Specification | Observed Result | Status |
+| :--- | :--- | :--- | :--- |
+| All four inputs verified | Checksums match freeze entries | Verified against provenance | PASS |
+| Ranking unit & directions | S1-S10 documented and applied | Variant level; C & D attached; D flipped (-z) | PASS |
+| Missing-value policy | Complete-case ranking (S6) | 116 ranked, 349 unranked (status: unranked_missing_components) | PASS |
+| Constant columns & duplicates | 0 constant columns; 0 duplicate keys | Checked (P, F, C, D nunique >= 4; 0 dup variant_key) | PASS |
+| Weights | Sum to 1.0; 0.25 baseline | Confirmed by code assertion (abs(sum - 1) < 1e-12) | PASS |
+| Guideline coverage isolation | Absent from score, scaler, and rank | Passed 3 mutation tests (inverted, all-True, all-False) | PASS |
+| Sensitivity grid | +-50% relative; vectors sum to 1.0 | 593 unique normalized scenarios generated | PASS |
+| Baseline correlations | Common complete-case set | Spearman (0.347 / 0.374), Kendall (0.252 / 0.306) on 116 rows | PASS |
+| Outputs & figures | All files created | Ranked table, sensitivity tables, Figures 6 & 7 on disk | PASS |

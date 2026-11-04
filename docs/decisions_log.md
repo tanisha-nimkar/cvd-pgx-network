@@ -240,3 +240,10 @@ conditions_or_comments:
   - Decision 5 Approved: 25% equal weights maintained provisionally.
   - Non-Negotiable Constraint 1: Open Targets association scores are heuristic aggregation metrics, not calibrated Bayesian or frequentist confidence probabilities.
   - Non-Negotiable Constraint 2: CYP2C19 is NOT statistically significant (p_emp = 0.099900 > 0.05) despite z = -2.8520.
+
+### Week 10 scoring specification (frozen before scoring)
+unit: variant rows with gene-level C and D attached | P: Cohen's h = 2*asin(sqrt(p_target)) - 2*asin(sqrt(p_nfe)) (India source vs NFE) | F mapping: MODIFIER=0, LOW=1, MODERATE=2, HIGH=3 | C: unweighted degree and betweenness on 135-node ego-network | D: -z (proximity_z_score negated so closer proximity yields higher score) | missing: complete-case (unranked candidates retain rank=NA with candidate_status) | ties: min rank on composite_score rounded to 12 decimals, no tie-breaker
+weights: 0.25 x 4 (provisional baseline confirmed by supervisor 2026-11-04) | grid: +-50% relative, 5 levels (-50, -25, 0, +25, +50%), full factorial (625 combinations renormalized to sum to 1)
+baselines: frequency-only = P_raw; evidence-only = ordinal pharmgkb_loe (1A > 1B > 2A > 2B)
+guideline label definition: descriptive CPIC/ClinPGx level (never enters score, normalizer, or sorting keys)
+approval_status: approved_by_supervisor_20261104
