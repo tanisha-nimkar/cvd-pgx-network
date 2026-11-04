@@ -221,3 +221,22 @@ centrality_metrics_retained: degree and betweenness (unweighted on 135-node Week
 equal_weight_scheme_reviewed: planned composite score weights (0.25 population, 0.25 consequence, 0.25 centrality, 0.25 proximity) pending supervisor confirmation
 approval_status: pending_formal_signoff
 conditions_or_comments: Week 9 proximity analysis fully completed and compliant with W9.1–W9.12 protocol gates. Ready for formal Week 10 progression.
+
+## Formal Supervisor Sign-Off — Week 9 Proximity Analysis (W9.10 Gate Cleared)
+date_of_discussion: 2026-11-04
+supervisor: Faculty Supervisor
+network_version: STRING v12.5 functional text-mining-excluded LCC (17,102 nodes, 273,770 edges)
+selected_EFO_id: MONDO_0005010 (MONDO:0005010, direct evidence, score >= 0.10, 1006 genes; sha256: 43d62cbcbc0a05b27f531b21b50b08b22233001fdf63c95e3cab542571f46de4)
+proximity_method: Guney et al. (2016) closest distance d_c(S, T) via multi-source BFS
+permutation_method: 1,000 iterations, 72 degree bins (min_bin >= 100), sampling without replacement, panel excluded from random query pool
+centrality_metrics_retained: Both degree and betweenness retained with explicit local-network/ego-network hub limitations noted
+equal_weight_scheme_reviewed: 0.25 / 0.25 / 0.25 / 0.25 retained as a provisional baseline, not a validated biological model
+approval_status: formal_approval_granted_for_week_10
+conditions_or_comments:
+  - Decision 1 Approved: Primary interactome locked as text-mining-excluded functional LCC (17,102 nodes).
+  - Decision 2 Approved: Direct CAD module (MONDO:0005010) reconciled and approved (1006 genes in LCC; 1078 direct >= 0.10; 72 unmapped).
+  - Decision 3 Approved: Retain unweighted degree and betweenness, noting ego-network hub bias.
+  - Decision 4 Approved: Statistical inference governed strictly by empirical permutation p-values (with Benjamini-Hochberg FDR q-values); z-scores treated as descriptive context.
+  - Decision 5 Approved: 25% equal weights maintained provisionally.
+  - Non-Negotiable Constraint 1: Open Targets association scores are heuristic aggregation metrics, not calibrated Bayesian or frequentist confidence probabilities.
+  - Non-Negotiable Constraint 2: CYP2C19 is NOT statistically significant (p_emp = 0.099900 > 0.05) despite z = -2.8520.

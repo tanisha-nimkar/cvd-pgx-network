@@ -1,0 +1,15 @@
+{
+  "ontology_term_label": "coronary artery disorder / coronary artery disease",
+  "mondo_id": "MONDO:0005010",
+  "opentargets_efo_param": "MONDO_0005010",
+  "opentargets_api_release": "26.9.0",
+  "evidence_mode": "direct (enableIndirect: false)",
+  "raw_direct_targets_count": 6334,
+  "operational_threshold": "association_score >= 0.10",
+  "targets_ge_010_total": 1078,
+  "targets_ge_010_in_universe_lcc": 1006,
+  "targets_ge_010_excluded_from_lcc": 72,
+  "total_unmapped_direct_all_scores": 550,
+  "final_disease_module_file": "results/tables/disease_module_final.csv",
+  "final_sha256": "43d62cbcbc0a05b27f531b21b50b08b22233001fdf63c95e3cab542571f46de4"
+}

@@ -11,3 +11,9 @@
 
 4. **Pharmacogenes Do Not Predict Clinical Drug Efficacy:**
    Network proximity between a pharmacokinetic enzyme/transporter and a disease module measures molecular contextualization. It does not imply that genetic variants in these enzymes modulate disease risk itself or that the drug possesses off-target efficacy.
+
+## 5. Methodological Constraints Mandated by Supervisor Sign-Off (W9.10)
+1. **Open Targets Scores Are Heuristic, Not Probabilities:**
+   Open Targets association scores aggregate disparate data streams (GWAS, ClinVar, text mining, animal models) using heuristic weighting rules. They represent relative evidence ranking, NOT calibrated biological or statistical confidence probabilities that an association is true.
+2. **CYP2C19 Is Not Statistically Significant Despite Negative z-Score:**
+   Although *CYP2C19* has an observed distance of $d_c = 0.0000$ and a Gaussian approximation $z = -2.8520$, its empirical permutation $p$-value is $p_{\text{emp}} = 0.099900$ (with FDR $q = 0.2402$). Because $\sim 10\%$ of random degree-matched interactome nodes fall directly into the 1,006-gene CAD module by chance, *CYP2C19* fails the pre-registered significance threshold ($p < 0.05$). Under no circumstances may *CYP2C19* be declared statistically significant based on $z$-score alone.
