@@ -94,3 +94,17 @@
 | Manual validation | CYP2C9-PTGS2 (score 0.933, dscore 0.900, PASS); CYP2C9-ALOX15B (score 0.912, dscore 0.900, escore 0.050, PASS) |
 | QC results | 135 nodes, 225 edges; min combined score 0.7010; zero text-mining-only edges in graph |
 | Approval status | pending (awaiting supervisor sign-off) |
+
+## Week 8 — Centrality + Disease Module (PROVISIONAL)
+| Field | Value |
+|---|---|
+| Input graph / checksum / approval status | `results/network/network.graphml` / `33bcd28abc5583d264ebda841b09cdba2364ceeccd5d4d63b5a6501b068c8b23` / provisional_pending_supervisor |
+| NetworkX / graph type | 3.6.1 / undirected simple graph |
+| Metrics, normalization | degree ($k/(n-1)$), betweenness (normalized, unweighted); nodes=135; isolated=0 |
+| CYP2C19 check | Degree: 53, Degree Centrality: 0.3955, Betweenness Centrality: 0.1886, Connected to 53 interactors (PASS) |
+| STRING universe (provisional) | Release 12.5; `9606.protein.links.full.v12.5.txt.gz` (sha256 `c645be3e636a896f82b0acf63d181aa58a1320b8df9b4106ae9348e68e086ad8`); LCC nodes: 17,102 (98.90%), edges: 273,770; all 6 panel genes present |
+| Open Targets | Endpoint `https://api.platform.opentargets.org/api/v4/graphql`; Release 26.9.0; retrieval date 2026-11-04; indirect setting: `enableIndirect: true`; page size: 500 |
+| Candidates | CAD (`MONDO_0005010`: 6,771 targets, 85 graph overlap, 6,179 in universe LCC); MI (`MONDO_0005068`: 5,613 targets, 63 graph overlap, 5,209 in universe LCC); IHD (`MONDO_0024644`: 3,102 targets, 51 graph overlap, 2,919 in universe LCC) |
+| Validation | `results/tables/week8_module_validation.csv`: 15/15 PASS |
+| Decision | Pending supervisor meeting (Items D1–D6) |
+| Final module file | pending (`results/tables/disease_module_candidates.csv` holds candidates) |

@@ -15,3 +15,7 @@ gene_panel:
 - ABCG2
 string_species: 9606
 string_network_type: functional
+random_seed: 42
+control_seed: 123
+proximity_min_bin_size: 100
+ot_page_size: 500

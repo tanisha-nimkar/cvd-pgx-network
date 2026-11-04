@@ -107,3 +107,15 @@ If a result requires a scientific interpretation that could materially change th
 2. **Network Type**: Confirm functional (default) vs. physical interactome mode.
 3. **Edge Scope**: Confirm whether to evaluate seed-to-partner edges only (current 225 edges) or query edges among interactors within the 135-node set.
 4. **Disease Proximity Network**: For Week 9 shortest path analysis, evaluate whether to map disease modules onto this 135-node ego-network or an expanded background network.
+
+## Week 8 Supervisor Sign-Off Agenda (D1–D6)
+- **D1. Disease Module Selection & Inclusion Rule**: 
+  - Candidate 1: *Coronary Artery Disorder* (`MONDO_0005010`, 6,771 targets). Comprehensive phenotypic match for clopidogrel, statin, and warfarin CPIC guidelines.
+  - Candidate 2: *Myocardial Infarction* (`MONDO_0005068`, 5,613 targets). Acute ischemic endpoint.
+  - Candidate 3: *Myocardial Ischemia* (`MONDO_0024644`, 3,102 targets). Broader parent ontology grouping.
+  - Inclusion Handling: Propose filtering to `score >= 0.1` (1,210 genes for CAD) or `score >= 0.3` (476 genes) or genetic-evidence datatypes to prevent dilution by literature text-mining.
+- **D2. Proximity Universe**: Confirm using the 17,102-node STRING v12.5 high-confidence LCC for shortest-path distances and degree-binned permutations (ego-network paths are artificially bounded at <= 2).
+- **D3. Significance Criterion**: Establish pre-registered cutoff for significant proximity: $z \le -2.0$ or empirical $p < 0.05$.
+- **D4. Randomization Scope**: Preserve degree distribution using bins of $\ge 100$ nodes with 1,000 iterations per Guney et al. (2016). Query set size = 1 (per panel gene). Confirm whether panel genes are excluded from the random background pool.
+- **D5. Negative-Control Selection**: Pre-register negative control disease phenotype (e.g., non-vascular, non-metabolic condition such as an unlinked sensory/neurodevelopmental trait) to benchmark false-positive proximity.
+- **D6. Centrality Metric Representation**: Confirm reporting unweighted degree and betweenness centrality on the 135-node first-degree interactome, acknowledging that panel gene hub status reflects ego-network topology.

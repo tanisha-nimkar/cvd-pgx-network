@@ -1,0 +1,16 @@
+disease_name,EFO_id,gene_symbol,web_interface_result,API_result,association_score,pass_fail,notes
+coronary artery disorder,MONDO_0005010,APOE,score=0.7847,score=0.7847,0.7847431549762712,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+coronary artery disorder,MONDO_0005010,LDLR,score=0.7644,score=0.7644,0.7644106180193571,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+coronary artery disorder,MONDO_0005010,GUCY1A1,score=0.7375,score=0.7375,0.7374511552587268,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+coronary artery disorder,MONDO_0005010,GLRB,score=0.0471,score=0.0471,0.0470896065403683,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+coronary artery disorder,MONDO_0005010,HNF1B,score=0.0076,score=0.0076,0.0076482497705584,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial infarction,MONDO_0005068,GUCY1A1,score=0.6993,score=0.6993,0.6993094774670049,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial infarction,MONDO_0005068,PCSK9,score=0.6964,score=0.6964,0.6963563152468788,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial infarction,MONDO_0005068,LDLR,score=0.6929,score=0.6929,0.6929415394840663,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial infarction,MONDO_0005068,CAMK2A,score=0.0037,score=0.0037,0.003695798546847,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial infarction,MONDO_0005068,RNF144B,score=0.0225,score=0.0225,0.0225443711357668,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial ischemia,MONDO_0024644,PCSK9,score=0.6413,score=0.6413,0.6412890531615396,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial ischemia,MONDO_0024644,P2RY12,score=0.6128,score=0.6128,0.6128073427082036,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial ischemia,MONDO_0024644,APOE,score=0.6003,score=0.6003,0.6003307667254849,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial ischemia,MONDO_0024644,FLI1,score=0.0015,score=0.0015,0.0014783194187388,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API
+myocardial ischemia,MONDO_0024644,GSN,score=0.0026,score=0.0026,0.0025870589827929,PASS,Verified concordance with Open Targets Platform v26.9.0 GraphQL API

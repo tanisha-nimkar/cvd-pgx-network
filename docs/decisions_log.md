@@ -146,3 +146,17 @@ isolated_panel_genes: None (CYP2C9: 89, CYP2C19: 53, SLCO1B1: 29, CYP4F2: 28, AB
 decision: pending
 conditions_or_comments: Network constructed and held provisional until formal supervisor sign-off meeting.
 formal_approval_status: pending
+
+## Decision — Week 8 Centrality & Disease Module Sign-Off Record
+date_of_discussion: pending
+supervisor: pending
+candidate_terms_presented: MONDO_0005010 (coronary artery disorder), MONDO_0005068 (myocardial infarction), MONDO_0024644 (myocardial ischemia)
+selected_disease_name: pending
+selected_EFO_id: pending
+rationale: pending supervisor review
+association_handling: pending (direct vs indirect; all vs score cut vs genetic evidence)
+proximity_universe: pending (STRING v12.5 17,102-node LCC vs Week 7 135-node ego-network)
+significance_criterion: pending (z <= -2.0 vs empirical permutation p-value)
+randomization_scope: pending (degree-preserving binning >= 100, 1000 iterations)
+conditions_or_comments: Week 8 analysis computed provisionally. No new scientific decisions made. Items D1–D6 raised for formal review.
+formal_approval_status: pending
