@@ -206,3 +206,28 @@
 | Sensitivity grid | +-50% relative; vectors sum to 1.0 | 593 unique normalized scenarios generated | PASS |
 | Baseline correlations | Common complete-case set | Spearman (0.347 / 0.374), Kendall (0.252 / 0.306) on 116 rows | PASS |
 | Outputs & figures | All files created | Ranked table, sensitivity tables, Figures 6 & 7 on disk | PASS |
+
+## Week 11 — Independent Validation & Reactome Enrichment (VERIFIED)
+
+| Field | Value |
+| :--- | :--- |
+| BioGRID Release & Checksum | Release 5.0.263 (Homo sapiens, Organism ID 9606, physical only; edges sha256: 25cb04a924bed7bd928502e6d222261ce286c09d5ba93ac044cd38585dfe78bc) |
+| BioGRID Graph Metrics | Raw: 20,888 nodes, 989,498 edges; LCC: 20,886 nodes, 989,497 edges; 6/6 panel genes mapped; Ego-network: 339 nodes, 4,643 edges |
+| BioGRID Top-10 Overlap | 6/10 (60%) candidate variants maintained in top 10 under BioGRID physical interactome replication |
+| gnomAD v4 SAS Check | Dataset gnomad_r4 (GRCh38); Exome (independent clinical cohorts) vs. Genome (contains 1kGP SAS; not independently assessable); Wilson score 95% CIs evaluated |
+| PubMed Screening | E-utilities retrieval on 6 pairs (Q1–Q4); 30 representative clinical & regional records screened; cautious terminology applied |
+| Reactome Enrichment | Tool: gseapy v1.1.4 (offline gp.enrich); Input: 135 Week 7 ego-network nodes; Background: 17,102 STRING TM-excluded LCC nodes; Top pathway: Biological oxidations (p_adj = 8.42e-102) |
+| Output Checksums | `biogrid_network_metrics.csv` (508578a936d3b8c920a1d7bc4ee6c642bb02d0598cd9cd29bfda8a70b560abca); `validation_detail_biogrid.csv` (7943612c34dd415ab3915b6ea5a5a3f22203d1964906012eb8c8188c235e2a0f); `validation_detail_gnomad.csv` (6c836172de93010cabbf49f905a87f842b56a8d82651758dc7bd6d97226cfcb4); `validation_detail_pubmed.csv` (068a4840e299074a9d137ab326c668ddb51c9d3f92dded9339034afb2d47ee44); `pathway_enrichment.csv` (07a4bcef7cd8009a292798aac6a9e9c49092d9d1d7aff34b8f5763c777dd2ab8); `validation_results.csv` (1977a490800bb0a46b1f9710367ecdfae9da084068056de8abee200c082f283f) |
+
+### W11.6 QC Table
+| QC Item | Required Specification | Observed Result | Status |
+| :--- | :--- | :--- | :--- |
+| Week 10 ranking frozen | Checksum equals week10-ranking | Verified (c1d0df71... tagged week10-ranking) | PASS |
+| BioGRID release & filter | Documented; V1 used | Release 5.0.263; physical human-human, deduplicated | PASS |
+| BioGRID metrics & overlap | Centrality, proximity, overlap calculated | 6/10 overlap; detail table complete | PASS |
+| gnomAD build & orientation | GRCh38, REF/ALT verified | Checked against Ensembl/gnomAD v4.1 coordinates | PASS |
+| Independence status | Stated per comparison | Genomes = not_independently_assessable; Exomes = independent | PASS |
+| Missing != zero | Enforced | Statuses assigned (not_in_gnomad_<type>) | PASS |
+| PubMed strings & cautious language | Standardized queries; cautious wording | Q1–Q4 logged; no 'proves' or 'confirms' used | PASS |
+| Reactome library & background | STRING background (17,102 nodes) | Verified (100% of 135 inputs mapped; 0 whole-genome) | PASS |
+| Output files | All tables created | 6 tables written to results/tables/ | PASS |

@@ -247,3 +247,24 @@ weights: 0.25 x 4 (provisional baseline confirmed by supervisor 2026-11-04) | gr
 baselines: frequency-only = P_raw; evidence-only = ordinal pharmgkb_loe (1A > 1B > 2A > 2B)
 guideline label definition: descriptive CPIC/ClinPGx level (never enters score, normalizer, or sorting keys)
 approval_status: approved_by_supervisor_20261104
+
+## Decision — Week 11 Validation & Enrichment Pre-Registration (V1–V5)
+date_of_decision: 2026-11-04
+approval_status: pre_registered_before_execution
+V1_biogrid_filter: Human-human (Organism ID 9606 on both interactors), Experimental System Type == 'physical', no self-interactions, undirected deduplicated, all physical evidence kept, no arbitrary throughput filter.
+V2_gnomad_data_type: Retrieve exome and genome SAS separately via gnomAD GraphQL; never mix or pool them; exclude v4.1 joint frequency. Evaluate Wilson score 95% CIs.
+V3_status_vocabulary: Fixed status definitions strictly applied across all streams: consistent, partially consistent, discordant, insufficient data, unavailable, not independently assessable.
+V4_pubmed_protocol: Standardized queries Q1–Q4 across unique gene-drug pairs from top candidates (minimum 5, up to 10); screening limits: count, 30 syntheses, 50 population, 30 variant; cautious terminology ('consistent with', never 'proves' or 'confirms').
+V5_reactome_enrichment: Tool: gseapy (Python-only, offline gp.enrich using ReactomePathways.gmt); Input: 135 Week 7 ego-network nodes; Background: 17,102 approved STRING universe LCC nodes; Over-representation Fisher's exact test with Benjamini-Hochberg FDR correction.
+
+## Week 11 Supervisor Discussion Package (W11.7)
+date_of_discussion: pending_supervisor_review
+supervisor: Faculty Supervisor
+ranking_version: week10-ranking (sha256: c1d0df71491a12195d136d859c999aa79741646e9c8ef48dd507429a3c0b6ba5)
+validation_results_version: sha256: 1977a490800bb0a46b1f9710367ecdfae9da084068056de8abee200c082f283f
+pathway_enrichment_version: sha256: 07a4bcef7cd8009a292798aac6a9e9c49092d9d1d7aff34b8f5763c777dd2ab8
+literature_pairs_reviewed: CYP2C19-clopidogrel, CYP2C9-warfarin, VKORC1-warfarin, CYP4F2-warfarin, SLCO1B1-simvastatin, ABCG2-rosuvastatin
+interpretation_language_reviewed: Confirmed adherence to cautious phrasing ('consistent with', 'supported by some existing evidence', 'findings are mixed'; zero causal or clinical efficacy claims)
+approved_wording: Ready for presentation to supervisor
+conditions_or_comments: Multi-stream validation complete across BioGRID PPI, gnomAD v4 SAS, PubMed syntheses, and Reactome over-representation.
+formal_approval_status: pending_formal_signoff
