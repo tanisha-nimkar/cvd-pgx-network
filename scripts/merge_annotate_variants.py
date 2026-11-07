@@ -226,6 +226,8 @@ def main():
 
     master_out = out_dir / "master_variant_annotations.tsv"
     master_df.to_csv(master_out, sep="\t", index=False)
+    backup_out = out_dir / "variants_annotated_week3_backup.csv"
+    master_df.to_csv(backup_out, index=False)
     print(f"[✓] Generated Master Variant Annotations: {master_out} ({len(master_df)} unified variants)")
     print("[✓] Week 3 merge & annotation complete.")
 
