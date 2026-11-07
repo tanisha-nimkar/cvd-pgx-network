@@ -1,7 +1,25 @@
-# Cardiovascular Pharmacogenomics (PGx) Variant Prioritization Network
+# Cardiovascular Pharmacogenomics Prioritization Network (cvd-pgx-network)
 
-[![Build: GRCh38](https://img.shields.io/badge/Genome%20Build-GRCh38-blue.svg)](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40/)
-[![Pipeline: Reproducible](https://img.shields.io/badge/Workflow-Deterministic%20%2F%20Non--ML-success.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+An end-to-end computational biology workflow for population-stratified variant prioritization across a 6-gene cardiovascular pharmacogenomics panel (CYP2C19, CYP2C9, VKORC1, CYP4F2, SLCO1B1, ABCG2).
 
-An end-to-end computational pharmacogenomics pipeline focused on **Ischemic Heart Disease (IHD) and Cardiovascular Disease (CVD)** therapeutics. The framework systematically ingests clinical annotations, harmonizes variant identity across disparate coordinate systems, integrates PharmVar star-allele haplotypes, and maps functional consequences to inform clinical decision support and population-specific allele frequency stratification.
+## Pipeline Execution
+```bash
+# Activate environment
+conda activate cvd-pgx
+
+# Reproduce entire pipeline
+snakemake --cores 1
+```
+
+## Key Publication Figures
+- Fig 2: South Asian vs. NFE allele frequency comparison (`figures/fig2_freq_comparison.png`)
+- Fig 3 & 4: STRING v12.5 first-degree interactome network (`figures/fig4_cytoscape_network.png`)
+- Fig 5: Network proximity null distributions (`figures/fig5_proximity.png`)
+- Fig 6: Top 30 prioritized variants stacked scores (`figures/fig6_ranking.png`)
+- Fig 7: Sensitivity analysis across 593 scenarios (`figures/fig7_sensitivity.png`)
+
+## Status & Governance
+- Workflow: Snakemake 9.22.0 (20 rules, fully deterministic)
+- Verification: Clean-clone replication passed (100% top-10 candidate variant recovery)
+- Git Tag: week12-frozen
+- License: MIT Open Academic License
