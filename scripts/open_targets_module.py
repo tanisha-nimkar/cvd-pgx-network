@@ -78,7 +78,22 @@ def main():
     n_w7_nodes = len(w7_symbols)
     print(f"    Week 7 Graph: {n_w7_nodes} unique gene symbols.")
 
-    df_univ = pd.read_csv(UNIVERSE_FILE, sep="\t", usecols=["gene_symbol1", "gene_symbol2"])
+    # Robust universe edge loading (supporting both string_universe and tm_excluded)
+    alt_univ = "data/processed/string_functional_tm_excluded_edges.tsv"
+    univ_path = UNIVERSE_FILE if os.path.exists(UNIVERSE_FILE) else alt_univ
+    
+    # Peek header to detect column names
+    header_cols = pd.read_csv(univ_path, sep="\t", nrows=0).columns.tolist()
+    if "gene_symbol1" in header_cols and "gene_symbol2" in header_cols:
+        c1, c2 = "gene_symbol1", "gene_symbol2"
+    elif "symbol1" in header_cols and "symbol2" in header_cols:
+        c1, c2 = "symbol1", "symbol2"
+    else:
+        c1, c2 = header_cols[0], header_cols[1]
+
+    df_univ = pd.read_csv(univ_path, sep="\t", usecols=[c1, c2])
+    if c1 != "gene_symbol1" or c2 != "gene_symbol2":
+        df_univ = df_univ.rename(columns={c1: "gene_symbol1", c2: "gene_symbol2"})
     universe_symbols = set(df_univ["gene_symbol1"]).union(set(df_univ["gene_symbol2"]))
     print(f"    Universe LCC: {len(universe_symbols):,} unique gene symbols.")
 
