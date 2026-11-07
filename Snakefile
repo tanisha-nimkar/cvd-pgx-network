@@ -151,7 +151,6 @@ rule open_targets_module:
         cfg = "config/config.yaml",
         universe_edges = "data/processed/string_functional_tm_excluded_edges.tsv"
     output:
-        module_final = "results/tables/disease_module_final.csv",
         candidates = "results/tables/disease_module_candidates.csv",
         comparison = "results/tables/disease_module_comparison.csv"
     log:

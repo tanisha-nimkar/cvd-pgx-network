@@ -22,7 +22,6 @@ UNIVERSE_FILE = "data/processed/string_universe_edges.tsv"
 OUT_DIR = "results/tables"
 CANDIDATES_OUT = os.path.join(OUT_DIR, "disease_module_candidates.csv")
 COMPARISON_OUT = os.path.join(OUT_DIR, "disease_module_comparison.csv")
-FINAL_OUT = os.path.join(OUT_DIR, "disease_module_final.csv")
 VALIDATION_OUT = os.path.join(OUT_DIR, "week8_module_validation.csv")
 
 GRAPHQL_URL = "https://api.platform.opentargets.org/api/v4/graphql"
@@ -192,7 +191,6 @@ def main():
     if "evidence_type" not in cad_approved.columns and "candidate_module" in cad_approved.columns:
         cad_approved["evidence_type"] = cad_approved["candidate_module"]
     if len(cad_approved) > 0:
-        cad_approved.to_csv(FINAL_OUT, index=False)
         print(f"[+] Saved approved final disease module to {FINAL_OUT} ({len(cad_approved)} genes)")
     elif not os.path.exists(FINAL_OUT):
         # Fallback to copy existing committed final module
