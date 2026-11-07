@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+import os
 import pandas as pd
 
 df = pd.read_csv("results/tables/variants_annotated_week3_backup.csv")
@@ -16,7 +18,7 @@ for idx, r in df.iterrows():
             df.at[idx, "ref"] = cv_map[rs]["ref"]
             df.at[idx, "alt"] = cv_map[rs]["alt"]
 
-# Also include ClinVar variants directly to ensure all panel genes are represented
+# Include ClinVar variants directly to ensure all panel genes are represented
 cv_extra = cv_valid[~cv_valid["rsid"].isin(df["rsid"])].copy()
 if not cv_extra.empty:
     cv_extra["gene"] = cv_extra["gene_symbol"]
@@ -28,11 +30,6 @@ if not cv_extra.empty:
 vep = df.dropna(subset=["chrom", "pos", "ref", "alt"]).copy()
 vep = vep[~vep["pos"].astype(str).isin([".", "unmapped", "nan"])].copy()
 
-n_dropped = len(df) - len(vep)
-print(f"Total candidate variants evaluated: {len(df)}")
-print(f"Rows lacking GRCh38 coordinates (cannot go to VEP): {n_dropped}")
-print(f"Variants ready for VEP: {len(vep)}")
-
 # Format chrom and pos as pure integers
 vep["chrom"] = vep["chrom"].astype(str).str.replace(r"^chr", "", regex=True).str.split(".").str[0]
 vep["pos"] = vep["pos"].astype(str).str.split(".").str[0]
@@ -43,5 +40,7 @@ out["QUAL"] = "."
 out["FILTER"] = "."
 out["INFO"] = "."
 
+os.makedirs("data/processed", exist_ok=True)
 out.to_csv("data/processed/vep_input_raw.tsv", sep="\t", header=False, index=False)
-    out.to_csv("data/processed/vep_input.vcf", sep="\t", header=False, index=False)
+out.to_csv("data/processed/vep_input.vcf", sep="\t", header=False, index=False)
+print(f"[+] Successfully wrote {len(out)} variants to data/processed/vep_input.vcf")

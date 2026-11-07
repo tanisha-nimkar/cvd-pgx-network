@@ -180,11 +180,17 @@ def main():
     print(f"\n[+] Saved full disease candidates table to {CANDIDATES_OUT} ({len(df_candidates_all)} rows)")
     
     # Save approved direct CAD module (MONDO_0005010, score >= 0.10 in LCC)
+    id_col = "EFO_id" if "EFO_id" in df_candidates_all.columns else "disease_id"
+    score_col = "association_score" if "association_score" in df_candidates_all.columns else "score"
     cad_approved = df_candidates_all[
-        (df_candidates_all["disease_id"] == "MONDO_0005010") & 
-        (df_candidates_all["score"] >= 0.10) & 
+        (df_candidates_all[id_col] == "MONDO_0005010") & 
+        (df_candidates_all[score_col] >= 0.10) & 
         (df_candidates_all["in_universe_lcc"] == True)
     ].copy()
+    if "MONDO_id" not in cad_approved.columns and "EFO_id" in cad_approved.columns:
+        cad_approved["MONDO_id"] = cad_approved["EFO_id"]
+    if "evidence_type" not in cad_approved.columns and "candidate_module" in cad_approved.columns:
+        cad_approved["evidence_type"] = cad_approved["candidate_module"]
     if len(cad_approved) > 0:
         cad_approved.to_csv(FINAL_OUT, index=False)
         print(f"[+] Saved approved final disease module to {FINAL_OUT} ({len(cad_approved)} genes)")

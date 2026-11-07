@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """
 scripts/prepare_population_frequencies_raw.py
