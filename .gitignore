@@ -19,3 +19,9 @@ __pycache__/
 data/database/*.db
 *:Zone.Identifier
 data/processed/ensembl_pop_cache*.json
+
+# Snakemake runtime and logs
+.snakemake/
+logs/
+../cvd-pgx-fresh-test/
+../cvd_reference_snapshot/
