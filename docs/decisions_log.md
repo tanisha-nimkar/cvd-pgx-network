@@ -268,3 +268,13 @@ interpretation_language_reviewed: Confirmed adherence to cautious phrasing ('con
 approved_wording: Ready for presentation to supervisor
 conditions_or_comments: Multi-stream validation complete across BioGRID PPI, gnomAD v4 SAS, PubMed syntheses, and Reactome over-representation.
 formal_approval_status: pending_formal_signoff
+
+## Decision — Week 12 Pipeline Automation & Replication Sign-Off
+date_of_decision: 2026-11-07
+approval_status: fully_reproduced_and_frozen
+snakemake_version: 9.22.0
+dag_verification: 17 jobs verified in rulegraph; zero cyclic dependencies
+p1_output_collision_resolution: variants_annotated_week3_backup.csv separated from final variants_annotated.csv
+fresh_clone_test: PASSED (10/10 top candidate variants reproduced; byte identity on core tables; Monte Carlo tolerance documented)
+publication_figures_audited: verified against underlying data tables with zero data leakage
+formal_status: READY FOR WEEK 13 MANUSCRIPT DRAFTING

@@ -231,3 +231,15 @@
 | PubMed strings & cautious language | Standardized queries; cautious wording | Q1–Q4 logged; no 'proves' or 'confirms' used | PASS |
 | Reactome library & background | STRING background (17,102 nodes) | Verified (100% of 135 inputs mapped; 0 whole-genome) | PASS |
 | Output files | All tables created | 6 tables written to results/tables/ | PASS |
+
+## Week 12 — Workflow Automation & Reproducibility Verification (COMPLETED)
+
+| Field | Value |
+| :--- | :--- |
+| Execution Framework | Snakemake v9.22.0 via single-environment Conda management (`cvd-pgx`) |
+| Workflow Specification | 20 distinct rules; directed acyclic graph (DAG) rendered to `docs/workflow/rulegraph.png` |
+| Pinned Inputs & Raw Manifest | `data/raw_manifest.tsv` tracking 8 primary assets with SHA-256 integrity checks |
+| Figure-Data Audit | Figs 2, 3, 5, 6, 7 audited and mapped to source CSV tables in `results/tables/figure_data_audit.csv` |
+| Cytoscape Style Spec | Export parameters and visual encoding frozen in `docs/cytoscape_styling.md` |
+| Fresh-Clone Replication | Evaluated on `../cvd-pgx-fresh-test`; 100% byte/structural match on upstream core tables; 10/10 top variant overlap |
+| Final Freeze Tag | `week12-frozen` |

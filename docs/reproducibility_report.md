@@ -85,3 +85,29 @@ The collision between Week 3 and Week 4 is formally resolved by splitting target
 | `figures/fig5_proximity.png` | 428,792 | `6143192494027f13ecdcccff57ab63e591581ab18382d67e34f9f66880800998` | frozen_verified |
 | `figures/fig6_ranking.png` | 526,050 | `4dd84c4126d6787ea5f9b8400596c0050a0bea0651f1198e0511e08c9dfdc376` | frozen_verified |
 | `figures/fig7_sensitivity.png` | 590,195 | `777ab052d385afb68370deaa0a45645c2a5a3e91f394837a650e4ab47783d73f` | frozen_verified |
+
+## 5. Fresh-Clone Replication Evaluation (Step 9 Audit Record)
+**Execution Date:** 2026-11-07  
+**Test Directory:** `../cvd-pgx-fresh-test`  
+**Execution Environment:** `snakemake --cores 1` from scratch on a clean git clone at tag `week12-frozen`.
+
+### 5.1 Artifact Comparison Matrix
+| Deliverable Path | Comparison Class | Tolerance | Observed Result | Evaluation |
+|:---|:---|:---|:---|:---|
+| `results/network/network.graphml` | Structural Graph | Node & Edge Sets | Exact Match: 135 nodes, 225 edges | **PASS** |
+| `results/tables/variants_annotated.csv` | Byte Identity | 0-byte difference | Exact Match (`480d1826bcef...`) | **PASS** |
+| `results/tables/population_frequencies.csv` | Byte Identity | 0-byte difference | Exact Match (`f0d5dd70837a...`) | **PASS** |
+| `results/tables/centrality.csv` | Byte Identity | 0-byte difference | Exact Match (`7ae727a022ac...`) | **PASS** |
+| `results/tables/disease_module_final.csv` | Byte Identity | 0-byte difference | Exact Match (`43d62cbcbc0a...`) | **PASS** |
+| `results/tables/validation_results.csv` | Numerical Precision | Float ($\epsilon < 10^{-6}$) | Exact Numerical Match (57 rows) | **PASS** |
+| `results/tables/network_metrics.csv` | Stochastic Permutation | Monte Carlo ($B=1000$) | Max $\Delta z = 0.0693$; $\Delta \mu = 0.024$ | **PASS** (Expected) |
+| `results/tables/prioritization_ranked.csv` | Top-10 Candidate Set | Set Membership | **10/10 (100%) Overlap**; Max $\Delta 	ext{score} = 0.0034$ | **PASS** |
+
+### 5.2 Top 10 Candidate Rank Concordance
+- **Top 10 Overlap:** 10/10 (100% preservation across reference and clean clone).
+- **Ranks 1–3 Invariance:**
+  1. `CYP2C19_rs4986893` (Rank 1 in both runs)
+  2. `CYP2C9_rs542577750` (Rank 2 in both runs)
+  3. `CYP2C9_rs114071557` (Rank 3 in both runs)
+- **Ranks 4–5:** Minor adjacent permutation shift between `CYP2C19_rs367543003` and `CYP2C9_rs72558189` caused by expected Monte Carlo variance ($\Delta 	ext{composite} = 0.0034$).
+- **Deterministic Pipeline Stability:** The automated Snakemake workflow successfully builds all processed datasets, figures, and tables from archived raw data with 0 unhandled exceptions.
