@@ -1,6 +1,7 @@
 name: cvd-pgx
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - networkx=3.6.1
   - scipy=1.17.1
@@ -11,3 +12,8 @@ dependencies:
   - numpy
   - pyyaml
   - pip
+
+  - snakemake
+  - graphviz
+  - scikit-learn
+  - gseapy

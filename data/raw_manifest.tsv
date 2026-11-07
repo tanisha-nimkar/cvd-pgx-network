@@ -1,0 +1,9 @@
+file_path	sha256	resource	url	version_or_date	license
+data/raw/clinpgx_CYP2C19_20260830.json	a51e22b66893012d658a6769d0d595e01684ec252dac8ccc3c786812e4982a67	ClinPGx / PharmGKB API	https://api.clinpgx.org/v1/clinicalAnnotation	2026-08-30	CC BY-SA 4.0
+data/raw/cpic_CYP2C19_20260830.json	0841dd2cbfe79caadaf7f92d8240dfb3b33298a40f49ad97d322a0b2235bda5a	CPIC API	https://api.cpicpgx.org/v1/recommendation	2026-08-30	CC0 1.0
+data/raw/clinvar_CYP2C19_20260830.vcf	50a2064e3b63ff1fbe99348a337f761d63ec3d4d20ce182cd098dabdd566529a	NCBI ClinVar	https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/	GRCh38 (2026-08-30)	Public Domain
+data/raw/pharmvar_CYP2C19_20260830.tsv	8130c6b45ba2befbdf500d3a1c7f7cbf02c214dfe177b946186f820184a3bcf7	PharmVar	https://www.pharmvar.org/genes	v6.2.28	Open Academic Use
+data/raw/vep_output_20261031.txt	f0a77b1bdadf91b042e05c96834b0e22e056016be9b93efe7eafeb73ee83800b	Ensembl VEP (Web, GRCh38.p14)	https://www.ensembl.org/Tools/VEP	Ensembl 112 / GRCh38.p14	Open Access (EMBL-EBI)
+data/raw/9606.protein.links.full.v12.5.txt.gz	c645be3e636a896f82b0acf63d181aa58a1320b8df9b4106ae9348e68e086ad8	STRING Database	https://version-12-5.string-db.org/download/protein.links.full.v12.5/9606.protein.links.full.v12.5.txt.gz	12.5	CC BY 4.0
+data/raw/BIOGRID-ORGANISM-Homo_sapiens-5.0.263.tab3.txt	71a907d17c0057d713cba27b23865461b09d7fcaa926047559c6bfa58a282661	BioGRID	https://downloads.thebiogrid.org/Download/BioGRID/Latest-Release/BIOGRID-ORGANISM-LATEST.tab3.zip	5.0.263	MIT
+data/raw/ReactomePathways.gmt	a9feaa3ae9bbb746422cba77a669813de627fb15b7d7478b67c8d57020ec26ae	Reactome	https://reactome.org/download/current/ReactomePathways.gmt.zip	Reactome Release 89	CC BY 4.0
