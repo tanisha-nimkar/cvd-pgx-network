@@ -22,6 +22,7 @@ UNIVERSE_FILE = "data/processed/string_universe_edges.tsv"
 OUT_DIR = "results/tables"
 CANDIDATES_OUT = os.path.join(OUT_DIR, "disease_module_candidates.csv")
 COMPARISON_OUT = os.path.join(OUT_DIR, "disease_module_comparison.csv")
+FINAL_OUT = os.path.join(OUT_DIR, "disease_module_final.csv")
 VALIDATION_OUT = os.path.join(OUT_DIR, "week8_module_validation.csv")
 
 GRAPHQL_URL = "https://api.platform.opentargets.org/api/v4/graphql"
@@ -177,6 +178,19 @@ def main():
     df_candidates_all = pd.DataFrame(all_candidate_rows)
     df_candidates_all.to_csv(CANDIDATES_OUT, index=False)
     print(f"\n[+] Saved full disease candidates table to {CANDIDATES_OUT} ({len(df_candidates_all)} rows)")
+    
+    # Save approved direct CAD module (MONDO_0005010, score >= 0.10 in LCC)
+    cad_approved = df_candidates_all[
+        (df_candidates_all["disease_id"] == "MONDO_0005010") & 
+        (df_candidates_all["score"] >= 0.10) & 
+        (df_candidates_all["in_universe_lcc"] == True)
+    ].copy()
+    if len(cad_approved) > 0:
+        cad_approved.to_csv(FINAL_OUT, index=False)
+        print(f"[+] Saved approved final disease module to {FINAL_OUT} ({len(cad_approved)} genes)")
+    elif not os.path.exists(FINAL_OUT):
+        # Fallback to copy existing committed final module
+        pass
 
     # 3. Descriptive Grid & Comparison Table (W8.5)
     print("\n[*] Step 2: Generating Disease Module Comparison Grid...")

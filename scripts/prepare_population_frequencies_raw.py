@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 
 CACHE_FILE = "data/processed/ensembl_pop_cache_single.json"
-ANNOTATED_FILE = "results/tables/variants_annotated_w5.csv"
+ANNOTATED_FILE = "results/tables/variants_annotated_w5.csv" if os.path.exists("results/tables/variants_annotated_w5.csv") else "results/tables/variants_annotated.csv"
 OUTPUT_FILE = "data/processed/population_frequencies_raw.csv"
 
 # Target definitions

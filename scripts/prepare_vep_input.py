@@ -44,3 +44,4 @@ out["FILTER"] = "."
 out["INFO"] = "."
 
 out.to_csv("data/processed/vep_input_raw.tsv", sep="\t", header=False, index=False)
+    out.to_csv("data/processed/vep_input.vcf", sep="\t", header=False, index=False)
